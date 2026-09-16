@@ -1,0 +1,13 @@
+[INFO] 上游主表列数=33
+[INFO] 已从 rank 文件合并列: ['gc_pct', 'imm_high_flag', 'offtarget_risk', 'score_oligo', 'tox_viability_flag']
+[INFO] 已从 chemmod 文件按候选编号合并化学修饰信息。
+[INFO] 按综合排序分降序排列（final_score）。
+[INFO] 上游共 50 条候选，截取 Top-50 输出。
+[CHECK] 候选编号: 缺失 0/50
+[CHECK] 所属赛道: 缺失 0/50
+[CHECK] 候选序列（引导链5'→3'）: 缺失 0/50
+[CHECK] 关键预测指标-综合排序分: 缺失 0/50
+[CHECK] 对应模型与运行版本: 缺失 0/50
+[CHECK] 备注（修饰/递送/状态）: 缺失 0/50
+[DONE] 已输出 D:\HuaweiMoveData\Users\及宇轩\Desktop\生科挑战赛\siRNA_pipeline\final_results\results.xlsx
+[DONE] 已输出 D:\HuaweiMoveData\Users\及宇轩\Desktop\生科挑战赛\siRNA_pipeline\final_results\results.csv（UTF-8 带 BOM）

@@ -1,0 +1,19 @@
+{
+  "root": "D:\\HuaweiMoveData\\Users\\及宇轩\\Desktop\\生科挑战赛\\siRNA_pipeline",
+  "configured_sfrp1_fasta": "D:\\HuaweiMoveData\\Users\\及宇轩\\Desktop\\生科挑战赛\\数据集\\SFRP1-mRNA.txt",
+  "available": {
+    "sfrp1_fasta": true,
+    "positive_controls": false,
+    "simone": false,
+    "holen50": false,
+    "birmingham362": false,
+    "vienna_rna": false
+  },
+  "missing": [
+    "positive_controls",
+    "simone",
+    "holen50",
+    "birmingham362",
+    "vienna_rna"
+  ]
+}

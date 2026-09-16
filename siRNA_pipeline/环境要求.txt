@@ -1,0 +1,61 @@
+SFRP1-siRNA 计算筛选流水线（siRNA_pipeline）完整运行环境要求
+============================================================
+
+一、系统与硬件
+  - 操作系统：Windows 10/11 或 Linux（Ubuntu >= 20.04）；macOS 未验证
+  - Python：>= 3.9（建议 3.10-3.13；已在 Python 3.13.0 验证）
+  - GPU：不需要（CPU 可运行；有 GPU 仅加速部分阶段）
+  - 内存 >= 8 GB；工程 + 虚拟环境约 1-2 GB
+  - 完整管线另需 OligoFormer 资产约 3.3 GB（RNA-FM 权重 1.1 GB + 数据 1.0 GB + .venv 0.8 GB + 模型）
+
+二、Python 依赖（pip，见 requirements.txt）
+  torch==2.14.0
+  PyYAML==6.0.3
+  numpy==2.4.3
+  pandas==3.0.1
+  matplotlib==3.11.2
+  scikit-learn==1.9.1   # 训练/评估入口（train.py：C_match 错配模型 Ridge/Siamese 训练）需要
+  安装：pip install -r requirements.txt
+
+三、外部工具（完整管线必需组件，按下列方式安装）
+
+  1. ViennaRNA  2.7.2
+     用途：结构检测真值（RNAfold / RNAcofold / RNAplfold）
+     安装：conda install -c bioconda viennarna；或官方 Windows 安装包（www.tbi.univie.ac.at/RNA/）
+     配置：环境变量 VIENNARNA_BIN 指向含 RNAfold.exe 的目录
+
+  2. NCBI BLAST+  2.14.1 + GENCODE v46 转录本库
+     用途：脱靶评估第三层（近全长同源检索）
+     安装：官方安装包解压（ftp.ncbi.nlm.nih.gov/blast/executables/blast+/）；转录本 FASTA 自
+           GENCODE Release 46（www.gencodegenes.org/human/），makeblastdb 建库
+     配置：configs/pipeline.yaml -> stages.offtarget.blast
+
+  3. RNA-FM  预训练权重 RNA-FM_pretrained.pth（约 1.1 GB）
+     用途：OligoFormer 效率辅助分的序列嵌入
+     获取：GitHub ml4bio/RNA-FM（引用 Chen et al. 2022, Nat Mach Intell）
+     放置：OligoFormer部分/RNA-FM/redevelop/pretrained/
+
+  4. OligoFormer  best_model.pth / mismatch_model.pth
+     用途：效率辅助分（开源预训练 Transformer，仅推理，本项目未训练/微调）
+     获取：GitHub lulab/OligoFormer
+     放置：OligoFormer部分/model/
+     环境：使用自带虚拟环境 OligoFormer部分/.venv（Python 3.8-3.10），
+           官方依赖见该目录 requirements.txt（13 项，torch==2.2.1 等）
+
+  5. PITA / TargetScan  种子区脱靶参考序列
+     用途：种子区脱靶预测（human_UTR / human_ORF）
+     环境：bash + perl + ViennaRNA + OligoFormer 自带 off-target 脚本；
+           配置 stages.offtarget.external_cmd
+
+四、组件就绪检查与运行
+  完整复现需全部组件就绪；任一组件缺失时，主管道自动降级（graceful skip）并留痕，
+  但对应增强结果不产生。就绪后按 README.md 执行：
+  - python predict.py                    # 全链运行（无 ViennaRNA 约 60-90 秒；装后约 30-35 分钟）
+  - python train.py --model cmatch       # 复现 C_match 错配模型（Ridge 校准）
+  - python train.py --model siamese      # 复现变体层 Siamese CNN
+  - python -m unittest discover -s tests # 单元测试
+  - python scripts/verify_variant_layer.py   # 变体层验收（需 OligoFormer .venv）
+
+五、复现性
+  - 随机种子：run.seed=42（configs/pipeline.yaml）
+  - CSV 统一 UTF-8(BOM)；日志 UTF-8

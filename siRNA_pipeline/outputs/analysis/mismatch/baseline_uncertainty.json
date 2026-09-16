@@ -1,0 +1,135 @@
+{
+  "input": "D:\\HuaweiMoveData\\Users\\及宇轩\\Desktop\\生科挑战赛\\siRNA_pipeline\\outputs\\analysis\\mismatch\\baseline_loso.json",
+  "bootstrap": 5000,
+  "permutations": 5000,
+  "models": {
+    "position_only_ridge": {
+      "Holen_2005": {
+        "observed_spearman": 0.7517633962842455,
+        "bootstrap_ci95": [
+          0.40561471454099735,
+          0.8935265775981616
+        ],
+        "permutation_p_two_sided": 0.0005998800239952009,
+        "bootstrap_replicates": 5000,
+        "permutation_replicates": 5000
+      },
+      "Kini_2009": {
+        "observed_spearman": 0.5773502691896257,
+        "bootstrap_ci95": [
+          -0.3952847075210474,
+          1.0
+        ],
+        "permutation_p_two_sided": 0.40571885622875425,
+        "bootstrap_replicates": 4558,
+        "permutation_replicates": 5000
+      },
+      "Ohnishi_2008": {
+        "observed_spearman": 0.7200755974503357,
+        "bootstrap_ci95": [
+          0.6036310950397329,
+          0.8045947181276561
+        ],
+        "permutation_p_two_sided": 0.0001999600079984003,
+        "bootstrap_replicates": 5000,
+        "permutation_replicates": 5000
+      }
+    },
+    "position_only_elasticnet": {
+      "Holen_2005": {
+        "observed_spearman": 0.7485991609003763,
+        "bootstrap_ci95": [
+          0.42611502952002017,
+          0.896607539256875
+        ],
+        "permutation_p_two_sided": 0.0003999200159968006,
+        "bootstrap_replicates": 5000,
+        "permutation_replicates": 5000
+      },
+      "Kini_2009": {
+        "observed_spearman": 0.5773502691896257,
+        "bootstrap_ci95": [
+          -0.3952847075210474,
+          1.0
+        ],
+        "permutation_p_two_sided": 0.40111977604479104,
+        "bootstrap_replicates": 4575,
+        "permutation_replicates": 5000
+      },
+      "Ohnishi_2008": {
+        "observed_spearman": 0.6982658427719761,
+        "bootstrap_ci95": [
+          0.5684715266014821,
+          0.7910973140482345
+        ],
+        "permutation_p_two_sided": 0.0001999600079984003,
+        "bootstrap_replicates": 5000,
+        "permutation_replicates": 5000
+      }
+    },
+    "position_plus_thermo_ridge": {
+      "Holen_2005": {
+        "observed_spearman": 0.6766126144998129,
+        "bootstrap_ci95": [
+          0.30473718329171645,
+          0.879435293895935
+        ],
+        "permutation_p_two_sided": 0.0021995600879824036,
+        "bootstrap_replicates": 5000,
+        "permutation_replicates": 5000
+      },
+      "Kini_2009": {
+        "observed_spearman": 0.3,
+        "bootstrap_ci95": [
+          -1.0,
+          1.0
+        ],
+        "permutation_p_two_sided": 0.6906618676264747,
+        "bootstrap_replicates": 4994,
+        "permutation_replicates": 5000
+      },
+      "Ohnishi_2008": {
+        "observed_spearman": 0.7101885456315835,
+        "bootstrap_ci95": [
+          0.5907105097689896,
+          0.799590273572982
+        ],
+        "permutation_p_two_sided": 0.0001999600079984003,
+        "bootstrap_replicates": 5000,
+        "permutation_replicates": 5000
+      }
+    },
+    "position_plus_thermo_elasticnet": {
+      "Holen_2005": {
+        "observed_spearman": 0.5641296030598456,
+        "bootstrap_ci95": [
+          0.12392581887556625,
+          0.8250616486501056
+        ],
+        "permutation_p_two_sided": 0.01219756048790242,
+        "bootstrap_replicates": 5000,
+        "permutation_replicates": 5000
+      },
+      "Kini_2009": {
+        "observed_spearman": 0.49999999999999994,
+        "bootstrap_ci95": [
+          -1.0,
+          1.0
+        ],
+        "permutation_p_two_sided": 0.4491101779644071,
+        "bootstrap_replicates": 4991,
+        "permutation_replicates": 5000
+      },
+      "Ohnishi_2008": {
+        "observed_spearman": 0.7021071801016798,
+        "bootstrap_ci95": [
+          0.5715360137299111,
+          0.7970883070575264
+        ],
+        "permutation_p_two_sided": 0.0001999600079984003,
+        "bootstrap_replicates": 5000,
+        "permutation_replicates": 5000
+      }
+    }
+  }
+}

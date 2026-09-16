@@ -1,0 +1,17 @@
+{
+  "total_rows": 102,
+  "model_eligible_rows": 102,
+  "excluded_rows": 0,
+  "excluded_reasons": {},
+  "rows_by_dataset": {
+    "Holen_2005": 19,
+    "Kini_2009": 5,
+    "Ohnishi_2008": 78
+  },
+  "eligible_rows_by_dataset": {
+    "Holen_2005": 19,
+    "Kini_2009": 5,
+    "Ohnishi_2008": 78
+  },
+  "source_hash": "93b33a347cd8ad0b0a2efe79b3fff97143c4cc3eb7977852f80aa8d41216ac27"
+}

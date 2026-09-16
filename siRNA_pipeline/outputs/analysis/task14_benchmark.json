@@ -1,0 +1,221 @@
+{
+  "task": "14",
+  "datasets": {
+    "Hu": {
+      "rows": 2361,
+      "metrics": {
+        "pure_dl": {
+          "n": 2361,
+          "n_raw": 2361,
+          "spearman": 0.6438457402997737,
+          "pearson": 0.6368831823088454,
+          "r2": 0.40562018790784204,
+          "ci95_low": 0.6204067209496907,
+          "ci95_high": 0.6664380123026247,
+          "p_perm": 0.001996007984031936,
+          "n_boot": 200,
+          "n_perm": 500,
+          "n_unique_scores": 2361,
+          "n_unique_labels": 786
+        },
+        "pure_thermo": {
+          "n": 2361,
+          "n_raw": 2361,
+          "spearman": 0.2852009629259547,
+          "pearson": 0.2880046484946445,
+          "r2": 0.08294667755452374,
+          "ci95_low": 0.2417359600165567,
+          "ci95_high": 0.3208084711246463,
+          "p_perm": 0.001996007984031936,
+          "n_boot": 200,
+          "n_perm": 500,
+          "n_unique_scores": 2350,
+          "n_unique_labels": 786
+        },
+        "thermo_plus_aux": {
+          "n": 2361,
+          "n_raw": 2361,
+          "spearman": 0.6527178915579789,
+          "pearson": 0.6442131241539719,
+          "r2": 0.4150105493322208,
+          "ci95_low": 0.6259240371820889,
+          "ci95_high": 0.6777339415781473,
+          "p_perm": 0.001996007984031936,
+          "n_boot": 200,
+          "n_perm": 500,
+          "n_unique_scores": 2361,
+          "n_unique_labels": 786
+        }
+      },
+      "thermo_method": "ranker_default_config:feat_dG_duplex<-dG_total,feat_dG_seed<-dG_seed,feat_ddg_ends<-delta_deltaG_ends,feat_mfe<-MFE_guide",
+      "combo_alpha_beta": [
+        0.4,
+        0.6
+      ]
+    },
+    "Taka": {
+      "rows": 702,
+      "metrics": {
+        "pure_dl": {
+          "n": 702,
+          "n_raw": 702,
+          "spearman": 0.5645356354832441,
+          "pearson": 0.559817185662521,
+          "r2": 0.31339528136310557,
+          "ci95_low": 0.5057564312896967,
+          "ci95_high": 0.6233711907095684,
+          "p_perm": 0.001996007984031936,
+          "n_boot": 200,
+          "n_perm": 500,
+          "n_unique_scores": 702,
+          "n_unique_labels": 663
+        },
+        "pure_thermo": {
+          "n": 702,
+          "n_raw": 702,
+          "spearman": -0.021442896245520867,
+          "pearson": -0.005434085946779327,
+          "r2": 2.9529290076984573e-05,
+          "ci95_low": -0.09132324058887556,
+          "ci95_high": 0.05176687463717979,
+          "p_perm": 0.592814371257485,
+          "n_boot": 200,
+          "n_perm": 500,
+          "n_unique_scores": 698,
+          "n_unique_labels": 663
+        },
+        "thermo_plus_aux": {
+          "n": 702,
+          "n_raw": 702,
+          "spearman": 0.5902160225779509,
+          "pearson": 0.5834493261550708,
+          "r2": 0.3404131161908062,
+          "ci95_low": 0.5351804110312844,
+          "ci95_high": 0.6454698701224842,
+          "p_perm": 0.001996007984031936,
+          "n_boot": 200,
+          "n_perm": 500,
+          "n_unique_scores": 702,
+          "n_unique_labels": 663
+        }
+      },
+      "thermo_method": "ranker_default_config:feat_dG_duplex<-dG_total,feat_dG_seed<-dG_seed,feat_ddg_ends<-delta_deltaG_ends,feat_mfe<-MFE_guide",
+      "combo_alpha_beta": [
+        0.4,
+        0.6
+      ]
+    },
+    "Mix": {
+      "rows": 464,
+      "metrics": {
+        "pure_dl": {
+          "n": 464,
+          "n_raw": 464,
+          "spearman": 0.688859762362245,
+          "pearson": 0.6819644787308904,
+          "r2": 0.465075550250695,
+          "ci95_low": 0.6375709776647301,
+          "ci95_high": 0.7351066147263938,
+          "p_perm": 0.0004997501249375312,
+          "n_boot": 1000,
+          "n_perm": 2000,
+          "n_unique_scores": 464,
+          "n_unique_labels": 299
+        },
+        "pure_thermo": {
+          "n": 464,
+          "n_raw": 464,
+          "spearman": 0.2915567201291126,
+          "pearson": 0.28585892586706224,
+          "r2": 0.08171532549787058,
+          "ci95_low": 0.20566644955866167,
+          "ci95_high": 0.371274607403685,
+          "p_perm": 0.0004997501249375312,
+          "n_boot": 1000,
+          "n_perm": 2000,
+          "n_unique_scores": 464,
+          "n_unique_labels": 299
+        },
+        "thermo_plus_aux": {
+          "n": 464,
+          "n_raw": 464,
+          "spearman": 0.7067072297032347,
+          "pearson": 0.6958824945290462,
+          "r2": 0.48425244619196794,
+          "ci95_low": 0.657997056612108,
+          "ci95_high": 0.747979678661524,
+          "p_perm": 0.0004997501249375312,
+          "n_boot": 1000,
+          "n_perm": 2000,
+          "n_unique_scores": 464,
+          "n_unique_labels": 299
+        }
+      },
+      "prediction_count_warning": {
+        "dataset_rows": 464,
+        "prediction_rows": 472,
+        "used_rows": 464,
+        "unmatched_dataset_rows": 0,
+        "join_mode": "key"
+      },
+      "thermo_method": "ranker_default_config:feat_dG_duplex<-dG_total,feat_dG_seed<-dG_seed,feat_ddg_ends<-delta_deltaG_ends,feat_mfe<-MFE_guide",
+      "combo_alpha_beta": [
+        0.4,
+        0.6
+      ]
+    },
+    "Simone": {
+      "rows": 322,
+      "metrics": {
+        "pure_dl": {
+          "n": 322,
+          "n_raw": 322,
+          "spearman": 0.3054017320773608,
+          "pearson": 0.40610656017477315,
+          "r2": 0.16492253821698663,
+          "ci95_low": 0.19403975592678485,
+          "ci95_high": 0.4065268749201495,
+          "p_perm": 0.0004997501249375312,
+          "n_boot": 1000,
+          "n_perm": 2000,
+          "n_unique_scores": 322,
+          "n_unique_labels": 71
+        },
+        "pure_thermo": {
+          "n": 322,
+          "n_raw": 322,
+          "spearman": 0.1048114571604089,
+          "pearson": 0.225877170809779,
+          "r2": 0.051020496293030085,
+          "ci95_low": -0.009196217814265259,
+          "ci95_high": 0.21537267606436625,
+          "p_perm": 0.06296851574212893,
+          "n_boot": 1000,
+          "n_perm": 2000,
+          "n_unique_scores": 322,
+          "n_unique_labels": 71
+        },
+        "thermo_plus_aux": {
+          "n": 322,
+          "n_raw": 322,
+          "spearman": 0.3251178271698984,
+          "pearson": 0.45450336841138556,
+          "r2": 0.20657331189729566,
+          "ci95_low": 0.21628487012731834,
+          "ci95_high": 0.42340610720542426,
+          "p_perm": 0.0004997501249375312,
+          "n_boot": 1000,
+          "n_perm": 2000,
+          "n_unique_scores": 322,
+          "n_unique_labels": 71
+        }
+      },
+      "thermo_method": "ranker_default_config:feat_dG_duplex<-dG_total,feat_dG_seed<-dG_seed,feat_ddg_ends<-delta_deltaG_ends,feat_mfe<-MFE_guide",
+      "combo_alpha_beta": [
+        0.4,
+        0.6
+      ]
+    }
+  },
+  "missing": []
+}

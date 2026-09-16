@@ -1,0 +1,217 @@
+{
+  "n_rows": 4218,
+  "base_weights": {
+    "feat_mfe": 1.0,
+    "feat_ddg_ends": 1.0,
+    "feat_dG_duplex": 1.2,
+    "feat_dG_seed": 0.0
+  },
+  "base_alpha_beta": [
+    0.4,
+    0.6
+  ],
+  "base_top1": "W0669_g1:C>U",
+  "scenarios": [
+    {
+      "scenario": "feat_mfe×0.8",
+      "weights": {
+        "feat_mfe": 0.8,
+        "feat_ddg_ends": 1.0,
+        "feat_dG_duplex": 1.2,
+        "feat_dG_seed": 0.0
+      },
+      "beta": 0.6,
+      "alpha": 0.4,
+      "jaccard_top20_vs_base": 0.6667,
+      "jaccard_top50_vs_base": 0.9231,
+      "spearman_vs_base": 0.9995,
+      "top1": "W0669_g1:C>U",
+      "rank1_changed": false
+    },
+    {
+      "scenario": "feat_mfe×1.2",
+      "weights": {
+        "feat_mfe": 1.2,
+        "feat_ddg_ends": 1.0,
+        "feat_dG_duplex": 1.2,
+        "feat_dG_seed": 0.0
+      },
+      "beta": 0.6,
+      "alpha": 0.4,
+      "jaccard_top20_vs_base": 0.9048,
+      "jaccard_top50_vs_base": 0.9608,
+      "spearman_vs_base": 0.9996,
+      "top1": "W0655_g18:U>G",
+      "rank1_changed": true
+    },
+    {
+      "scenario": "feat_ddg_ends×0.8",
+      "weights": {
+        "feat_mfe": 1.0,
+        "feat_ddg_ends": 0.8,
+        "feat_dG_duplex": 1.2,
+        "feat_dG_seed": 0.0
+      },
+      "beta": 0.6,
+      "alpha": 0.4,
+      "jaccard_top20_vs_base": 0.8182,
+      "jaccard_top50_vs_base": 0.8868,
+      "spearman_vs_base": 0.9993,
+      "top1": "W0655_g18:U>G",
+      "rank1_changed": true
+    },
+    {
+      "scenario": "feat_ddg_ends×1.2",
+      "weights": {
+        "feat_mfe": 1.0,
+        "feat_ddg_ends": 1.2,
+        "feat_dG_duplex": 1.2,
+        "feat_dG_seed": 0.0
+      },
+      "beta": 0.6,
+      "alpha": 0.4,
+      "jaccard_top20_vs_base": 0.7391,
+      "jaccard_top50_vs_base": 0.9231,
+      "spearman_vs_base": 0.9995,
+      "top1": "W0852_g19:G>C",
+      "rank1_changed": true
+    },
+    {
+      "scenario": "feat_dG_duplex×0.8",
+      "weights": {
+        "feat_mfe": 1.0,
+        "feat_ddg_ends": 1.0,
+        "feat_dG_duplex": 0.96,
+        "feat_dG_seed": 0.0
+      },
+      "beta": 0.6,
+      "alpha": 0.4,
+      "jaccard_top20_vs_base": 0.8182,
+      "jaccard_top50_vs_base": 0.9608,
+      "spearman_vs_base": 0.9996,
+      "top1": "W0852_g19:G>C",
+      "rank1_changed": true
+    },
+    {
+      "scenario": "feat_dG_duplex×1.2",
+      "weights": {
+        "feat_mfe": 1.0,
+        "feat_ddg_ends": 1.0,
+        "feat_dG_duplex": 1.44,
+        "feat_dG_seed": 0.0
+      },
+      "beta": 0.6,
+      "alpha": 0.4,
+      "jaccard_top20_vs_base": 0.8182,
+      "jaccard_top50_vs_base": 0.8868,
+      "spearman_vs_base": 0.9997,
+      "top1": "W0669_g1:C>U",
+      "rank1_changed": false
+    },
+    {
+      "scenario": "beta=0.4",
+      "weights": {
+        "feat_mfe": 1.0,
+        "feat_ddg_ends": 1.0,
+        "feat_dG_duplex": 1.2,
+        "feat_dG_seed": 0.0
+      },
+      "beta": 0.4,
+      "alpha": 0.6,
+      "jaccard_top20_vs_base": 0.2903,
+      "jaccard_top50_vs_base": 0.4925,
+      "spearman_vs_base": 0.9297,
+      "top1": "W0852_g19:G>C",
+      "rank1_changed": true
+    },
+    {
+      "scenario": "beta=0.5",
+      "weights": {
+        "feat_mfe": 1.0,
+        "feat_ddg_ends": 1.0,
+        "feat_dG_duplex": 1.2,
+        "feat_dG_seed": 0.0
+      },
+      "beta": 0.5,
+      "alpha": 0.5,
+      "jaccard_top20_vs_base": 0.5385,
+      "jaccard_top50_vs_base": 0.6949,
+      "spearman_vs_base": 0.9869,
+      "top1": "W0852_g19:G>C",
+      "rank1_changed": true
+    },
+    {
+      "scenario": "beta=0.7",
+      "weights": {
+        "feat_mfe": 1.0,
+        "feat_ddg_ends": 1.0,
+        "feat_dG_duplex": 1.2,
+        "feat_dG_seed": 0.0
+      },
+      "beta": 0.7,
+      "alpha": 0.3,
+      "jaccard_top20_vs_base": 0.5385,
+      "jaccard_top50_vs_base": 0.6949,
+      "spearman_vs_base": 0.9926,
+      "top1": "W0867_g17:U>C",
+      "rank1_changed": true
+    },
+    {
+      "scenario": "beta=0.8",
+      "weights": {
+        "feat_mfe": 1.0,
+        "feat_ddg_ends": 1.0,
+        "feat_dG_duplex": 1.2,
+        "feat_dG_seed": 0.0
+      },
+      "beta": 0.8,
+      "alpha": 0.2,
+      "jaccard_top20_vs_base": 0.3793,
+      "jaccard_top50_vs_base": 0.4706,
+      "spearman_vs_base": 0.9772,
+      "top1": "W0867_g17:U>C",
+      "rank1_changed": true
+    },
+    {
+      "scenario": "seed权重恢复0.2",
+      "weights": {
+        "feat_mfe": 1.0,
+        "feat_ddg_ends": 1.0,
+        "feat_dG_duplex": 1.2,
+        "feat_dG_seed": 0.2
+      },
+      "beta": 0.6,
+      "alpha": 0.4,
+      "jaccard_top20_vs_base": 0.8182,
+      "jaccard_top50_vs_base": 0.8868,
+      "spearman_vs_base": 0.9994,
+      "top1": "W0669_g1:C>U",
+      "rank1_changed": false
+    },
+    {
+      "scenario": "seed权重恢复0.8（旧默认）",
+      "weights": {
+        "feat_mfe": 1.0,
+        "feat_ddg_ends": 1.0,
+        "feat_dG_duplex": 1.2,
+        "feat_dG_seed": 0.8
+      },
+      "beta": 0.6,
+      "alpha": 0.4,
+      "jaccard_top20_vs_base": 0.4286,
+      "jaccard_top50_vs_base": 0.6667,
+      "spearman_vs_base": 0.993,
+      "top1": "W0669_g1:C>U",
+      "rank1_changed": false
+    }
+  ],
+  "random_perturbation_200": {
+    "jaccard_top20_mean": 0.8177,
+    "jaccard_top20_min": 0.6667,
+    "jaccard_top50_mean": 0.9312,
+    "jaccard_top50_min": 0.8182,
+    "spearman_mean": 0.9995,
+    "spearman_min": 0.9984,
+    "rank1_changed_ratio": 0.695
+  }
+}

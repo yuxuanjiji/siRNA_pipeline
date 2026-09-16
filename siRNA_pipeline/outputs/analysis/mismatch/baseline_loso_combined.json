@@ -1,0 +1,2180 @@
+{
+  "input": "..\\数据集\\最终数据\\错配数据集\\mismatch_curated.csv",
+  "rows": 96,
+  "models": {
+    "position_only_ridge": {
+      "feature_set": "position_only",
+      "outer_loso": {
+        "Holen_2005": {
+          "train_rows": 78,
+          "test_rows": 18,
+          "test_groups": 1,
+          "selected_alpha": 100.0,
+          "inner_selection": {
+            "fold_scores": {
+              "0.01": [
+                0.7699248120300751,
+                0.593984962406015,
+                0.5428571428571428,
+                0.7378740970072238
+              ],
+              "0.1": [
+                0.7699248120300751,
+                0.593984962406015,
+                0.5428571428571428,
+                0.7378740970072238
+              ],
+              "1.0": [
+                0.7654135338345864,
+                0.593984962406015,
+                0.5428571428571428,
+                0.7378740970072238
+              ],
+              "10.0": [
+                0.7654135338345864,
+                0.593984962406015,
+                0.6090225563909774,
+                0.7110423116615068
+              ],
+              "100.0": [
+                0.7518796992481201,
+                0.58796992481203,
+                0.7624060150375939,
+                0.7027863777089782
+              ]
+            },
+            "mean_spearman": {
+              "0.01": 0.6611602535751141,
+              "0.1": 0.6611602535751141,
+              "1.0": 0.660032434026242,
+              "10.0": 0.6698658410732714,
+              "100.0": 0.7012605042016806
+            }
+          },
+          "mae": 0.21608775269522992,
+          "rmse": 0.2603400840021694,
+          "spearman": 0.7626098534721613,
+          "predictions": [
+            {
+              "row_id": "Holen_2005|Fe775i-w3i",
+              "label": 0.8,
+              "prediction": 0.7951361141160403
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w7i",
+              "label": 0.784,
+              "prediction": 0.8313205577036498
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w10i",
+              "label": 0.36,
+              "prediction": 0.7092636138024627
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w3/7i",
+              "label": 0.712,
+              "prediction": 0.6999379864955334
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w7/10i",
+              "label": 0.256,
+              "prediction": 0.6140654861819558
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w3/7/10i",
+              "label": 0.272,
+              "prediction": 0.4826829149738394
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w2i",
+              "label": 0.692,
+              "prediction": 0.801961424432141
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w6i",
+              "label": 0.608,
+              "prediction": 0.8013354983131762
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w9i",
+              "label": 0.25,
+              "prediction": 0.6958366983960026
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w16i",
+              "label": 0.283,
+              "prediction": 0.7850745008733924
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w19i",
+              "label": 0.525,
+              "prediction": 0.715478520974279
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w2/3/7i",
+              "label": 0.333,
+              "prediction": 0.5753807256035177
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w3/7/19i",
+              "label": 0.242,
+              "prediction": 0.4888978221456557
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m3Ci",
+              "label": 0.4,
+              "prediction": 0.7951361141160403
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m7Ci",
+              "label": 0.517,
+              "prediction": 0.8013354983131762
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m1Ai",
+              "label": 0.717,
+              "prediction": 0.801961424432141
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m1Ci",
+              "label": 0.7,
+              "prediction": 0.801961424432141
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m1Ui",
+              "label": 0.692,
+              "prediction": 0.801961424432141
+            }
+          ],
+          "interpretation": "external_loso"
+        },
+        "Ohnishi_2008": {
+          "train_rows": 18,
+          "test_rows": 78,
+          "test_groups": 4,
+          "selected_alpha": 1.0,
+          "inner_selection": {},
+          "mae": 0.3211805754367577,
+          "rmse": 0.3621651508532621,
+          "spearman": 0.7188423060531619,
+          "predictions": [
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)",
+              "label": 1.0,
+              "prediction": 0.798076069368676
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-5U",
+              "label": 0.989555,
+              "prediction": 0.5665054820154956
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-6U",
+              "label": 0.940627,
+              "prediction": 0.6476164928292785
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-7C",
+              "label": 0.942276,
+              "prediction": 0.7548804272860536
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-12C",
+              "label": 0.97746,
+              "prediction": 0.5204508845212368
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-13A",
+              "label": 0.988455,
+              "prediction": 0.5336039510442057
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-14U",
+              "label": 0.987356,
+              "prediction": 0.5336039510442057
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-15U",
+              "label": 0.995602,
+              "prediction": 0.5336039510442057
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-16C",
+              "label": 0.93293,
+              "prediction": 0.2954934521048431
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-17G",
+              "label": 0.982958,
+              "prediction": 0.486270870098258
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)",
+              "label": 0.885102,
+              "prediction": 0.5204508845212368
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-5U",
+              "label": 0.747664,
+              "prediction": 0.28888029716805635
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-6U",
+              "label": 0.687191,
+              "prediction": 0.36999130798183927
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-7C",
+              "label": 0.685542,
+              "prediction": 0.47725524243861445
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-12C",
+              "label": 0.443101,
+              "prediction": 0.24282569967379763
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-13A",
+              "label": 0.566245,
+              "prediction": 0.25597876619676646
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-14U",
+              "label": 0.391424,
+              "prediction": 0.25597876619676646
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-15U",
+              "label": 0.678944,
+              "prediction": 0.25597876619676646
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-16C",
+              "label": 0.534909,
+              "prediction": 0.017868267257403925
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-17G",
+              "label": 0.431006,
+              "prediction": 0.20864568525081878
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)",
+              "label": 0.997801,
+              "prediction": 0.798076069368676
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-5A",
+              "label": 0.7768,
+              "prediction": 0.5665054820154956
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-6U",
+              "label": 0.740517,
+              "prediction": 0.6476164928292785
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-8C",
+              "label": 0.868059,
+              "prediction": 0.7548804272860536
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-12U",
+              "label": 0.806487,
+              "prediction": 0.5204508845212368
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-13U",
+              "label": 0.708631,
+              "prediction": 0.5336039510442057
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-14U",
+              "label": 0.815833,
+              "prediction": 0.5336039510442057
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-15U",
+              "label": 0.923035,
+              "prediction": 0.5336039510442057
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-16U",
+              "label": 0.831226,
+              "prediction": 0.2954934521048431
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-17U",
+              "label": 0.790544,
+              "prediction": 0.486270870098258
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)",
+              "label": 0.913139,
+              "prediction": 0.38368588305961265
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-5A",
+              "label": 0.573942,
+              "prediction": 0.15211529570643223
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-6U",
+              "label": 0.529412,
+              "prediction": 0.23322630652021514
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-8C",
+              "label": 0.624519,
+              "prediction": 0.3404902409769903
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-12U",
+              "label": 0.704233,
+              "prediction": 0.10606069821217357
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-13U",
+              "label": 0.374931,
+              "prediction": 0.11921376473514234
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-14U",
+              "label": 0.0,
+              "prediction": 0.11921376473514234
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-15U",
+              "label": 0.425509,
+              "prediction": 0.11921376473514234
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-16U",
+              "label": 0.693788,
+              "prediction": -0.1188967342042202
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-17U",
+              "label": 0.601429,
+              "prediction": 0.07188068378919465
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)",
+              "label": 0.961517,
+              "prediction": 0.798076069368676
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-5G",
+              "label": 0.537658,
+              "prediction": 0.5665054820154956
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-6U",
+              "label": 0.82243,
+              "prediction": 0.6476164928292785
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-8C",
+              "label": 0.462342,
+              "prediction": 0.26982252310292576
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-12U",
+              "label": 0.693238,
+              "prediction": 0.5204508845212368
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-13C",
+              "label": 0.940077,
+              "prediction": 0.5336039510442057
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-14A",
+              "label": 0.826278,
+              "prediction": 0.5336039510442057
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-15U",
+              "label": 0.589335,
+              "prediction": 0.5336039510442057
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-16U",
+              "label": 0.765256,
+              "prediction": 0.2954934521048431
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-17C",
+              "label": 0.223749,
+              "prediction": 0.486270870098258
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)",
+              "label": 0.925234,
+              "prediction": 0.38368588305961265
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-5G",
+              "label": 0.514568,
+              "prediction": 0.15211529570643223
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-6U",
+              "label": 0.520616,
+              "prediction": 0.23322630652021514
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-8C",
+              "label": 0.463991,
+              "prediction": -0.14456766320613756
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-12U",
+              "label": 0.409016,
+              "prediction": 0.10606069821217357
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-13C",
+              "label": 0.532161,
+              "prediction": 0.11921376473514234
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-14A",
+              "label": 0.401869,
+              "prediction": 0.11921376473514234
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-15U",
+              "label": 0.139087,
+              "prediction": 0.11921376473514234
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-16U",
+              "label": 0.448598,
+              "prediction": -0.1188967342042202
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-17C",
+              "label": 0.328202,
+              "prediction": 0.07188068378919465
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)",
+              "label": 0.948873,
+              "prediction": 0.798076069368676
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-5C",
+              "label": 0.827378,
+              "prediction": 0.5665054820154956
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-6G",
+              "label": 0.730621,
+              "prediction": 0.6476164928292785
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-12A",
+              "label": 0.715778,
+              "prediction": 0.5204508845212368
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-13C",
+              "label": 0.900495,
+              "prediction": 0.5336039510442057
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-14G",
+              "label": 0.546454,
+              "prediction": 0.5336039510442057
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-15C",
+              "label": 0.814733,
+              "prediction": 0.5336039510442057
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-16A",
+              "label": 0.811435,
+              "prediction": 0.2954934521048431
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-17G",
+              "label": 0.62232,
+              "prediction": 0.486270870098258
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)",
+              "label": 0.914788,
+              "prediction": 0.5204508845212368
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-5C",
+              "label": 0.738318,
+              "prediction": 0.28888029716805635
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-6G",
+              "label": 0.397471,
+              "prediction": 0.36999130798183927
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-12A",
+              "label": 0.804838,
+              "prediction": 0.24282569967379763
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-13C",
+              "label": 0.629467,
+              "prediction": 0.25597876619676646
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-14G",
+              "label": 0.523914,
+              "prediction": 0.25597876619676646
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-15C",
+              "label": 0.473337,
+              "prediction": 0.25597876619676646
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-16A",
+              "label": 0.657504,
+              "prediction": 0.01786826725740398
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-17G",
+              "label": 0.498076,
+              "prediction": 0.20864568525081884
+            }
+          ],
+          "interpretation": "external_loso"
+        }
+      }
+    },
+    "position_only_elasticnet": {
+      "feature_set": "position_only",
+      "outer_loso": {
+        "Holen_2005": {
+          "train_rows": 78,
+          "test_rows": 18,
+          "test_groups": 1,
+          "selected_alpha": 0.1,
+          "inner_selection": {
+            "fold_scores": {
+              "0.01": [
+                0.7518796992481201,
+                0.608728539516585,
+                0.5834586466165413,
+                0.7234262125902993
+              ],
+              "0.1": [
+                0.7337501975307228,
+                0.6099947590826449,
+                0.792294421271636,
+                0.7453518500108299
+              ],
+              "1.0": [],
+              "10.0": [],
+              "100.0": []
+            },
+            "mean_spearman": {
+              "0.01": 0.6668732744928865,
+              "0.1": 0.7203478069739584,
+              "1.0": -Infinity,
+              "10.0": -Infinity,
+              "100.0": -Infinity
+            }
+          },
+          "mae": 0.19515237706323982,
+          "rmse": 0.24624675570974086,
+          "spearman": 0.7390039976418304,
+          "predictions": [
+            {
+              "row_id": "Holen_2005|Fe775i-w3i",
+              "label": 0.8,
+              "prediction": 0.7964324644012117
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w7i",
+              "label": 0.784,
+              "prediction": 0.8049235878487688
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w10i",
+              "label": 0.36,
+              "prediction": 0.7371725478665248
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w3/7i",
+              "label": 0.712,
+              "prediction": 0.6115689688917547
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w7/10i",
+              "label": 0.256,
+              "prediction": 0.5523090523570676
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w3/7/10i",
+              "label": 0.272,
+              "prediction": 0.3589544334000535
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w2i",
+              "label": 0.692,
+              "prediction": 0.7964324644012117
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w6i",
+              "label": 0.608,
+              "prediction": 0.7964324644012117
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w9i",
+              "label": 0.25,
+              "prediction": 0.7188123073080696
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w16i",
+              "label": 0.283,
+              "prediction": 0.7844373485668252
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w19i",
+              "label": 0.525,
+              "prediction": 0.7340557284036109
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w2/3/7i",
+              "label": 0.333,
+              "prediction": 0.4182143499347406
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w3/7/19i",
+              "label": 0.242,
+              "prediction": 0.35583761393713964
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m3Ci",
+              "label": 0.4,
+              "prediction": 0.7964324644012117
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m7Ci",
+              "label": 0.517,
+              "prediction": 0.7964324644012117
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m1Ai",
+              "label": 0.717,
+              "prediction": 0.7964324644012117
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m1Ci",
+              "label": 0.7,
+              "prediction": 0.7964324644012117
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m1Ui",
+              "label": 0.692,
+              "prediction": 0.7964324644012117
+            }
+          ],
+          "interpretation": "external_loso"
+        },
+        "Ohnishi_2008": {
+          "train_rows": 18,
+          "test_rows": 78,
+          "test_groups": 4,
+          "selected_alpha": 1.0,
+          "inner_selection": {},
+          "mae": 0.23815680056980057,
+          "rmse": 0.2858750850813644,
+          "spearman": null,
+          "predictions": [
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)",
+              "label": 1.0,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-5U",
+              "label": 0.989555,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-6U",
+              "label": 0.940627,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-7C",
+              "label": 0.942276,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-12C",
+              "label": 0.97746,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-13A",
+              "label": 0.988455,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-14U",
+              "label": 0.987356,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-15U",
+              "label": 0.995602,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-16C",
+              "label": 0.93293,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-17G",
+              "label": 0.982958,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)",
+              "label": 0.885102,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-5U",
+              "label": 0.747664,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-6U",
+              "label": 0.687191,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-7C",
+              "label": 0.685542,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-12C",
+              "label": 0.443101,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-13A",
+              "label": 0.566245,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-14U",
+              "label": 0.391424,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-15U",
+              "label": 0.678944,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-16C",
+              "label": 0.534909,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-17G",
+              "label": 0.431006,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)",
+              "label": 0.997801,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-5A",
+              "label": 0.7768,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-6U",
+              "label": 0.740517,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-8C",
+              "label": 0.868059,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-12U",
+              "label": 0.806487,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-13U",
+              "label": 0.708631,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-14U",
+              "label": 0.815833,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-15U",
+              "label": 0.923035,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-16U",
+              "label": 0.831226,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-17U",
+              "label": 0.790544,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)",
+              "label": 0.913139,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-5A",
+              "label": 0.573942,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-6U",
+              "label": 0.529412,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-8C",
+              "label": 0.624519,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-12U",
+              "label": 0.704233,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-13U",
+              "label": 0.374931,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-14U",
+              "label": 0.0,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-15U",
+              "label": 0.425509,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-16U",
+              "label": 0.693788,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-17U",
+              "label": 0.601429,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)",
+              "label": 0.961517,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-5G",
+              "label": 0.537658,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-6U",
+              "label": 0.82243,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-8C",
+              "label": 0.462342,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-12U",
+              "label": 0.693238,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-13C",
+              "label": 0.940077,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-14A",
+              "label": 0.826278,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-15U",
+              "label": 0.589335,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-16U",
+              "label": 0.765256,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-17C",
+              "label": 0.223749,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)",
+              "label": 0.925234,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-5G",
+              "label": 0.514568,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-6U",
+              "label": 0.520616,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-8C",
+              "label": 0.463991,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-12U",
+              "label": 0.409016,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-13C",
+              "label": 0.532161,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-14A",
+              "label": 0.401869,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-15U",
+              "label": 0.139087,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-16U",
+              "label": 0.448598,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-17C",
+              "label": 0.328202,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)",
+              "label": 0.948873,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-5C",
+              "label": 0.827378,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-6G",
+              "label": 0.730621,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-12A",
+              "label": 0.715778,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-13C",
+              "label": 0.900495,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-14G",
+              "label": 0.546454,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-15C",
+              "label": 0.814733,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-16A",
+              "label": 0.811435,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-17G",
+              "label": 0.62232,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)",
+              "label": 0.914788,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-5C",
+              "label": 0.738318,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-6G",
+              "label": 0.397471,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-12A",
+              "label": 0.804838,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-13C",
+              "label": 0.629467,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-14G",
+              "label": 0.523914,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-15C",
+              "label": 0.473337,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-16A",
+              "label": 0.657504,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-17G",
+              "label": 0.498076,
+              "prediction": 0.5079444444444444
+            }
+          ],
+          "interpretation": "external_loso"
+        }
+      }
+    },
+    "position_plus_thermo_ridge": {
+      "feature_set": "position_plus_thermo",
+      "outer_loso": {
+        "Holen_2005": {
+          "train_rows": 78,
+          "test_rows": 18,
+          "test_groups": 1,
+          "selected_alpha": 100.0,
+          "inner_selection": {
+            "fold_scores": {
+              "0.01": [
+                0.4857142857142857,
+                0.625563909774436,
+                0.6977443609022556,
+                0.5686274509803922
+              ],
+              "0.1": [
+                0.4992481203007519,
+                0.625563909774436,
+                0.6977443609022556,
+                0.6037151702786379
+              ],
+              "1.0": [
+                0.6736842105263157,
+                0.6180451127819548,
+                0.6601503759398496,
+                0.6615067079463364
+              ],
+              "10.0": [
+                0.7804511278195487,
+                0.6045112781954887,
+                0.6406015037593984,
+                0.7316821465428276
+              ],
+              "100.0": [
+                0.7578947368421052,
+                0.6060150375939849,
+                0.78796992481203,
+                0.7110423116615068
+              ]
+            },
+            "mean_spearman": {
+              "0.01": 0.5944125018428423,
+              "0.1": 0.6065678903140204,
+              "1.0": 0.6533466017986141,
+              "10.0": 0.6893115140793158,
+              "100.0": 0.7157305027274067
+            }
+          },
+          "mae": 0.15318723340358892,
+          "rmse": 0.19620663064355406,
+          "spearman": 0.614352172732799,
+          "predictions": [
+            {
+              "row_id": "Holen_2005|Fe775i-w3i",
+              "label": 0.8,
+              "prediction": 0.7082912759041958
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w7i",
+              "label": 0.784,
+              "prediction": 0.7185084703398249
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w10i",
+              "label": 0.36,
+              "prediction": 0.6217529942392054
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w3/7i",
+              "label": 0.712,
+              "prediction": 0.6064496807046751
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w7/10i",
+              "label": 0.256,
+              "prediction": 0.5150547445838551
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w3/7/10i",
+              "label": 0.272,
+              "prediction": 0.3731277348369334
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w2i",
+              "label": 0.692,
+              "prediction": 0.6835677079711128
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w6i",
+              "label": 0.608,
+              "prediction": 0.698492655704791
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w9i",
+              "label": 0.25,
+              "prediction": 0.6603169136642988
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w16i",
+              "label": 0.283,
+              "prediction": 0.7129918395574841
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w19i",
+              "label": 0.525,
+              "prediction": 0.6272324638463938
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w2/3/7i",
+              "label": 0.333,
+              "prediction": 0.4815913728050837
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w3/7/19i",
+              "label": 0.242,
+              "prediction": 0.40655741540141577
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m3Ci",
+              "label": 0.4,
+              "prediction": 0.6549535329066685
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m7Ci",
+              "label": 0.517,
+              "prediction": 0.7039762387251
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m1Ai",
+              "label": 0.717,
+              "prediction": 0.7016213458072423
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m1Ci",
+              "label": 0.7,
+              "prediction": 0.7237247120189155
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m1Ui",
+              "label": 0.692,
+              "prediction": 0.7290360637015061
+            }
+          ],
+          "interpretation": "external_loso"
+        },
+        "Ohnishi_2008": {
+          "train_rows": 18,
+          "test_rows": 78,
+          "test_groups": 4,
+          "selected_alpha": 1.0,
+          "inner_selection": {},
+          "mae": 0.2374834154463245,
+          "rmse": 0.2897764146426207,
+          "spearman": 0.5927363775465042,
+          "predictions": [
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)",
+              "label": 1.0,
+              "prediction": 1.2044494671749595
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-5U",
+              "label": 0.989555,
+              "prediction": 1.2978617099242662
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-6U",
+              "label": 0.940627,
+              "prediction": 0.9110348936438466
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-7C",
+              "label": 0.942276,
+              "prediction": 0.7962453937784575
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-12C",
+              "label": 0.97746,
+              "prediction": 0.8508701083000182
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-13A",
+              "label": 0.988455,
+              "prediction": 0.9675206475027869
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-14U",
+              "label": 0.987356,
+              "prediction": 0.9905573137878159
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-15U",
+              "label": 0.995602,
+              "prediction": 0.7856606911038329
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-16C",
+              "label": 0.93293,
+              "prediction": 0.5266145117872566
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-17G",
+              "label": 0.982958,
+              "prediction": 0.6300820721586539
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)",
+              "label": 0.885102,
+              "prediction": 0.8611048321822017
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-5U",
+              "label": 0.747664,
+              "prediction": 0.9545170749315083
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-6U",
+              "label": 0.687191,
+              "prediction": 0.5676902586510886
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-7C",
+              "label": 0.685542,
+              "prediction": 0.4529007587856995
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-12C",
+              "label": 0.443101,
+              "prediction": 0.5075254733072604
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-13A",
+              "label": 0.566245,
+              "prediction": 0.6241760125100289
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-14U",
+              "label": 0.391424,
+              "prediction": 0.6472126787950578
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-15U",
+              "label": 0.678944,
+              "prediction": 0.44231605611107494
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-16C",
+              "label": 0.534909,
+              "prediction": 0.1832698767944987
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-17G",
+              "label": 0.431006,
+              "prediction": 0.2867374371658959
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)",
+              "label": 0.997801,
+              "prediction": 0.8460868907211818
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-5A",
+              "label": 0.7768,
+              "prediction": 0.716258895137323
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-6U",
+              "label": 0.740517,
+              "prediction": 0.8819087232654662
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-8C",
+              "label": 0.868059,
+              "prediction": 0.6443531158586415
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-12U",
+              "label": 0.806487,
+              "prediction": 0.4922572162023805
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-13U",
+              "label": 0.708631,
+              "prediction": 0.5970219684415237
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-14U",
+              "label": 0.815833,
+              "prediction": 0.7366939017472943
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-15U",
+              "label": 0.923035,
+              "prediction": 0.6018522719045742
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-16U",
+              "label": 0.831226,
+              "prediction": 0.4151075764400368
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-17U",
+              "label": 0.790544,
+              "prediction": 0.6115371681935842
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)",
+              "label": 0.913139,
+              "prediction": 0.32411168203364227
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-5A",
+              "label": 0.573942,
+              "prediction": 0.1942836864497835
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-6U",
+              "label": 0.529412,
+              "prediction": 0.4472284728940333
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-8C",
+              "label": 0.624519,
+              "prediction": 0.12237790717110192
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-12U",
+              "label": 0.704233,
+              "prediction": -0.02971799248515916
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-13U",
+              "label": 0.374931,
+              "prediction": 0.07504675975398406
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-14U",
+              "label": 0.0,
+              "prediction": 0.21471869305975472
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-15U",
+              "label": 0.425509,
+              "prediction": 0.07987706321703458
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-16U",
+              "label": 0.693788,
+              "prediction": -0.10686763224750284
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-17U",
+              "label": 0.601429,
+              "prediction": 0.08956195950604462
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)",
+              "label": 0.961517,
+              "prediction": 1.1291283991158596
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-5G",
+              "label": 0.537658,
+              "prediction": 0.996815968006193
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-6U",
+              "label": 0.82243,
+              "prediction": 1.062680717206624
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-8C",
+              "label": 0.462342,
+              "prediction": 0.34321230829035904
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-12U",
+              "label": 0.693238,
+              "prediction": 0.7848654631567118
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-13C",
+              "label": 0.940077,
+              "prediction": 0.8803182624022732
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-14A",
+              "label": 0.826278,
+              "prediction": 0.8921995794436868
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-15U",
+              "label": 0.589335,
+              "prediction": 0.9152362457287159
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-16U",
+              "label": 0.765256,
+              "prediction": 0.5035810202735849
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-17C",
+              "label": 0.223749,
+              "prediction": 0.7001402397712742
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)",
+              "label": 0.925234,
+              "prediction": 0.5955177507157862
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-5G",
+              "label": 0.514568,
+              "prediction": 0.46320531960611944
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-6U",
+              "label": 0.520616,
+              "prediction": 0.5290700688065504
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-8C",
+              "label": 0.463991,
+              "prediction": -0.19039834010971446
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-12U",
+              "label": 0.409016,
+              "prediction": 0.25125481475663836
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-13C",
+              "label": 0.532161,
+              "prediction": 0.34670761400219974
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-14A",
+              "label": 0.401869,
+              "prediction": 0.35858893104361333
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-15U",
+              "label": 0.139087,
+              "prediction": 0.38162559732864243
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-16U",
+              "label": 0.448598,
+              "prediction": -0.030029628126488572
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-17C",
+              "label": 0.328202,
+              "prediction": 0.1665295913712006
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)",
+              "label": 0.948873,
+              "prediction": 1.2876993467172078
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-5C",
+              "label": 0.827378,
+              "prediction": 0.9620957895492026
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-6G",
+              "label": 0.730621,
+              "prediction": 0.9456344514851427
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-12A",
+              "label": 0.715778,
+              "prediction": 0.9155962605432512
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-13C",
+              "label": 0.900495,
+              "prediction": 0.6070793347643026
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-14G",
+              "label": 0.546454,
+              "prediction": 0.6185360091955966
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-15C",
+              "label": 0.814733,
+              "prediction": 1.043259111478858
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-16A",
+              "label": 0.811435,
+              "prediction": 1.1279268388601955
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-17G",
+              "label": 0.62232,
+              "prediction": 1.0356514418642901
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)",
+              "label": 0.914788,
+              "prediction": 0.9660107080577425
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-5C",
+              "label": 0.738318,
+              "prediction": 0.6404071508897372
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-6G",
+              "label": 0.397471,
+              "prediction": 0.6239458128256774
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-12A",
+              "label": 0.804838,
+              "prediction": 0.5939076218837859
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-13C",
+              "label": 0.629467,
+              "prediction": 0.28539069610483725
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-14G",
+              "label": 0.523914,
+              "prediction": 0.2968473705361312
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-15C",
+              "label": 0.473337,
+              "prediction": 0.7215704728193927
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-16A",
+              "label": 0.657504,
+              "prediction": 0.80623820020073
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-17G",
+              "label": 0.498076,
+              "prediction": 0.7139628032048247
+            }
+          ],
+          "interpretation": "external_loso"
+        }
+      }
+    },
+    "position_plus_thermo_elasticnet": {
+      "feature_set": "position_plus_thermo",
+      "outer_loso": {
+        "Holen_2005": {
+          "train_rows": 78,
+          "test_rows": 18,
+          "test_groups": 1,
+          "selected_alpha": 0.1,
+          "inner_selection": {
+            "fold_scores": {
+              "0.01": [
+                0.7097744360902255,
+                0.6436090225563909,
+                0.6601503759398496,
+                0.6697626418988648
+              ],
+              "0.1": [
+                0.7639097744360903,
+                0.5873500636775982,
+                0.792294421271636,
+                0.7377158668107305
+              ],
+              "1.0": [],
+              "10.0": [],
+              "100.0": []
+            },
+            "mean_spearman": {
+              "0.01": 0.6708241191213327,
+              "0.1": 0.7203175315490137,
+              "1.0": -Infinity,
+              "10.0": -Infinity,
+              "100.0": -Infinity
+            }
+          },
+          "mae": 0.19260056746603765,
+          "rmse": 0.24475942983185023,
+          "spearman": 0.6908773168531074,
+          "predictions": [
+            {
+              "row_id": "Holen_2005|Fe775i-w3i",
+              "label": 0.8,
+              "prediction": 0.7889944878459038
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w7i",
+              "label": 0.784,
+              "prediction": 0.7927836392041346
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w10i",
+              "label": 0.36,
+              "prediction": 0.7263099346492868
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w3/7i",
+              "label": 0.712,
+              "prediction": 0.5942861798159661
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w7/10i",
+              "label": 0.256,
+              "prediction": 0.5316016266193492
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w3/7/10i",
+              "label": 0.272,
+              "prediction": 0.3331041672311806
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w2i",
+              "label": 0.692,
+              "prediction": 0.8017098058305516
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w6i",
+              "label": 0.608,
+              "prediction": 0.7952915977049675
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w9i",
+              "label": 0.25,
+              "prediction": 0.7319866249773087
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w16i",
+              "label": 0.283,
+              "prediction": 0.7889507370290079
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w19i",
+              "label": 0.525,
+              "prediction": 0.737556048109751
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w2/3/7i",
+              "label": 0.333,
+              "prediction": 0.40862513667896583
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-w3/7/19i",
+              "label": 0.242,
+              "prediction": 0.34447137895816515
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m3Ci",
+              "label": 0.4,
+              "prediction": 0.7889944878459038
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m7Ci",
+              "label": 0.517,
+              "prediction": 0.7889944878459038
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m1Ai",
+              "label": 0.717,
+              "prediction": 0.8017098058305516
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m1Ci",
+              "label": 0.7,
+              "prediction": 0.7952915977049675
+            },
+            {
+              "row_id": "Holen_2005|Fe775i-m1Ui",
+              "label": 0.692,
+              "prediction": 0.8017098058305516
+            }
+          ],
+          "interpretation": "external_loso"
+        },
+        "Ohnishi_2008": {
+          "train_rows": 18,
+          "test_rows": 78,
+          "test_groups": 4,
+          "selected_alpha": 1.0,
+          "inner_selection": {},
+          "mae": 0.23815680056980057,
+          "rmse": 0.2858750850813644,
+          "spearman": null,
+          "predictions": [
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)",
+              "label": 1.0,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-5U",
+              "label": 0.989555,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-6U",
+              "label": 0.940627,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-7C",
+              "label": 0.942276,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-12C",
+              "label": 0.97746,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-13A",
+              "label": 0.988455,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-14U",
+              "label": 0.987356,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-15U",
+              "label": 0.995602,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-16C",
+              "label": 0.93293,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-17G",
+              "label": 0.982958,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)",
+              "label": 0.885102,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-5U",
+              "label": 0.747664,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-6U",
+              "label": 0.687191,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-7C",
+              "label": 0.685542,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-12C",
+              "label": 0.443101,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-13A",
+              "label": 0.566245,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-14U",
+              "label": 0.391424,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-15U",
+              "label": 0.678944,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-16C",
+              "label": 0.534909,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T9)-17G",
+              "label": 0.431006,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)",
+              "label": 0.997801,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-5A",
+              "label": 0.7768,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-6U",
+              "label": 0.740517,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-8C",
+              "label": 0.868059,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-12U",
+              "label": 0.806487,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-13U",
+              "label": 0.708631,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-14U",
+              "label": 0.815833,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-15U",
+              "label": 0.923035,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-16U",
+              "label": 0.831226,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-17U",
+              "label": 0.790544,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)",
+              "label": 0.913139,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-5A",
+              "label": 0.573942,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-6U",
+              "label": 0.529412,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-8C",
+              "label": 0.624519,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-12U",
+              "label": 0.704233,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-13U",
+              "label": 0.374931,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-14U",
+              "label": 0.0,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-15U",
+              "label": 0.425509,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-16U",
+              "label": 0.693788,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp105(T10)-17U",
+              "label": 0.601429,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)",
+              "label": 0.961517,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-5G",
+              "label": 0.537658,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-6U",
+              "label": 0.82243,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-8C",
+              "label": 0.462342,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-12U",
+              "label": 0.693238,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-13C",
+              "label": 0.940077,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-14A",
+              "label": 0.826278,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-15U",
+              "label": 0.589335,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-16U",
+              "label": 0.765256,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-17C",
+              "label": 0.223749,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)",
+              "label": 0.925234,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-5G",
+              "label": 0.514568,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-6U",
+              "label": 0.520616,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-8C",
+              "label": 0.463991,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-12U",
+              "label": 0.409016,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-13C",
+              "label": 0.532161,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-14A",
+              "label": 0.401869,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-15U",
+              "label": 0.139087,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-16U",
+              "label": 0.448598,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp102(T10)-17C",
+              "label": 0.328202,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)",
+              "label": 0.948873,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-5C",
+              "label": 0.827378,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-6G",
+              "label": 0.730621,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-12A",
+              "label": 0.715778,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-13C",
+              "label": 0.900495,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-14G",
+              "label": 0.546454,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-15C",
+              "label": 0.814733,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-16A",
+              "label": 0.811435,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-17G",
+              "label": 0.62232,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)",
+              "label": 0.914788,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-5C",
+              "label": 0.738318,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-6G",
+              "label": 0.397471,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-12A",
+              "label": 0.804838,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-13C",
+              "label": 0.629467,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-14G",
+              "label": 0.523914,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-15C",
+              "label": 0.473337,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-16A",
+              "label": 0.657504,
+              "prediction": 0.5079444444444444
+            },
+            {
+              "row_id": "Ohnishi_2008|siPrnp178(A9)-17G",
+              "label": 0.498076,
+              "prediction": 0.5079444444444444
+            }
+          ],
+          "interpretation": "external_loso"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "task": "15",
+  "kind": "birmingham",
+  "rows": 362,
+  "expected_rows": 362,
+  "metrics": {},
+  "strata": {},
+  "missing": [
+    "Birmingham binary gold label",
+    "prediction column: --prediction or final_score/pred_efficiency"
+  ],
+  "strata_note": "未找到分层列 'mismatch_side'，无法按 guide/mRNA 侧分层。"
+}

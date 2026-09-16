@@ -1,0 +1,59 @@
+# Pipeline 阶段编排配置
+run:
+  run_name: default        # outputs/runs/<run_name>/ 下产出；可用 --run-name 覆盖
+  seed: 42                 # 固定随机种子（可复现性，见 common/seed.py）
+
+stages:
+  generation:
+    enabled: true
+    window_len: 19
+  rules:
+    enabled: true
+  structure:
+    enabled: true
+    only_passed: true
+    detector_kwargs: {backend: auto}        # auto: 绑定>CLI>近似；strict 等见结构模块
+  thermo:
+    enabled: true
+  offtarget:
+    enabled: false          # PITA/TargetScan 种子区层：未配置工具链前保持关闭（graceful skip）
+    external_cmd: null      # 就绪后填：<cmd> --input <csv> --output <csv> 契约
+    python: null
+    blast:
+      enabled: false        # BLAST 近全长同源脱靶层（脱靶模块第三层，BLAST/blast_offtarget.py）
+      script: null          # null=自动定位工程根 BLAST/blast_offtarget.py（原脚本零修改）
+      python: null          # null=当前解释器（运行脚本的环境需装有 pandas）
+      blast_bin: null       # NCBI BLAST+ bin 目录（null=探测 PATH）
+      db: null              # BLAST 库前缀（makeblastdb 产物，如 E:/blastdb/gencode_v46_pc_simple）
+      target_gene: SFRP1
+      min_paired: 17
+      max_mismatch: 1
+      require_no_gaps: false
+      threads: 8
+  toxicity:
+    enabled: true
+    threshold: 50.0         # OligoFormer cell_viability 默认阈值
+  oligoformer:
+    enabled: true           # OligoFormer 效率辅助分（第五步辅助项）：内置 executor 已接线；
+                            # 缺模型/RNA-FM 资产时自动 graceful skip（α=1），不影响排序
+    external_cmd: null      # 自定义外部执行器（可选；None=内置 stages/oligoformer/executor.py）
+    python: null            # None=OligoFormer 的 .venv python（工程根/OligoFormer部分/.venv）
+    repo_dir: null          # None=工程根/OligoFormer部分（含 model/scripts/.venv）
+    model_path: null        # None= <repo_dir>/model/best_model.pth
+    rnafm_python: null      # 跑 RNA-FM 的独立解释器（py3.8/3.10 + fairseq 的 conda 环境 python.exe）
+    device: null            # null=自动（有 CUDA 版 torch+显卡则用 GPU；否则 CPU）
+    rnafm_required: true    # true=缺 RNA-FM 资产视为未就绪（graceful skip）
+  ranking:
+    enabled: true
+    require_rules_pass: true
+    require_structure_pass: true   # 仅对结构硬过滤通过者排序（ViennaRNA 缺失时近似仍产生该列）
+    top_n: 50               # 交付 Top-N（结果目录单独汇总）
+  chemmod:
+    enabled: true           # 第六步：对 Top-N 生成化学修饰建议（ESC-19 规则引擎）
+    top_n: 50
+    seed_ome: false         # 旋钮：seed(g2–g8) 全 2′-OMe（默认关）
+
+summary:
+  top_n: 50
+  # 大赛标准结果文件（results/results.csv）的赛道标识；正式赛道名以官网《提交模板》为准
+  track: "siRNA（反义寡核苷酸）靶向序列设计 — SFRP1(NM_003012)"

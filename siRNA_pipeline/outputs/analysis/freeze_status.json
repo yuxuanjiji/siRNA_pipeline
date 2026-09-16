@@ -1,0 +1,8 @@
+{
+  "task": "freeze",
+  "status": "ok",
+  "missing": [],
+  "returncode": 0,
+  "vienna_backend": "python_binding",
+  "results": "D:\\HuaweiMoveData\\Users\\及宇轩\\Desktop\\生科挑战赛\\siRNA_pipeline\\outputs\\results\\results.csv"
+}

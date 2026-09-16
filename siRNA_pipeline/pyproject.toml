@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sirna-pipeline"
+version = "0.1.0"
+description = "SFRP1 靶向 siRNA 计算筛选与综合排序 Pipeline（多级虚拟筛选 + 热力学排序）"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = [
+    "torch>=2.0",        # 热力学最近邻模块（可微计算）
+    "PyYAML>=6.0",       # 配置加载
+]
+
+[project.optional-dependencies]
+analysis = ["numpy", "scipy"]     # 仅错配校准/验证分析脚本需要
+viennarna = ["numpy"]             # ViennaRNA 请用 conda 安装（见 external/README）
+dev = ["pytest"]                  # 单元测试默认用标准库 unittest
+
+[project.scripts]
+sirna-pipeline = "sirna_pipeline.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"sirna_pipeline.stages.toxicity" = ["resources/cell_viability.txt"]

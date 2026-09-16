@@ -1,0 +1,30 @@
+Table s7. Nucleotide sequences of siRNAs conferring less (A) and potent (B) RNAi activity(A)
+RNAi activities
+siPrnp102(T11)
+siAPP(A8)
+siAPP(A10)
+siAPP(A11)
+siAPP(T8)
+siAPP(T11)
+siAPP(G8)
+siAPP(G9)
+siAPP(G11)
+siAPP(G12)
+RNAi activities
+siPrnp102(T9)
+siPrnp102(T10)
+siPrnp105(T10)
+siPrnp105(T11)
+siPrnp105(T12)
+siPrnp178(A7)
+siPrnp178(A8)
+siPrnp178(A9)
+siPrnp178(A10)
+siPrnp178(A11)
+siPrnp178(A12)
+siPrnp105(T9)
+siRNAs conferring little or no RNAi activity (-) and strong RNAi activity against both mutant and wild-type alleles (++) and also allele-specific RNAi (ASP) are grouped and aligned in A and B, respectively. The previous data of assessment of siRNAs 
+ ADDIN EN.CITE <EndNote><Cite><Author>Ohnishi</Author><Year>2006</Year><RecNum>6</RecNum><record><rec-number>6</rec-number><ref-type name="Journal Article">17</ref-type><contributors><authors><author>Ohnishi, Y. </author><author>Tokunaga, K. </author><author>Kaneko, K.</author><author>Hohjoh, H.</author></authors></contributors><titles><title>Assessment of allele-specific gene silencing by RNA inteferences with mutant and wild-type reporter alleles.</title><secondary-title>Journal of RNAi and Gene Silencing</secondary-title></titles><periodical><full-title>Journal of RNAi and Gene Silencing</full-title></periodical><pages>154-160</pages><volume>2</volume><number>1</number><dates><year>2006</year><pub-dates><date>Feb 28</date></pub-dates></dates><urls></urls></record></Cite></EndNote>
+ were also used. The nucleotide sequences of assessed siRNAs are aligned such that the 5
+-ends of the sense-stranded siRNA elements can be matched. Nucleotide potions form the 5
+-end of the sequence are indicated. G or C residues are indicated in gray background.

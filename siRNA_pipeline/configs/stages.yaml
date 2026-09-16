@@ -1,0 +1,86 @@
+# 阶段独立参数（与 pipeline.yaml 同键可覆盖；保持单一事实来源，避免散落硬编码）
+generation:
+  window_len: 19
+  g1_wobble_only: false
+rules: {}
+structure:
+  backend: auto
+  only_passed: true
+  strict_self_fold: false
+thermo: {}
+offtarget:
+  enabled: false
+  external_cmd: null
+  blast:
+    enabled: false          # BLAST 近全长同源脱靶层（BLAST/blast_offtarget.py，默认关）
+    script: null            # null=自动定位工程根 BLAST/blast_offtarget.py
+    python: null
+    blast_bin: null         # NCBI BLAST+ bin 目录（null=PATH 探测）
+    db: null                # BLAST 库前缀（makeblastdb 产物）
+    target_gene: SFRP1
+    min_paired: 17
+    max_mismatch: 1
+    require_no_gaps: false
+    threads: 8
+toxicity:
+  threshold: 50.0
+oligoformer:
+  enabled: true             # 效率辅助分启用（内置 executor；缺模型/RNA-FM 自动 graceful skip）
+  external_cmd: null
+  python: null
+  repo_dir: null            # None=工程根/OligoFormer部分
+  model_path: null          # None=<repo_dir>/model/best_model.pth
+  rnafm_python: null        # 跑 RNA-FM 的独立解释器（py3.8/3.10 conda 环境）
+  device: null              # null=自动（CUDA 版 torch + 显卡 → GPU；否则 CPU）
+  rnafm_required: true
+ranking:
+  require_structure_pass: true
+  norm: minmax
+  seed_kind: seed7
+  top_n: 50
+  # 权重/α/β 依据四基准集（Hu/Taka/Mix/Simone）网格实验：
+  #   outputs/analysis/weighting_sweep.json（2026-09-12）
+  #   旧默认(1,1,1.2,0.8 @ α0.8/β0.2) mean ρ=0.287 / worst=0.096
+  #   新默认(1,1,1.2,0 @ α0.4/β0.6)   mean ρ=0.569 / worst=0.323  ← 采用
+  alpha: 0.4
+  beta: 0.6
+  weights: {feat_mfe: 1.0, feat_ddg_ends: 1.0, feat_dG_duplex: 1.2, feat_dG_seed: 0.0}
+  directions: {feat_mfe: 1, feat_ddg_ends: 1, feat_dG_duplex: -1, feat_dG_seed: -1}
+  penalties: {tox_viability_flag: 0.05, imm_high_flag: 0.10, offtarget_risk: 0.10}
+  aux: {enabled: true, source: oligo_efficacy, direction: 1}
+  # 位置感知错配增强：默认关闭，确保项目原行为不变；如需实验型增强，可改成 true。
+  enhancements: {position_aware_mismatch: false, position_weights: {seed: 2.0, center: 1.0, edges: 0.8}}
+  # ---- 变体层（窗口内排序）：final = (锚点 + 改善通道) × C_match − penalty ----
+  # 窗口层（Q_window = α·thermo+β·oligo）已在四基准集上验证（mean ρ=0.569），负责"选窗口"。
+  # 变体层负责"选变体"；依据（文献精读，见 docs/design/mismatch_literature_basis.md）：
+  #   * 错配**不是纯损失**：Holen 2005（NAR，即本项目 Holen 数据原文）标题即
+  #     "Tolerated wobble mutations ... can enhance activity in vivo"，guide 第 1 位 C→U 摆动
+  #     在 9/9 个 siRNA 中提升活性；AGO2 高通量测得 t15–t21/t17–t21 错配与 t12A 使切割速率上升，
+  #     并建议"引入 g18–g21 错配可能增强敲低"；KRNB 白名单同为 {1,15,17,18,19,20,21}。
+  #   * 最脆弱的是**中央区**：Holen 第 10 位单错配剧烈失活；AGO2 t9–t11 三联使 k_cleave 下降 >500×。
+  #   → 故"改善通道"按位点门控（gain_positions），C_match 只在有代价的位点惩罚。
+  #
+  # λ 逐带来源（fitted=错配集拟合；literature_prior=文献先验）：
+  #   g1       0.0000  literature_prior  n=0；该位在 RISC 中本不配对，且摆动可增益
+  #   seed     0.1786  fitted            n=24（最大样本，不覆盖）
+  #   cleavage 0.3082  literature_prior_over_fit  n=4 拟合与外部证据冲突 → 取中央区最大量级
+  #   g12      0.1500  literature_prior_over_fit  n=2；AGO2 t12 可省/t12A 更快 vs KRNB 9–13 须配对
+  #   mid      0.1685  fitted            n=9（λ(g13)>λ(g12) 与 AGO2 一致）
+  #   p3       0.0000  literature_prior  n=0；3′ 端错配可增益
+  # 类型因子改用 AGO2 的 transition/transversion 轴（其 81 参数模型即此轴×位置），
+  # 该轴在 t12 处符号反转，故分两段；GU 摆动独立成类。**幅度均为先验**（文献只给方向）。
+  # WT 行 Δthermo=0、C_match≡1 → final_score 与旧口径逐位一致；enabled: false 可完全回退。
+  variant_layer:
+    enabled: true
+    anchor: window_wt
+    mech_gain_weight: 1.0
+    gain_positions: [1, 8, 12, 17, 18, 19, 20, 21]
+    lambda_bands: {g1: 0.0000, seed: 0.1786, cleavage: 0.3082, g12: 0.1500, mid: 0.1685, p3: 0.0000}
+    type_factor: {WC: 0.0, GU: 0.5, transition: 0.85, transversion: 1.0}
+    type_factor_3p: {transition: 1.0, transversion: 0.7}
+    multi_mismatch_factor: 0.5       # ≥3 错配近似失活（Holen：三重突变几乎耗尽活性）
+    prior_only_positions: [1, 17, 18, 19]
+    keep_base_score: true
+chemmod:
+  top_n: 50
+  seed_ome: false

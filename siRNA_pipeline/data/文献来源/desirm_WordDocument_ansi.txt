@@ -1,0 +1,75 @@
+Supplementary Data S1siRNAs used in the studysiRNA
+Sequence of sense strand
+Accession number of target gene
+siRNA-4
+5'-GGUUAACAGCGAUCUGAUG-3'
+NM_031132.3
+siRNA-6
+-GGAGUGUAACGAUUACAUC-3'
+NM_031132.3
+siRNA-10
+-GCUUUGUCGUGUGGAGCAU-3'
+NM_021656.1
+siRNA-13
+-GUAACUGAAGGCUCGCUCA-3'
+NM_017301.2
+siRNA-16
+-GUGUCAGUGCGCAGCUGAA-3'
+NM_022266.2
+siRNA-21
+-GGCUCAAGUGAUUCUCCUG-3'
+NM_033109.3
+siRNA-23
+-GGAAGAGUGCAACGAUUAC-3'
+NM_029575.3
+siRNA-25
+-GAACUUUGCUGCUCAGUAU-3'
+NM_053356.1
+siRNA-26
+5'-GCAAAUGGCCUCACUGGUG-3'
+NM_053356.1
+siRNA-35
+-GCAAAUUCACCACGGCAAG-3'
+NM_031764.3
+siRNA-36
+-GCAGGUUAUUGAGAAUACU-3'
+NM_031764.3
+siRNA-37
+-GAGACUCCGUAGACGAAGA-3'
+NM_031524.1
+siRNA-38
+-GAGUCGAGUCGGAAAGCUC-3'
+NM_031524.1
+siRNA-40
+5'-GGAAUCGCAGGCAUCAUGG-3'
+NM_134363.1
+siRNA-50
+-GCAACUCGGACCUGGUUAU-3'
+NM_053819.1
+siRNA-51
+-GGUUUCCGGUUCGCCUACA-3'
+NM_053819.1
+siRNA-58
+-GCAGGUCUCUGUCACGCUU-3'
+NM_031530.1
+siRNA-60
+-GUAUUUGUCACCAAGCUCA-3'
+NM_031530.1
+siRNA-62
+-GAGCGGAAGCGCAUCUAUA-3'
+NM_031525.1
+siRNA-604
+-CUUAUUGGAGAGAGCACGA-3
+NM_172361.1
+Supplementary Data S2 Mismatch discrimination pattern at three guide positionsGene silencing tolerance of single point target mutations was studied by examining the silencing efficacies of 20 siRNAs on their perfectly matched or single nucleotide mismatched targets at three guide positions. The silencing efficacies were aligned in terms of position and then the identity of the mismatched nucleotide in the siRNA guide strand. Measurement variance was sented as error bars. Horizontal axis, siRNA; vertical axis, silencing efficacy displayed as percentage. 
+Supplementary Data S3Average silencing efficacy of the three level tolerancesAll the most tolerant mismatches from figure 1 were grouped and calculated by averaging their silencing efficacy. So it did with the median tolerant and the least tolerant. * (p<0.005) and ** (p<0.001). The paired t-test was used to test the significance of differences between two groups.
+ EMBED Prism5.Document  
+Supplementary Data S4Mismatch tolerance across the whole target site General tolerance profiles across the target site grouped according to the mismatched nucleotide in the siRNA guide strand. Adenine (A), guanine (B), uracil (C), or cytosine (D) in the siRNA guide strand. Horizontal axis, position in the siRNA guide strand. Position 1 refers to the 5
+-most position. Vertical axis, silencing efficacy.
+Supplementary Data S5RNA oligonucleotides used in Tm and CD measurements siRNA guide strand			5'-UCGUGCUCUCUCCAAUAAG-3'WT target	strand			5'-AGCUUAUUGGAGAGAGCACGAUA-3'17C target 	strand			5'-AGCUCAUUGGAGAGAGCACGAUA-3'17A target 	strand			5'-AGCUAAUUGGAGAGAGCACGAUA-3'15C target 	strand			5'-AGCUUACUGGAGAGAGCACGAUA-3'15A target 	strand			5'-AGCUUAAUGGAGAGAGCACGAUA-3'12A target 	strand			5'-AGCUUAUUGAAGAGAGCACGAUA-3'12C target 	strand			5'-AGCUUAUUGCAGAGAGCACGAUA-3'10A target 	strand			5'-AGCUUAUUGGAAAGAGCACGAUA-3'10C target 	strand			5'-AGCUUAUUGGACAGAGCACGAUA-3'09U target 	strand			5'-AGCUUAUUGGAGUGAGCACGAUA-3'09G target 	strand			5'-AGCUUAUUGGAGGGAGCACGAUA-3'06A target 	strand			5'-AGCUUAUUGGAGAGAACACGAUA-3'06C target 	strand			5'-AGCUUAUUGGAGAGACCACGAUA-3'
+PAGE  
+PAGE  
+{l{l{\LD@
+j/T@N
+
+cuVuVuVuF

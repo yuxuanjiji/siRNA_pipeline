@@ -1,0 +1,51 @@
+OligoFormer Proprietary Software License Agreement
+
+Copyright (c) 2024 Tsinghua University. All Rights Reserved.
+
+This software ("OligoFormer: A Precise and Robust siRNA Design Prediction Software, Version 1.0") and its accompanying documentation are protected under Certificate of Software Copyright Registration No. 2024SR0808920 issued by the National Copyright Administration of China.
+
+ 1. License Grant
+
+Subject to payment and compliance with this agreement, Tsinghua University grants you ("Licensee") a non-exclusive, non-transferable license to:
+
+- Use OligoFormer solely for Licensee's internal research or commercial purposes.
+- Install OligoFormer on systems owned or controlled by Licensee.
+
+ 2. Restrictions
+
+Licensee MUST NOT:
+
+- Reverse-engineer, decompile, disassemble, or modify the software.
+- Redistribute, sublicense, sell, lease, or share OligoFormer with third parties.
+- Remove or alter copyright notices, trademarks, or this license agreement.
+- Use OligoFormer to develop competing products.
+
+ 3. Ownership
+
+Tsinghua University retains all intellectual property rights, including but not limited to:
+
+- Copyrights (Registered under No. 2024SR0808920).
+- Patents (if applicable).
+- Trade secrets embodied in the software.
+
+ 4. Warranty Disclaimer
+
+OligoFormer is provided "AS IS" without warranties of merchantability, fitness for a particular purpose, or non-infringement. Tsinghua University shall not be liable for any damages arising from its use.
+
+ 5. Termination
+
+Violation of this agreement terminates the license immediately. Upon termination, Licensee must:
+
+- Cease all use of OligoFormer.
+- Delete all copies of the software.
+
+ 6. Governing Law
+
+This agreement is governed by the laws of the People's Republic of China. Disputes shall be resolved in Beijing courts.
+
+------
+
+To Accept This License:
+By installing or using OligoFormer, you agree to these terms. For inquiries, contact:
+Technology Transfer Office, Tsinghua University
+ott@tsinghua.edu.cn

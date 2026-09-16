@@ -1,0 +1,5091 @@
+{
+  "experiment": "qguide_variant_signal",
+  "purpose": "检验 Q_guide 对单点突变的变化方向是否可信（乘性双信号分解的前提）",
+  "lambda_priors": {
+    "position_anchors": {
+      "g1": 0.05,
+      "g2_8_seed": 0.25,
+      "g9_13_central": 0.3,
+      "g14_18": 0.15,
+      "g19": 0.1
+    },
+    "type": {
+      "WC": 0.0,
+      "GU": 0.5,
+      "PP": 1.0,
+      "YY": 0.8,
+      "PY": 0.8
+    },
+    "note": "文献先验，未拟合；多变体按 Π(1−λp·λt) 连乘"
+  },
+  "seed": 42,
+  "n_boot": 2000,
+  "n_perm": 1000,
+  "scopes": {
+    "all_102": {
+      "alpha1.0_beta0.0": {
+        "tag": "all_102|alpha1.0_beta0.0",
+        "n_rows": 102,
+        "n_pairs": 95,
+        "alpha": 1.0,
+        "beta": 0.0,
+        "thermo_method": "ranker_default_config:feat_dG_duplex<-dG_total,feat_dG_seed<-dG_seed,feat_ddg_ends<-delta_deltaG_ends,feat_mfe<-MFE_guide",
+        "combined": {
+          "n_pairs": 95,
+          "sign_accuracy": 0.4842105263157895,
+          "label_better_base_rate": 0.031578947368421054,
+          "balanced_accuracy": 0.572463768115942,
+          "promoted_n": 50,
+          "promote_precision": 0.04,
+          "spearman_dQ_dlabel": 0.010436552117320811,
+          "recall_variant_better": 0.6666666666666666,
+          "recall_wt_better": 0.4782608695652174,
+          "n_variant_better": 3,
+          "n_wt_better": 92,
+          "sign_accuracy_perm_p": 0.8251748251748252,
+          "sign_accuracy_ci": {
+            "lo": 0.34579439252336447,
+            "hi": 0.6185567010309279,
+            "n_valid": 2000,
+            "n_families": 6
+          }
+        },
+        "thermo_only": {
+          "n_pairs": 95,
+          "sign_accuracy": 0.4842105263157895,
+          "label_better_base_rate": 0.031578947368421054,
+          "balanced_accuracy": 0.572463768115942,
+          "promoted_n": 50,
+          "promote_precision": 0.04,
+          "spearman_dQ_dlabel": 0.010436552117320811,
+          "recall_variant_better": 0.6666666666666666,
+          "recall_wt_better": 0.4782608695652174,
+          "n_variant_better": 3,
+          "n_wt_better": 92,
+          "sign_accuracy_perm_p": 0.8231768231768232,
+          "sign_accuracy_ci": {
+            "lo": 0.34782608695652173,
+            "hi": 0.625,
+            "n_valid": 2000,
+            "n_families": 6
+          }
+        },
+        "dl_only": {
+          "n_pairs": 95,
+          "sign_accuracy": 0.6,
+          "label_better_base_rate": 0.031578947368421054,
+          "balanced_accuracy": 0.47101449275362317,
+          "promoted_n": 37,
+          "promote_precision": 0.02702702702702703,
+          "spearman_dQ_dlabel": -0.10496257335791229,
+          "recall_variant_better": 0.3333333333333333,
+          "recall_wt_better": 0.6086956521739131,
+          "n_variant_better": 3,
+          "n_wt_better": 92,
+          "sign_accuracy_perm_p": 0.7892107892107892,
+          "sign_accuracy_ci": {
+            "lo": 0.4485981308411215,
+            "hi": 0.7804878048780488,
+            "n_valid": 2000,
+            "n_families": 6
+          }
+        },
+        "variance_share": {
+          "var_dThermo": 0.0026790099823412942,
+          "var_dOligo": 0.005622438512521572,
+          "weighted_thermo": 0.0026790099823412942,
+          "weighted_dl": 0.0,
+          "dl_share_of_weighted_variance": 0.0
+        },
+        "sign_agreement_dThermo_dOligo": 0.42105263157894735,
+        "spearman_dThermo_dOligo": -0.3318111521975168,
+        "required_gain_test": {
+          "n_typed_pairs": 92,
+          "n_untyped": 3,
+          "n_pass_requirement": 5,
+          "pass_row_ids": [
+            "66",
+            "2",
+            "14",
+            "15",
+            "17"
+          ],
+          "median_required_rel_gain": 0.33333333333333326,
+          "median_rel_gain": 0.009708077147964176,
+          "by_class": {
+            "g14-18|GU": {
+              "n": 2,
+              "C_median": 0.7030000000000001,
+              "required_rel_gain_median": 0.5444015444015444,
+              "observed_rel_gain_median": 0.10200111968961205,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g14-18|PP": {
+              "n": 12,
+              "C_median": 0.85,
+              "required_rel_gain_median": 0.17647058823529416,
+              "observed_rel_gain_median": 0.052105988499237074,
+              "n_pass": 0,
+              "label_better_frac": 0.08333333333333333
+            },
+            "g14-18|PY": {
+              "n": 3,
+              "C_median": 0.6688000000000001,
+              "required_rel_gain_median": 0.49521531100478455,
+              "observed_rel_gain_median": 0.004276981807797946,
+              "n_pass": 1,
+              "label_better_frac": 0.0
+            },
+            "g14-18|YY": {
+              "n": 9,
+              "C_median": 0.88,
+              "required_rel_gain_median": 0.13636363636363646,
+              "observed_rel_gain_median": 0.027969913930621954,
+              "n_pass": 1,
+              "label_better_frac": 0.0
+            },
+            "g19|GU": {
+              "n": 1,
+              "C_median": 0.95,
+              "required_rel_gain_median": 0.05263157894736836,
+              "observed_rel_gain_median": -0.1338913617000301,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g19|PP": {
+              "n": 1,
+              "C_median": 0.9,
+              "required_rel_gain_median": 0.11111111111111116,
+              "observed_rel_gain_median": -0.12650637989540134,
+              "n_pass": 0,
+              "label_better_frac": 1.0
+            },
+            "g19|WC": {
+              "n": 1,
+              "C_median": 1.0,
+              "required_rel_gain_median": 0.0,
+              "observed_rel_gain_median": 0.26735931635147175,
+              "n_pass": 1,
+              "label_better_frac": 0.0
+            },
+            "g2-8|GU": {
+              "n": 1,
+              "C_median": 0.875,
+              "required_rel_gain_median": 0.1428571428571428,
+              "observed_rel_gain_median": -0.0212632981002371,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g2-8|PP": {
+              "n": 30,
+              "C_median": 0.75,
+              "required_rel_gain_median": 0.5686274509803924,
+              "observed_rel_gain_median": 0.013591308007149614,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g2-8|PY": {
+              "n": 4,
+              "C_median": 0.8,
+              "required_rel_gain_median": 0.6447368421052628,
+              "observed_rel_gain_median": -0.09950779076663252,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g2-8|YY": {
+              "n": 16,
+              "C_median": 0.8,
+              "required_rel_gain_median": 0.47058823529411753,
+              "observed_rel_gain_median": 0.0,
+              "n_pass": 1,
+              "label_better_frac": 0.0
+            },
+            "g9-13|GU": {
+              "n": 10,
+              "C_median": 0.68,
+              "required_rel_gain_median": 0.47058823529411753,
+              "observed_rel_gain_median": 0.0699006995152408,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|PP": {
+              "n": 19,
+              "C_median": 0.5599999999999999,
+              "required_rel_gain_median": 0.7857142857142858,
+              "observed_rel_gain_median": 0.052105988499237074,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|PY": {
+              "n": 8,
+              "C_median": 0.5700000000000001,
+              "required_rel_gain_median": 0.7543859649122806,
+              "observed_rel_gain_median": 0.0,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|WC": {
+              "n": 7,
+              "C_median": 0.85,
+              "required_rel_gain_median": 0.17647058823529416,
+              "observed_rel_gain_median": 0.06001024183782981,
+              "n_pass": 1,
+              "label_better_frac": 0.14285714285714285
+            },
+            "g9-13|YY": {
+              "n": 11,
+              "C_median": 0.6080000000000001,
+              "required_rel_gain_median": 0.6447368421052628,
+              "observed_rel_gain_median": -0.01795994272373367,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            }
+          }
+        }
+      },
+      "alpha0.0_beta1.0": {
+        "tag": "all_102|alpha0.0_beta1.0",
+        "n_rows": 102,
+        "n_pairs": 95,
+        "alpha": 0.0,
+        "beta": 1.0,
+        "thermo_method": "ranker_default_config:feat_dG_duplex<-dG_total,feat_dG_seed<-dG_seed,feat_ddg_ends<-delta_deltaG_ends,feat_mfe<-MFE_guide",
+        "combined": {
+          "n_pairs": 95,
+          "sign_accuracy": 0.6,
+          "label_better_base_rate": 0.031578947368421054,
+          "balanced_accuracy": 0.47101449275362317,
+          "promoted_n": 37,
+          "promote_precision": 0.02702702702702703,
+          "spearman_dQ_dlabel": -0.10496257335791229,
+          "recall_variant_better": 0.3333333333333333,
+          "recall_wt_better": 0.6086956521739131,
+          "n_variant_better": 3,
+          "n_wt_better": 92,
+          "sign_accuracy_perm_p": 0.7732267732267732,
+          "sign_accuracy_ci": {
+            "lo": 0.44545454545454544,
+            "hi": 0.7916666666666666,
+            "n_valid": 2000,
+            "n_families": 6
+          }
+        },
+        "thermo_only": {
+          "n_pairs": 95,
+          "sign_accuracy": 0.4842105263157895,
+          "label_better_base_rate": 0.031578947368421054,
+          "balanced_accuracy": 0.572463768115942,
+          "promoted_n": 50,
+          "promote_precision": 0.04,
+          "spearman_dQ_dlabel": 0.010436552117320811,
+          "recall_variant_better": 0.6666666666666666,
+          "recall_wt_better": 0.4782608695652174,
+          "n_variant_better": 3,
+          "n_wt_better": 92,
+          "sign_accuracy_perm_p": 0.8331668331668332,
+          "sign_accuracy_ci": {
+            "lo": 0.35185185185185186,
+            "hi": 0.6145833333333334,
+            "n_valid": 2000,
+            "n_families": 6
+          }
+        },
+        "dl_only": {
+          "n_pairs": 95,
+          "sign_accuracy": 0.6,
+          "label_better_base_rate": 0.031578947368421054,
+          "balanced_accuracy": 0.47101449275362317,
+          "promoted_n": 37,
+          "promote_precision": 0.02702702702702703,
+          "spearman_dQ_dlabel": -0.10496257335791229,
+          "recall_variant_better": 0.3333333333333333,
+          "recall_wt_better": 0.6086956521739131,
+          "n_variant_better": 3,
+          "n_wt_better": 92,
+          "sign_accuracy_perm_p": 0.7832167832167832,
+          "sign_accuracy_ci": {
+            "lo": 0.4479166666666667,
+            "hi": 0.7916666666666666,
+            "n_valid": 2000,
+            "n_families": 6
+          }
+        },
+        "variance_share": {
+          "var_dThermo": 0.0026790099823412942,
+          "var_dOligo": 0.005622438512521572,
+          "weighted_thermo": 0.0,
+          "weighted_dl": 0.005622438512521572,
+          "dl_share_of_weighted_variance": 1.0
+        },
+        "sign_agreement_dThermo_dOligo": 0.42105263157894735,
+        "spearman_dThermo_dOligo": -0.3318111521975168,
+        "required_gain_test": {
+          "n_typed_pairs": 92,
+          "n_untyped": 3,
+          "n_pass_requirement": 2,
+          "pass_row_ids": [
+            "9",
+            "18"
+          ],
+          "median_required_rel_gain": 0.33333333333333326,
+          "median_rel_gain": -0.017319847479336032,
+          "by_class": {
+            "g14-18|GU": {
+              "n": 2,
+              "C_median": 0.7030000000000001,
+              "required_rel_gain_median": 0.5444015444015444,
+              "observed_rel_gain_median": 0.1448443474762279,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g14-18|PP": {
+              "n": 12,
+              "C_median": 0.85,
+              "required_rel_gain_median": 0.17647058823529416,
+              "observed_rel_gain_median": -0.06585732117336052,
+              "n_pass": 0,
+              "label_better_frac": 0.08333333333333333
+            },
+            "g14-18|PY": {
+              "n": 3,
+              "C_median": 0.6688000000000001,
+              "required_rel_gain_median": 0.49521531100478455,
+              "observed_rel_gain_median": -0.044146758642246535,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g14-18|YY": {
+              "n": 9,
+              "C_median": 0.88,
+              "required_rel_gain_median": 0.13636363636363646,
+              "observed_rel_gain_median": 0.025452081359659075,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g19|GU": {
+              "n": 1,
+              "C_median": 0.95,
+              "required_rel_gain_median": 0.05263157894736836,
+              "observed_rel_gain_median": 0.07905504555993627,
+              "n_pass": 1,
+              "label_better_frac": 0.0
+            },
+            "g19|PP": {
+              "n": 1,
+              "C_median": 0.9,
+              "required_rel_gain_median": 0.11111111111111116,
+              "observed_rel_gain_median": 0.0290682755386398,
+              "n_pass": 0,
+              "label_better_frac": 1.0
+            },
+            "g19|WC": {
+              "n": 1,
+              "C_median": 1.0,
+              "required_rel_gain_median": 0.0,
+              "observed_rel_gain_median": -0.011050671532025741,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g2-8|GU": {
+              "n": 1,
+              "C_median": 0.875,
+              "required_rel_gain_median": 0.1428571428571428,
+              "observed_rel_gain_median": 0.10941606270695917,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g2-8|PP": {
+              "n": 30,
+              "C_median": 0.75,
+              "required_rel_gain_median": 0.5686274509803924,
+              "observed_rel_gain_median": -0.015545327419096953,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g2-8|PY": {
+              "n": 4,
+              "C_median": 0.8,
+              "required_rel_gain_median": 0.6447368421052628,
+              "observed_rel_gain_median": 0.05247690309695715,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g2-8|YY": {
+              "n": 16,
+              "C_median": 0.8,
+              "required_rel_gain_median": 0.47058823529411753,
+              "observed_rel_gain_median": -0.01197397559148609,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|GU": {
+              "n": 10,
+              "C_median": 0.68,
+              "required_rel_gain_median": 0.47058823529411753,
+              "observed_rel_gain_median": -0.01197397559148609,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|PP": {
+              "n": 19,
+              "C_median": 0.5599999999999999,
+              "required_rel_gain_median": 0.7857142857142858,
+              "observed_rel_gain_median": -0.05338303243262307,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|PY": {
+              "n": 8,
+              "C_median": 0.5700000000000001,
+              "required_rel_gain_median": 0.7543859649122806,
+              "observed_rel_gain_median": 0.09779803430417036,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|WC": {
+              "n": 7,
+              "C_median": 0.85,
+              "required_rel_gain_median": 0.17647058823529416,
+              "observed_rel_gain_median": -0.16738220823329986,
+              "n_pass": 1,
+              "label_better_frac": 0.14285714285714285
+            },
+            "g9-13|YY": {
+              "n": 11,
+              "C_median": 0.6080000000000001,
+              "required_rel_gain_median": 0.6447368421052628,
+              "observed_rel_gain_median": -0.00639358913089857,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            }
+          }
+        }
+      },
+      "alpha0.4_beta0.6": {
+        "tag": "all_102|alpha0.4_beta0.6",
+        "n_rows": 102,
+        "n_pairs": 95,
+        "alpha": 0.4,
+        "beta": 0.6,
+        "thermo_method": "ranker_default_config:feat_dG_duplex<-dG_total,feat_dG_seed<-dG_seed,feat_ddg_ends<-delta_deltaG_ends,feat_mfe<-MFE_guide",
+        "combined": {
+          "n_pairs": 95,
+          "sign_accuracy": 0.5578947368421052,
+          "label_better_base_rate": 0.031578947368421054,
+          "balanced_accuracy": 0.28804347826086957,
+          "promoted_n": 39,
+          "promote_precision": 0.0,
+          "spearman_dQ_dlabel": -0.08196417260748888,
+          "recall_variant_better": 0.0,
+          "recall_wt_better": 0.5760869565217391,
+          "n_variant_better": 3,
+          "n_wt_better": 92,
+          "sign_accuracy_perm_p": 1.0,
+          "sign_accuracy_ci": {
+            "lo": 0.3763440860215054,
+            "hi": 0.7395833333333334,
+            "n_valid": 2000,
+            "n_families": 6
+          }
+        },
+        "thermo_only": {
+          "n_pairs": 95,
+          "sign_accuracy": 0.4842105263157895,
+          "label_better_base_rate": 0.031578947368421054,
+          "balanced_accuracy": 0.572463768115942,
+          "promoted_n": 50,
+          "promote_precision": 0.04,
+          "spearman_dQ_dlabel": 0.010436552117320811,
+          "recall_variant_better": 0.6666666666666666,
+          "recall_wt_better": 0.4782608695652174,
+          "n_variant_better": 3,
+          "n_wt_better": 92,
+          "sign_accuracy_perm_p": 0.8581418581418582,
+          "sign_accuracy_ci": {
+            "lo": 0.34782608695652173,
+            "hi": 0.6326530612244898,
+            "n_valid": 2000,
+            "n_families": 6
+          }
+        },
+        "dl_only": {
+          "n_pairs": 95,
+          "sign_accuracy": 0.6,
+          "label_better_base_rate": 0.031578947368421054,
+          "balanced_accuracy": 0.47101449275362317,
+          "promoted_n": 37,
+          "promote_precision": 0.02702702702702703,
+          "spearman_dQ_dlabel": -0.10496257335791229,
+          "recall_variant_better": 0.3333333333333333,
+          "recall_wt_better": 0.6086956521739131,
+          "n_variant_better": 3,
+          "n_wt_better": 92,
+          "sign_accuracy_perm_p": 0.7792207792207793,
+          "sign_accuracy_ci": {
+            "lo": 0.45161290322580644,
+            "hi": 0.7876106194690266,
+            "n_valid": 2000,
+            "n_families": 6
+          }
+        },
+        "variance_share": {
+          "var_dThermo": 0.0026790099823412942,
+          "var_dOligo": 0.005622438512521572,
+          "weighted_thermo": 0.0004286415971746072,
+          "weighted_dl": 0.0020240778645077657,
+          "dl_share_of_weighted_variance": 0.8252382288838722
+        },
+        "sign_agreement_dThermo_dOligo": 0.42105263157894735,
+        "spearman_dThermo_dOligo": -0.3318111521975168,
+        "required_gain_test": {
+          "n_typed_pairs": 92,
+          "n_untyped": 3,
+          "n_pass_requirement": 2,
+          "pass_row_ids": [
+            "9",
+            "17"
+          ],
+          "median_required_rel_gain": 0.33333333333333326,
+          "median_rel_gain": -0.009120341613047209,
+          "by_class": {
+            "g14-18|GU": {
+              "n": 2,
+              "C_median": 0.7030000000000001,
+              "required_rel_gain_median": 0.5444015444015444,
+              "observed_rel_gain_median": 0.1282606099011228,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g14-18|PP": {
+              "n": 12,
+              "C_median": 0.85,
+              "required_rel_gain_median": 0.17647058823529416,
+              "observed_rel_gain_median": -0.0387886113904619,
+              "n_pass": 0,
+              "label_better_frac": 0.08333333333333333
+            },
+            "g14-18|PY": {
+              "n": 3,
+              "C_median": 0.6688000000000001,
+              "required_rel_gain_median": 0.49521531100478455,
+              "observed_rel_gain_median": 0.017619812206656836,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g14-18|YY": {
+              "n": 9,
+              "C_median": 0.88,
+              "required_rel_gain_median": 0.13636363636363646,
+              "observed_rel_gain_median": 0.01557398167505943,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g19|GU": {
+              "n": 1,
+              "C_median": 0.95,
+              "required_rel_gain_median": 0.05263157894736836,
+              "observed_rel_gain_median": -0.0036008631423278467,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g19|PP": {
+              "n": 1,
+              "C_median": 0.9,
+              "required_rel_gain_median": 0.11111111111111116,
+              "observed_rel_gain_median": -0.031318582739009976,
+              "n_pass": 0,
+              "label_better_frac": 1.0
+            },
+            "g19|WC": {
+              "n": 1,
+              "C_median": 1.0,
+              "required_rel_gain_median": 0.0,
+              "observed_rel_gain_median": 0.09701515984968569,
+              "n_pass": 1,
+              "label_better_frac": 0.0
+            },
+            "g2-8|GU": {
+              "n": 1,
+              "C_median": 0.875,
+              "required_rel_gain_median": 0.1428571428571428,
+              "observed_rel_gain_median": 0.05869240197403395,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g2-8|PP": {
+              "n": 30,
+              "C_median": 0.75,
+              "required_rel_gain_median": 0.5686274509803924,
+              "observed_rel_gain_median": -0.008243058168154628,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g2-8|PY": {
+              "n": 4,
+              "C_median": 0.8,
+              "required_rel_gain_median": 0.6447368421052628,
+              "observed_rel_gain_median": 0.0038206185052905785,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g2-8|YY": {
+              "n": 16,
+              "C_median": 0.8,
+              "required_rel_gain_median": 0.47058823529411753,
+              "observed_rel_gain_median": 0.01321181331581966,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|GU": {
+              "n": 10,
+              "C_median": 0.68,
+              "required_rel_gain_median": 0.47058823529411753,
+              "observed_rel_gain_median": -0.039668852933463186,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|PP": {
+              "n": 19,
+              "C_median": 0.5599999999999999,
+              "required_rel_gain_median": 0.7857142857142858,
+              "observed_rel_gain_median": -0.0342067666078918,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|PY": {
+              "n": 8,
+              "C_median": 0.5700000000000001,
+              "required_rel_gain_median": 0.7543859649122806,
+              "observed_rel_gain_median": 0.07401252340205852,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|WC": {
+              "n": 7,
+              "C_median": 0.85,
+              "required_rel_gain_median": 0.17647058823529416,
+              "observed_rel_gain_median": -0.07554649309077745,
+              "n_pass": 1,
+              "label_better_frac": 0.14285714285714285
+            },
+            "g9-13|YY": {
+              "n": 11,
+              "C_median": 0.6080000000000001,
+              "required_rel_gain_median": 0.6447368421052628,
+              "observed_rel_gain_median": -0.006192034201793478,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            }
+          }
+        }
+      },
+      "_pairs_head": [
+        {
+          "row_id": "2",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-5U",
+          "n_mismatch": 1,
+          "positions": [
+            15
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.7211076603300206,
+          "q_wt": 0.7617780152197765,
+          "dQ": -0.0406703548897559,
+          "rel_gain": -0.053388722274982314,
+          "label_variant": 0.989555,
+          "label_wt": 1.0,
+          "dl": -0.010445000000000038,
+          "C_match": 0.85,
+          "required_rel_gain": 0.17647058823529416
+        },
+        {
+          "row_id": "3",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-6U",
+          "n_mismatch": 1,
+          "positions": [
+            14
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.7322297038216192,
+          "q_wt": 0.7617780152197765,
+          "dQ": -0.02954831139815728,
+          "rel_gain": -0.0387886113904619,
+          "label_variant": 0.940627,
+          "label_wt": 1.0,
+          "dl": -0.05937300000000001,
+          "C_match": 0.85,
+          "required_rel_gain": 0.17647058823529416
+        },
+        {
+          "row_id": "4",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-7C",
+          "n_mismatch": 1,
+          "positions": [
+            13
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.6905373653783429,
+          "q_wt": 0.7617780152197765,
+          "dQ": -0.07124064984143363,
+          "rel_gain": -0.09351891025744603,
+          "label_variant": 0.942276,
+          "label_wt": 1.0,
+          "dl": -0.057724,
+          "C_match": 0.7,
+          "required_rel_gain": 0.4285714285714286
+        },
+        {
+          "row_id": "5",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-12C",
+          "n_mismatch": 1,
+          "positions": [
+            8
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.7306806703488349,
+          "q_wt": 0.7617780152197765,
+          "dQ": -0.031097344870941623,
+          "rel_gain": -0.04082205609723443,
+          "label_variant": 0.97746,
+          "label_wt": 1.0,
+          "dl": -0.022540000000000004,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "6",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-13A",
+          "n_mismatch": 1,
+          "positions": [
+            7
+          ],
+          "types": [
+            "U:U"
+          ],
+          "q_variant": 0.7338145792715759,
+          "q_wt": 0.7617780152197765,
+          "dQ": -0.02796343594820061,
+          "rel_gain": -0.03670811626157658,
+          "label_variant": 0.988455,
+          "label_wt": 1.0,
+          "dl": -0.011545000000000027,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "7",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-14U",
+          "n_mismatch": 1,
+          "positions": [
+            6
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.7431939827063192,
+          "q_wt": 0.7617780152197765,
+          "dQ": -0.018584032513457305,
+          "rel_gain": -0.024395601004704403,
+          "label_variant": 0.987356,
+          "label_wt": 1.0,
+          "dl": -0.012643999999999989,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "8",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-15U",
+          "n_mismatch": 1,
+          "positions": [
+            5
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.7390325775307891,
+          "q_wt": 0.7617780152197765,
+          "dQ": -0.022745437688987402,
+          "rel_gain": -0.029858354054002514,
+          "label_variant": 0.995602,
+          "label_wt": 1.0,
+          "dl": -0.004398000000000013,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "9",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-16C",
+          "n_mismatch": 1,
+          "positions": [
+            4
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.7350552560669015,
+          "q_wt": 0.7617780152197765,
+          "dQ": -0.02672275915287503,
+          "rel_gain": -0.035079457032066476,
+          "label_variant": 0.93293,
+          "label_wt": 1.0,
+          "dl": -0.06706999999999996,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "10",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-17G",
+          "n_mismatch": 1,
+          "positions": [
+            3
+          ],
+          "types": [
+            "C:C"
+          ],
+          "q_variant": 0.7718424841449558,
+          "q_wt": 0.7617780152197765,
+          "dQ": 0.010064468925179315,
+          "rel_gain": 0.01321181331581966,
+          "label_variant": 0.982958,
+          "label_wt": 1.0,
+          "dl": -0.017042,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "11",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)",
+          "n_mismatch": 1,
+          "positions": [
+            11
+          ],
+          "types": [
+            "A:G"
+          ],
+          "q_variant": 0.774084323924754,
+          "q_wt": 0.7617780152197765,
+          "dQ": 0.012306308704977509,
+          "rel_gain": 0.016154717593716696,
+          "label_variant": 0.885102,
+          "label_wt": 1.0,
+          "dl": -0.11489799999999994,
+          "C_match": 0.7,
+          "required_rel_gain": 0.4285714285714286
+        },
+        {
+          "row_id": "12",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-5U",
+          "n_mismatch": 2,
+          "positions": [
+            11,
+            15
+          ],
+          "types": [
+            "A:A",
+            "A:G"
+          ],
+          "q_variant": 0.7334654445175808,
+          "q_wt": 0.7617780152197765,
+          "dQ": -0.028312570702195727,
+          "rel_gain": -0.03716643186929911,
+          "label_variant": 0.747664,
+          "label_wt": 1.0,
+          "dl": -0.252336,
+          "C_match": 0.595,
+          "required_rel_gain": 0.680672268907563
+        },
+        {
+          "row_id": "13",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-6U",
+          "n_mismatch": 2,
+          "positions": [
+            11,
+            14
+          ],
+          "types": [
+            "A:A",
+            "A:G"
+          ],
+          "q_variant": 0.7450408272592346,
+          "q_wt": 0.7617780152197765,
+          "dQ": -0.01673718796054191,
+          "rel_gain": -0.021971214220081102,
+          "label_variant": 0.687191,
+          "label_wt": 1.0,
+          "dl": -0.312809,
+          "C_match": 0.595,
+          "required_rel_gain": 0.680672268907563
+        },
+        {
+          "row_id": "14",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-7C",
+          "n_mismatch": 2,
+          "positions": [
+            11,
+            13
+          ],
+          "types": [
+            "G:G",
+            "A:G"
+          ],
+          "q_variant": 0.7046874430353209,
+          "q_wt": 0.7617780152197765,
+          "dQ": -0.05709057218445557,
+          "rel_gain": -0.07494384327694817,
+          "label_variant": 0.685542,
+          "label_wt": 1.0,
+          "dl": -0.314458,
+          "C_match": 0.48999999999999994,
+          "required_rel_gain": 1.0408163265306127
+        },
+        {
+          "row_id": "15",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-12C",
+          "n_mismatch": 2,
+          "positions": [
+            8,
+            11
+          ],
+          "types": [
+            "G:G",
+            "A:G"
+          ],
+          "q_variant": 0.7434096696832039,
+          "q_wt": 0.7617780152197765,
+          "dQ": -0.018368345536572628,
+          "rel_gain": -0.024112464746404206,
+          "label_variant": 0.443101,
+          "label_wt": 1.0,
+          "dl": -0.556899,
+          "C_match": 0.5249999999999999,
+          "required_rel_gain": 0.9047619047619051
+        },
+        {
+          "row_id": "16",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-13A",
+          "n_mismatch": 2,
+          "positions": [
+            7,
+            11
+          ],
+          "types": [
+            "U:U",
+            "A:G"
+          ],
+          "q_variant": 0.7466209693314827,
+          "q_wt": 0.7617780152197765,
+          "dQ": -0.015157045888293808,
+          "rel_gain": -0.01989693268310051,
+          "label_variant": 0.566245,
+          "label_wt": 1.0,
+          "dl": -0.433755,
+          "C_match": 0.5599999999999999,
+          "required_rel_gain": 0.7857142857142858
+        },
+        {
+          "row_id": "17",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-14U",
+          "n_mismatch": 2,
+          "positions": [
+            6,
+            11
+          ],
+          "types": [
+            "A:A",
+            "A:G"
+          ],
+          "q_variant": 0.7554986347290985,
+          "q_wt": 0.7617780152197765,
+          "dQ": -0.006279380490677999,
+          "rel_gain": -0.008243058168154628,
+          "label_variant": 0.391424,
+          "label_wt": 1.0,
+          "dl": -0.608576,
+          "C_match": 0.5249999999999999,
+          "required_rel_gain": 0.9047619047619051
+        },
+        {
+          "row_id": "18",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-15U",
+          "n_mismatch": 2,
+          "positions": [
+            5,
+            11
+          ],
+          "types": [
+            "A:A",
+            "A:G"
+          ],
+          "q_variant": 0.7514650307517047,
+          "q_wt": 0.7617780152197765,
+          "dQ": -0.010312984468071829,
+          "rel_gain": -0.013538044236018657,
+          "label_variant": 0.678944,
+          "label_wt": 1.0,
+          "dl": -0.321056,
+          "C_match": 0.5249999999999999,
+          "required_rel_gain": 0.9047619047619051
+        },
+        {
+          "row_id": "19",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-16C",
+          "n_mismatch": 2,
+          "positions": [
+            4,
+            11
+          ],
+          "types": [
+            "G:G",
+            "A:G"
+          ],
+          "q_variant": 0.7479217600237094,
+          "q_wt": 0.7617780152197765,
+          "dQ": -0.013856255196067147,
+          "rel_gain": -0.0181893608363974,
+          "label_variant": 0.534909,
+          "label_wt": 1.0,
+          "dl": -0.46509100000000003,
+          "C_match": 0.5249999999999999,
+          "required_rel_gain": 0.9047619047619051
+        },
+        {
+          "row_id": "20",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-17G",
+          "n_mismatch": 2,
+          "positions": [
+            3,
+            11
+          ],
+          "types": [
+            "C:C",
+            "A:G"
+          ],
+          "q_variant": 0.7842345853209043,
+          "q_wt": 0.7617780152197765,
+          "dQ": 0.022456570101127782,
+          "rel_gain": 0.02947915226281367,
+          "label_variant": 0.431006,
+          "label_wt": 1.0,
+          "dl": -0.568994,
+          "C_match": 0.5599999999999999,
+          "required_rel_gain": 0.7857142857142858
+        },
+        {
+          "row_id": "22",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-5A",
+          "n_mismatch": 1,
+          "positions": [
+            15
+          ],
+          "types": [
+            "U:U"
+          ],
+          "q_variant": 0.8107583498871523,
+          "q_wt": 0.7983252471178024,
+          "dQ": 0.012433102769349946,
+          "rel_gain": 0.01557398167505943,
+          "label_variant": 0.7768,
+          "label_wt": 0.997801,
+          "dl": -0.221001,
+          "C_match": 0.88,
+          "required_rel_gain": 0.13636363636363646
+        },
+        {
+          "row_id": "23",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-6U",
+          "n_mismatch": 1,
+          "positions": [
+            14
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.7591188998293811,
+          "q_wt": 0.7983252471178024,
+          "dQ": -0.03920634728842132,
+          "rel_gain": -0.04911074456177878,
+          "label_variant": 0.740517,
+          "label_wt": 0.997801,
+          "dl": -0.25728400000000007,
+          "C_match": 0.85,
+          "required_rel_gain": 0.17647058823529416
+        },
+        {
+          "row_id": "24",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-8C",
+          "n_mismatch": 1,
+          "positions": [
+            13
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.7561118013667485,
+          "q_wt": 0.7983252471178024,
+          "dQ": -0.0422134457510539,
+          "rel_gain": -0.05287750312727465,
+          "label_variant": 0.868059,
+          "label_wt": 0.997801,
+          "dl": -0.12974200000000002,
+          "C_match": 0.7,
+          "required_rel_gain": 0.4285714285714286
+        },
+        {
+          "row_id": "25",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-12U",
+          "n_mismatch": 1,
+          "positions": [
+            8
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.7947810657676433,
+          "q_wt": 0.7983252471178024,
+          "dQ": -0.0035441813501591035,
+          "rel_gain": -0.0044395205625209514,
+          "label_variant": 0.806487,
+          "label_wt": 0.997801,
+          "dl": -0.1913140000000001,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "26",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-13U",
+          "n_mismatch": 1,
+          "positions": [
+            7
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.8091558605313441,
+          "q_wt": 0.7983252471178024,
+          "dQ": 0.010830613413541745,
+          "rel_gain": 0.013566667786899592,
+          "label_variant": 0.708631,
+          "label_wt": 0.997801,
+          "dl": -0.28917000000000004,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "27",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-14U",
+          "n_mismatch": 1,
+          "positions": [
+            6
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.7837439224751479,
+          "q_wt": 0.7983252471178024,
+          "dQ": -0.014581324642654492,
+          "rel_gain": -0.01826489227955338,
+          "label_variant": 0.815833,
+          "label_wt": 0.997801,
+          "dl": -0.18196800000000002,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "28",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-15U",
+          "n_mismatch": 1,
+          "positions": [
+            5
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.7946650375555565,
+          "q_wt": 0.7983252471178024,
+          "dQ": -0.0036602095622458863,
+          "rel_gain": -0.004584860087364591,
+          "label_variant": 0.923035,
+          "label_wt": 0.997801,
+          "dl": -0.074766,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "29",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-16U",
+          "n_mismatch": 1,
+          "positions": [
+            4
+          ],
+          "types": [
+            "A:C"
+          ],
+          "q_variant": 0.7975219083053744,
+          "q_wt": 0.7983252471178024,
+          "dQ": -0.0008033388124280005,
+          "rel_gain": -0.0010062801036648892,
+          "label_variant": 0.831226,
+          "label_wt": 0.997801,
+          "dl": -0.16657500000000003,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "30",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-17U",
+          "n_mismatch": 1,
+          "positions": [
+            3
+          ],
+          "types": [
+            "A:C"
+          ],
+          "q_variant": 0.7971262126113214,
+          "q_wt": 0.7983252471178024,
+          "dQ": -0.001199034506480956,
+          "rel_gain": -0.0015019373504844501,
+          "label_variant": 0.790544,
+          "label_wt": 0.997801,
+          "dl": -0.20725700000000002,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "31",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)",
+          "n_mismatch": 1,
+          "positions": [
+            10
+          ],
+          "types": [
+            "U:U"
+          ],
+          "q_variant": 0.7958929932142758,
+          "q_wt": 0.7983252471178024,
+          "dQ": -0.0024322539035266377,
+          "rel_gain": -0.0030466954569053355,
+          "label_variant": 0.913139,
+          "label_wt": 0.997801,
+          "dl": -0.08466200000000002,
+          "C_match": 0.76,
+          "required_rel_gain": 0.3157894736842106
+        },
+        {
+          "row_id": "32",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-5A",
+          "n_mismatch": 2,
+          "positions": [
+            10,
+            15
+          ],
+          "types": [
+            "U:U",
+            "U:U"
+          ],
+          "q_variant": 0.7873599544260483,
+          "q_wt": 0.7983252471178024,
+          "dQ": -0.010965292691754058,
+          "rel_gain": -0.013735370052922802,
+          "label_variant": 0.573942,
+          "label_wt": 0.997801,
+          "dl": -0.4238590000000001,
+          "C_match": 0.6688000000000001,
+          "required_rel_gain": 0.49521531100478455
+        },
+        {
+          "row_id": "33",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-6U",
+          "n_mismatch": 2,
+          "positions": [
+            10,
+            14
+          ],
+          "types": [
+            "A:A",
+            "U:U"
+          ],
+          "q_variant": 0.7514577753514777,
+          "q_wt": 0.7983252471178024,
+          "dQ": -0.046867471766324664,
+          "rel_gain": -0.05870723985685099,
+          "label_variant": 0.529412,
+          "label_wt": 0.997801,
+          "dl": -0.46838900000000006,
+          "C_match": 0.616,
+          "required_rel_gain": 0.6233766233766234
+        },
+        {
+          "row_id": "34",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-8C",
+          "n_mismatch": 2,
+          "positions": [
+            10,
+            13
+          ],
+          "types": [
+            "G:G",
+            "U:U"
+          ],
+          "q_variant": 0.7609101369166646,
+          "q_wt": 0.7983252471178024,
+          "dQ": -0.03741511020113775,
+          "rel_gain": -0.04686700105779907,
+          "label_variant": 0.624519,
+          "label_wt": 0.997801,
+          "dl": -0.373282,
+          "C_match": 0.5319999999999999,
+          "required_rel_gain": 0.879699248120301
+        },
+        {
+          "row_id": "35",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-12U",
+          "n_mismatch": 2,
+          "positions": [
+            8,
+            10
+          ],
+          "types": [
+            "A:A",
+            "U:U"
+          ],
+          "q_variant": 0.7848781218263974,
+          "q_wt": 0.7983252471178024,
+          "dQ": -0.013447125291405015,
+          "rel_gain": -0.01684416888975169,
+          "label_variant": 0.704233,
+          "label_wt": 0.997801,
+          "dl": -0.29356800000000005,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "36",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-13U",
+          "n_mismatch": 2,
+          "positions": [
+            7,
+            10
+          ],
+          "types": [
+            "A:A",
+            "U:U"
+          ],
+          "q_variant": 0.7933819898834937,
+          "q_wt": 0.7983252471178024,
+          "dQ": -0.004943257234308662,
+          "rel_gain": -0.006192034201793478,
+          "label_variant": 0.374931,
+          "label_wt": 0.997801,
+          "dl": -0.62287,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "37",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-14U",
+          "n_mismatch": 2,
+          "positions": [
+            6,
+            10
+          ],
+          "types": [
+            "A:A",
+            "U:U"
+          ],
+          "q_variant": 0.7825185615529094,
+          "q_wt": 0.7983252471178024,
+          "dQ": -0.015806685564892953,
+          "rel_gain": -0.019799806685257555,
+          "label_variant": 0.0,
+          "label_wt": 0.997801,
+          "dl": -0.997801,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "38",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-15U",
+          "n_mismatch": 2,
+          "positions": [
+            5,
+            10
+          ],
+          "types": [
+            "A:A",
+            "U:U"
+          ],
+          "q_variant": 0.7858867441579096,
+          "q_wt": 0.7983252471178024,
+          "dQ": -0.012438502959892794,
+          "rel_gain": -0.015580746074108996,
+          "label_variant": 0.425509,
+          "label_wt": 0.997801,
+          "dl": -0.572292,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "39",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-16U",
+          "n_mismatch": 2,
+          "positions": [
+            4,
+            10
+          ],
+          "types": [
+            "A:C",
+            "U:U"
+          ],
+          "q_variant": 0.8013753433301813,
+          "q_wt": 0.7983252471178024,
+          "dQ": 0.00305009621237895,
+          "rel_gain": 0.0038206185052905785,
+          "label_variant": 0.693788,
+          "label_wt": 0.997801,
+          "dl": -0.3040130000000001,
+          "C_match": 0.6080000000000001,
+          "required_rel_gain": 0.6447368421052628
+        },
+        {
+          "row_id": "40",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-17U",
+          "n_mismatch": 2,
+          "positions": [
+            3,
+            10
+          ],
+          "types": [
+            "A:C",
+            "U:U"
+          ],
+          "q_variant": 0.8027152589074841,
+          "q_wt": 0.7983252471178024,
+          "dQ": 0.00439001178968168,
+          "rel_gain": 0.005499026625464949,
+          "label_variant": 0.601429,
+          "label_wt": 0.997801,
+          "dl": -0.39637200000000006,
+          "C_match": 0.6080000000000001,
+          "required_rel_gain": 0.6447368421052628
+        },
+        {
+          "row_id": "42",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-5G",
+          "n_mismatch": 1,
+          "positions": [
+            15
+          ],
+          "types": [
+            "C:C"
+          ],
+          "q_variant": 0.45105318234455927,
+          "q_wt": 0.4255910946606629,
+          "dQ": 0.02546208768389635,
+          "rel_gain": 0.05982758568808417,
+          "label_variant": 0.537658,
+          "label_wt": 0.961517,
+          "dl": -0.423859,
+          "C_match": 0.88,
+          "required_rel_gain": 0.13636363636363646
+        },
+        {
+          "row_id": "43",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-6U",
+          "n_mismatch": 1,
+          "positions": [
+            14
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.3916869747128935,
+          "q_wt": 0.4255910946606629,
+          "dQ": -0.03390411994776943,
+          "rel_gain": -0.07966360286462817,
+          "label_variant": 0.82243,
+          "label_wt": 0.961517,
+          "dl": -0.13908699999999996,
+          "C_match": 0.85,
+          "required_rel_gain": 0.17647058823529416
+        },
+        {
+          "row_id": "44",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-8C",
+          "n_mismatch": 1,
+          "positions": [
+            12
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.352065343464175,
+          "q_wt": 0.4255910946606629,
+          "dQ": -0.07352575119648791,
+          "rel_gain": -0.17276148894777107,
+          "label_variant": 0.462342,
+          "label_wt": 0.961517,
+          "dl": -0.499175,
+          "C_match": 0.7,
+          "required_rel_gain": 0.4285714285714286
+        },
+        {
+          "row_id": "45",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-12U",
+          "n_mismatch": 1,
+          "positions": [
+            8
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.4093336516036431,
+          "q_wt": 0.4255910946606629,
+          "dQ": -0.016257443057019816,
+          "rel_gain": -0.03819967866099826,
+          "label_variant": 0.693238,
+          "label_wt": 0.961517,
+          "dl": -0.26827899999999993,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "46",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-13C",
+          "n_mismatch": 1,
+          "positions": [
+            7
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.47389036246629845,
+          "q_wt": 0.4255910946606629,
+          "dQ": 0.04829926780563554,
+          "rel_gain": 0.11348749635879024,
+          "label_variant": 0.940077,
+          "label_wt": 0.961517,
+          "dl": -0.021439999999999904,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "47",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-14A",
+          "n_mismatch": 1,
+          "positions": [
+            6
+          ],
+          "types": [
+            "U:U"
+          ],
+          "q_variant": 0.4377611399638488,
+          "q_wt": 0.4255910946606629,
+          "dQ": 0.012170045303185884,
+          "rel_gain": 0.028595629598146176,
+          "label_variant": 0.826278,
+          "label_wt": 0.961517,
+          "dl": -0.135239,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "48",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-15U",
+          "n_mismatch": 1,
+          "positions": [
+            5
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.4166917896081921,
+          "q_wt": 0.4255910946606629,
+          "dQ": -0.00889930505247083,
+          "rel_gain": -0.020910458804516394,
+          "label_variant": 0.589335,
+          "label_wt": 0.961517,
+          "dl": -0.3721819999999999,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "49",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-16U",
+          "n_mismatch": 1,
+          "positions": [
+            4
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.4369826586727331,
+          "q_wt": 0.4255910946606629,
+          "dQ": 0.011391564012070199,
+          "rel_gain": 0.026766452952106643,
+          "label_variant": 0.765256,
+          "label_wt": 0.961517,
+          "dl": -0.1962609999999999,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "50",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-17C",
+          "n_mismatch": 1,
+          "positions": [
+            3
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.4605580289164346,
+          "q_wt": 0.4255910946606629,
+          "dQ": 0.03496693425577169,
+          "rel_gain": 0.08216086918748128,
+          "label_variant": 0.223749,
+          "label_wt": 0.961517,
+          "dl": -0.737768,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "51",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)",
+          "n_mismatch": 1,
+          "positions": [
+            10
+          ],
+          "types": [
+            "A:C"
+          ],
+          "q_variant": 0.4469176829307612,
+          "q_wt": 0.4255910946606629,
+          "dQ": 0.021326588270098257,
+          "rel_gain": 0.05011051344272749,
+          "label_variant": 0.925234,
+          "label_wt": 0.961517,
+          "dl": -0.036282999999999954,
+          "C_match": 0.76,
+          "required_rel_gain": 0.3157894736842106
+        },
+        {
+          "row_id": "52",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-5G",
+          "n_mismatch": 2,
+          "positions": [
+            10,
+            15
+          ],
+          "types": [
+            "C:C",
+            "A:C"
+          ],
+          "q_variant": 0.4722481827143544,
+          "q_wt": 0.4255910946606629,
+          "dQ": 0.04665708805369151,
+          "rel_gain": 0.10962891056471157,
+          "label_variant": 0.514568,
+          "label_wt": 0.961517,
+          "dl": -0.44694899999999993,
+          "C_match": 0.6688000000000001,
+          "required_rel_gain": 0.49521531100478455
+        },
+        {
+          "row_id": "53",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-6U",
+          "n_mismatch": 2,
+          "positions": [
+            10,
+            14
+          ],
+          "types": [
+            "A:A",
+            "A:C"
+          ],
+          "q_variant": 0.41103299941520843,
+          "q_wt": 0.4255910946606629,
+          "dQ": -0.014558095245454483,
+          "rel_gain": -0.0342067666078918,
+          "label_variant": 0.520616,
+          "label_wt": 0.961517,
+          "dl": -0.440901,
+          "C_match": 0.616,
+          "required_rel_gain": 0.6233766233766234
+        },
+        {
+          "row_id": "54",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-8C",
+          "n_mismatch": 2,
+          "positions": [
+            10,
+            12
+          ],
+          "types": [
+            "G:G",
+            "A:C"
+          ],
+          "q_variant": 0.3719199696012951,
+          "q_wt": 0.4255910946606629,
+          "dQ": -0.05367112505936783,
+          "rel_gain": -0.12610960551738398,
+          "label_variant": 0.463991,
+          "label_wt": 0.961517,
+          "dl": -0.49752599999999997,
+          "C_match": 0.5319999999999999,
+          "required_rel_gain": 0.879699248120301
+        },
+        {
+          "row_id": "55",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-12U",
+          "n_mismatch": 2,
+          "positions": [
+            8,
+            10
+          ],
+          "types": [
+            "A:A",
+            "A:C"
+          ],
+          "q_variant": 0.4306217811798579,
+          "q_wt": 0.4255910946606629,
+          "dQ": 0.005030686519194971,
+          "rel_gain": 0.011820469418435776,
+          "label_variant": 0.409016,
+          "label_wt": 0.961517,
+          "dl": -0.5525009999999999,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "56",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-13C",
+          "n_mismatch": 2,
+          "positions": [
+            7,
+            10
+          ],
+          "types": [
+            "G:G",
+            "A:C"
+          ],
+          "q_variant": 0.4941687442427942,
+          "q_wt": 0.4255910946606629,
+          "dQ": 0.0685776495821313,
+          "rel_gain": 0.1611350670690382,
+          "label_variant": 0.532161,
+          "label_wt": 0.961517,
+          "dl": -0.42935599999999996,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "57",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-14A",
+          "n_mismatch": 2,
+          "positions": [
+            6,
+            10
+          ],
+          "types": [
+            "U:U",
+            "A:C"
+          ],
+          "q_variant": 0.45993275448940163,
+          "q_wt": 0.4255910946606629,
+          "dQ": 0.03434165982873871,
+          "rel_gain": 0.08069167860789096,
+          "label_variant": 0.401869,
+          "label_wt": 0.961517,
+          "dl": -0.5596479999999999,
+          "C_match": 0.6080000000000001,
+          "required_rel_gain": 0.6447368421052628
+        },
+        {
+          "row_id": "58",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-15U",
+          "n_mismatch": 2,
+          "positions": [
+            5,
+            10
+          ],
+          "types": [
+            "A:A",
+            "A:C"
+          ],
+          "q_variant": 0.4377753189329461,
+          "q_wt": 0.4255910946606629,
+          "dQ": 0.012184224272283162,
+          "rel_gain": 0.028628945542194733,
+          "label_variant": 0.139087,
+          "label_wt": 0.961517,
+          "dl": -0.82243,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "59",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-16U",
+          "n_mismatch": 2,
+          "positions": [
+            4,
+            10
+          ],
+          "types": [
+            "A:A",
+            "A:C"
+          ],
+          "q_variant": 0.45709016551394294,
+          "q_wt": 0.4255910946606629,
+          "dQ": 0.03149907085328002,
+          "rel_gain": 0.07401252340205852,
+          "label_variant": 0.448598,
+          "label_wt": 0.961517,
+          "dl": -0.5129189999999999,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "60",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-17C",
+          "n_mismatch": 2,
+          "positions": [
+            3,
+            10
+          ],
+          "types": [
+            "G:G",
+            "A:C"
+          ],
+          "q_variant": 0.48196023289543016,
+          "q_wt": 0.4255910946606629,
+          "dQ": 0.056369138234767246,
+          "rel_gain": 0.1324490548368079,
+          "label_variant": 0.328202,
+          "label_wt": 0.961517,
+          "dl": -0.633315,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "62",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-5C",
+          "n_mismatch": 1,
+          "positions": [
+            15
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.5403160954859595,
+          "q_wt": 0.5328779653584924,
+          "dQ": 0.00743813012746708,
+          "rel_gain": 0.013958411889789992,
+          "label_variant": 0.827378,
+          "label_wt": 0.948873,
+          "dl": -0.12149500000000002,
+          "C_match": 0.85,
+          "required_rel_gain": 0.17647058823529416
+        },
+        {
+          "row_id": "63",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-6G",
+          "n_mismatch": 1,
+          "positions": [
+            14
+          ],
+          "types": [
+            "C:C"
+          ],
+          "q_variant": 0.5791457862035669,
+          "q_wt": 0.5328779653584924,
+          "dQ": 0.046267820845074525,
+          "rel_gain": 0.0868262976757689,
+          "label_variant": 0.730621,
+          "label_wt": 0.948873,
+          "dl": -0.218252,
+          "C_match": 0.88,
+          "required_rel_gain": 0.13636363636363646
+        },
+        {
+          "row_id": "64",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-12A",
+          "n_mismatch": 1,
+          "positions": [
+            8
+          ],
+          "types": [
+            "U:U"
+          ],
+          "q_variant": 0.5422777067692207,
+          "q_wt": 0.5328779653584924,
+          "dQ": 0.009399741410728302,
+          "rel_gain": 0.017639576078933284,
+          "label_variant": 0.715778,
+          "label_wt": 0.948873,
+          "dl": -0.23309499999999994,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "65",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-13C",
+          "n_mismatch": 1,
+          "positions": [
+            7
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.5914642446835932,
+          "q_wt": 0.5328779653584924,
+          "dQ": 0.05858627932510074,
+          "rel_gain": 0.10994314483558532,
+          "label_variant": 0.900495,
+          "label_wt": 0.948873,
+          "dl": -0.04837799999999992,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "66",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-14G",
+          "n_mismatch": 1,
+          "positions": [
+            6
+          ],
+          "types": [
+            "C:C"
+          ],
+          "q_variant": 0.48408941460336297,
+          "q_wt": 0.5328779653584924,
+          "dQ": -0.048788550755129445,
+          "rel_gain": -0.09155670514975611,
+          "label_variant": 0.546454,
+          "label_wt": 0.948873,
+          "dl": -0.40241899999999997,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "67",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-15C",
+          "n_mismatch": 1,
+          "positions": [
+            5
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.49729552397539745,
+          "q_wt": 0.5328779653584924,
+          "dQ": -0.035582441383094965,
+          "rel_gain": -0.0667740903100712,
+          "label_variant": 0.814733,
+          "label_wt": 0.948873,
+          "dl": -0.13413999999999993,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "68",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-16A",
+          "n_mismatch": 1,
+          "positions": [
+            4
+          ],
+          "types": [
+            "U:U"
+          ],
+          "q_variant": 0.48621425491431947,
+          "q_wt": 0.5328779653584924,
+          "dQ": -0.046663710444172946,
+          "rel_gain": -0.08756922499653376,
+          "label_variant": 0.811435,
+          "label_wt": 0.948873,
+          "dl": -0.13743799999999995,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "69",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-17G",
+          "n_mismatch": 1,
+          "positions": [
+            3
+          ],
+          "types": [
+            "C:C"
+          ],
+          "q_variant": 0.526429329902535,
+          "q_wt": 0.5328779653584924,
+          "dQ": -0.006448635455957419,
+          "rel_gain": -0.012101523942013843,
+          "label_variant": 0.62232,
+          "label_wt": 0.948873,
+          "dl": -0.326553,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "70",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)",
+          "n_mismatch": 1,
+          "positions": [
+            11
+          ],
+          "types": [
+            "U:G"
+          ],
+          "q_variant": 0.5486713534215055,
+          "q_wt": 0.5328779653584924,
+          "dQ": 0.015793388063013114,
+          "rel_gain": 0.029637907907091164,
+          "label_variant": 0.914788,
+          "label_wt": 0.948873,
+          "dl": -0.03408499999999992,
+          "C_match": 0.85,
+          "required_rel_gain": 0.17647058823529416
+        },
+        {
+          "row_id": "71",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-5C",
+          "n_mismatch": 2,
+          "positions": [
+            11,
+            15
+          ],
+          "types": [
+            "G:G",
+            "U:G"
+          ],
+          "q_variant": 0.552394373719818,
+          "q_wt": 0.5328779653584924,
+          "dQ": 0.01951640836132562,
+          "rel_gain": 0.036624536254179704,
+          "label_variant": 0.738318,
+          "label_wt": 0.948873,
+          "dl": -0.21055499999999994,
+          "C_match": 0.6475,
+          "required_rel_gain": 0.5444015444015444
+        },
+        {
+          "row_id": "72",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-6G",
+          "n_mismatch": 2,
+          "positions": [
+            11,
+            14
+          ],
+          "types": [
+            "C:C",
+            "U:G"
+          ],
+          "q_variant": 0.601225218198242,
+          "q_wt": 0.5328779653584924,
+          "dQ": 0.06834725283974963,
+          "rel_gain": 0.1282606099011228,
+          "label_variant": 0.397471,
+          "label_wt": 0.948873,
+          "dl": -0.551402,
+          "C_match": 0.7030000000000001,
+          "required_rel_gain": 0.42247510668563293
+        },
+        {
+          "row_id": "73",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-12A",
+          "n_mismatch": 2,
+          "positions": [
+            8,
+            11
+          ],
+          "types": [
+            "U:U",
+            "U:G"
+          ],
+          "q_variant": 0.5594156107704041,
+          "q_wt": 0.5328779653584924,
+          "dQ": 0.026537645411911726,
+          "rel_gain": 0.04980060564909751,
+          "label_variant": 0.804838,
+          "label_wt": 0.948873,
+          "dl": -0.1440349999999999,
+          "C_match": 0.68,
+          "required_rel_gain": 0.47058823529411753
+        },
+        {
+          "row_id": "74",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-13C",
+          "n_mismatch": 2,
+          "positions": [
+            7,
+            11
+          ],
+          "types": [
+            "G:G",
+            "U:G"
+          ],
+          "q_variant": 0.6112669220003597,
+          "q_wt": 0.5328779653584924,
+          "dQ": 0.07838895664186729,
+          "rel_gain": 0.14710489406168503,
+          "label_variant": 0.629467,
+          "label_wt": 0.948873,
+          "dl": -0.31940599999999997,
+          "C_match": 0.6375,
+          "required_rel_gain": 0.5686274509803924
+        },
+        {
+          "row_id": "75",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-14G",
+          "n_mismatch": 2,
+          "positions": [
+            6,
+            11
+          ],
+          "types": [
+            "C:C",
+            "U:G"
+          ],
+          "q_variant": 0.4977566877340486,
+          "q_wt": 0.5328779653584924,
+          "dQ": -0.035121277624443836,
+          "rel_gain": -0.06590866935324691,
+          "label_variant": 0.523914,
+          "label_wt": 0.948873,
+          "dl": -0.424959,
+          "C_match": 0.68,
+          "required_rel_gain": 0.47058823529411753
+        },
+        {
+          "row_id": "76",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-15C",
+          "n_mismatch": 2,
+          "positions": [
+            5,
+            11
+          ],
+          "types": [
+            "G:G",
+            "U:G"
+          ],
+          "q_variant": 0.5117393077192033,
+          "q_wt": 0.5328779653584924,
+          "dQ": -0.021138657639289127,
+          "rel_gain": -0.039668852933463186,
+          "label_variant": 0.473337,
+          "label_wt": 0.948873,
+          "dl": -0.47553599999999996,
+          "C_match": 0.6375,
+          "required_rel_gain": 0.5686274509803924
+        },
+        {
+          "row_id": "77",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-16A",
+          "n_mismatch": 2,
+          "positions": [
+            4,
+            11
+          ],
+          "types": [
+            "U:U",
+            "U:G"
+          ],
+          "q_variant": 0.5044498292061618,
+          "q_wt": 0.5328779653584924,
+          "dQ": -0.02842813615233064,
+          "rel_gain": -0.053348304866022524,
+          "label_variant": 0.657504,
+          "label_wt": 0.948873,
+          "dl": -0.291369,
+          "C_match": 0.68,
+          "required_rel_gain": 0.47058823529411753
+        },
+        {
+          "row_id": "78",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-17G",
+          "n_mismatch": 2,
+          "positions": [
+            3,
+            11
+          ],
+          "types": [
+            "C:C",
+            "U:G"
+          ],
+          "q_variant": 0.5460237386001165,
+          "q_wt": 0.5328779653584924,
+          "dQ": 0.013145773241624137,
+          "rel_gain": 0.024669387920328717,
+          "label_variant": 0.498076,
+          "label_wt": 0.948873,
+          "dl": -0.45079699999999995,
+          "C_match": 0.68,
+          "required_rel_gain": 0.47058823529411753
+        },
+        {
+          "row_id": "1",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-w3i",
+          "n_mismatch": 1,
+          "positions": [
+            17
+          ],
+          "types": [
+            "G:A"
+          ],
+          "q_variant": 0.655488436393114,
+          "q_wt": 0.6775780592048197,
+          "dQ": -0.022089622811705678,
+          "rel_gain": -0.03260085315871832,
+          "label_variant": 0.8,
+          "label_wt": 0.713,
+          "dl": 0.08700000000000008,
+          "C_match": 0.85,
+          "required_rel_gain": 0.17647058823529416
+        },
+        {
+          "row_id": "2",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-w7i",
+          "n_mismatch": 1,
+          "positions": [
+            13
+          ],
+          "types": [
+            "G:C"
+          ],
+          "q_variant": 0.6263894130366404,
+          "q_wt": 0.6775780592048197,
+          "dQ": -0.05118864616817931,
+          "rel_gain": -0.07554649309077745,
+          "label_variant": 0.784,
+          "label_wt": 0.713,
+          "dl": 0.07100000000000006,
+          "C_match": 1.0,
+          "required_rel_gain": 0.0
+        },
+        {
+          "row_id": "3",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-w10i",
+          "n_mismatch": 1,
+          "positions": [
+            10
+          ],
+          "types": [
+            "G:U"
+          ],
+          "q_variant": 0.5915702048342191,
+          "q_wt": 0.6775780592048197,
+          "dQ": -0.08600785437060066,
+          "rel_gain": -0.12693423761615932,
+          "label_variant": 0.36,
+          "label_wt": 0.713,
+          "dl": -0.353,
+          "C_match": 0.85,
+          "required_rel_gain": 0.17647058823529416
+        },
+        {
+          "row_id": "4",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-w3/7i",
+          "n_mismatch": 2,
+          "positions": [
+            13,
+            17
+          ],
+          "types": [
+            "G:C",
+            "G:A"
+          ],
+          "q_variant": 0.5894752062444599,
+          "q_wt": 0.6775780592048197,
+          "dQ": -0.0881028529603598,
+          "rel_gain": -0.13002613021996906,
+          "label_variant": 0.712,
+          "label_wt": 0.713,
+          "dl": -0.0010000000000000009,
+          "C_match": 0.85,
+          "required_rel_gain": 0.17647058823529416
+        },
+        {
+          "row_id": "5",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-w7/10i",
+          "n_mismatch": 2,
+          "positions": [
+            10,
+            13
+          ],
+          "types": [
+            "G:U",
+            "G:C"
+          ],
+          "q_variant": 0.5574306302129328,
+          "q_wt": 0.6775780592048197,
+          "dQ": -0.1201474289918869,
+          "rel_gain": -0.1773189485103568,
+          "label_variant": 0.256,
+          "label_wt": 0.713,
+          "dl": -0.45699999999999996,
+          "C_match": 0.85,
+          "required_rel_gain": 0.17647058823529416
+        },
+        {
+          "row_id": "6",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-w3/7/10i",
+          "n_mismatch": 3,
+          "positions": [
+            10,
+            13,
+            17
+          ],
+          "types": [
+            "G:U",
+            "G:C",
+            "G:A"
+          ],
+          "q_variant": 0.5212274400187621,
+          "q_wt": 0.6775780592048197,
+          "dQ": -0.15635061918605764,
+          "rel_gain": -0.23074923554866117,
+          "label_variant": 0.272,
+          "label_wt": 0.713,
+          "dl": -0.44099999999999995,
+          "C_match": 0.7224999999999999,
+          "required_rel_gain": 0.3840830449826991
+        },
+        {
+          "row_id": "7",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-w2i",
+          "n_mismatch": 1,
+          "positions": [
+            18
+          ],
+          "types": [
+            "U:C"
+          ],
+          "q_variant": 0.7014468928825309,
+          "q_wt": 0.6775780592048197,
+          "dQ": 0.0238688336777112,
+          "rel_gain": 0.035226692118281944,
+          "label_variant": 0.692,
+          "label_wt": 0.713,
+          "dl": -0.02100000000000002,
+          "C_match": 0.88,
+          "required_rel_gain": 0.13636363636363646
+        },
+        {
+          "row_id": "8",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-w6i",
+          "n_mismatch": 1,
+          "positions": [
+            15
+          ],
+          "types": [
+            "U:C"
+          ],
+          "q_variant": 0.7010655898631877,
+          "q_wt": 0.6775780592048197,
+          "dQ": 0.02348753065836795,
+          "rel_gain": 0.034663948071063634,
+          "label_variant": 0.608,
+          "label_wt": 0.713,
+          "dl": -0.10499999999999998,
+          "C_match": 0.88,
+          "required_rel_gain": 0.13636363636363646
+        },
+        {
+          "row_id": "9",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-w9i",
+          "n_mismatch": 1,
+          "positions": [
+            12
+          ],
+          "types": [
+            "U:A"
+          ],
+          "q_variant": 0.6942774892170426,
+          "q_wt": 0.6775780592048197,
+          "dQ": 0.01669943001222285,
+          "rel_gain": 0.02464576558429397,
+          "label_variant": 0.25,
+          "label_wt": 0.713,
+          "dl": -0.46299999999999997,
+          "C_match": 1.0,
+          "required_rel_gain": 0.0
+        },
+        {
+          "row_id": "10",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-w16i",
+          "n_mismatch": 1,
+          "positions": [
+            4
+          ],
+          "types": [
+            "U:G"
+          ],
+          "q_variant": 0.7173467430244548,
+          "q_wt": 0.6775780592048197,
+          "dQ": 0.03976868381963505,
+          "rel_gain": 0.05869240197403395,
+          "label_variant": 0.283,
+          "label_wt": 0.713,
+          "dl": -0.43,
+          "C_match": 0.875,
+          "required_rel_gain": 0.1428571428571428
+        },
+        {
+          "row_id": "11",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-w19i",
+          "n_mismatch": 1,
+          "positions": [
+            3
+          ],
+          "types": [
+            "U:U"
+          ],
+          "q_variant": 0.7497291342992152,
+          "q_wt": 0.6775780592048197,
+          "dQ": 0.07215107509439544,
+          "rel_gain": 0.10648378310695192,
+          "label_variant": 0.525,
+          "label_wt": 0.713,
+          "dl": -0.18799999999999994,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "12",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-w2/3/7i",
+          "n_mismatch": 3,
+          "positions": [
+            13,
+            17,
+            18
+          ],
+          "types": [
+            "G:C",
+            "G:A",
+            "U:C"
+          ],
+          "q_variant": 0.6459414124748899,
+          "q_wt": 0.6775780592048197,
+          "dQ": -0.03163664672992983,
+          "rel_gain": -0.04669077798513342,
+          "label_variant": 0.333,
+          "label_wt": 0.713,
+          "dl": -0.37999999999999995,
+          "C_match": 0.748,
+          "required_rel_gain": 0.33689839572192515
+        },
+        {
+          "row_id": "13",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-w3/7/19i",
+          "n_mismatch": 3,
+          "positions": [
+            3,
+            13,
+            17
+          ],
+          "types": [
+            "U:U",
+            "G:C",
+            "G:A"
+          ],
+          "q_variant": 0.6625904336659363,
+          "q_wt": 0.6775780592048197,
+          "dQ": -0.014987625538883442,
+          "rel_gain": -0.022119407993334908,
+          "label_variant": 0.242,
+          "label_wt": 0.713,
+          "dl": -0.471,
+          "C_match": 0.68,
+          "required_rel_gain": 0.47058823529411753
+        },
+        {
+          "row_id": "14",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-m3Ci",
+          "n_mismatch": 1,
+          "positions": [
+            17
+          ],
+          "types": [
+            "C:A"
+          ],
+          "q_variant": 0.6895168573633597,
+          "q_wt": 0.6775780592048197,
+          "dQ": 0.011938798158539932,
+          "rel_gain": 0.017619812206656836,
+          "label_variant": 0.4,
+          "label_wt": 0.713,
+          "dl": -0.31299999999999994,
+          "C_match": 0.88,
+          "required_rel_gain": 0.13636363636363646
+        },
+        {
+          "row_id": "15",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-m7Ci",
+          "n_mismatch": 1,
+          "positions": [
+            15
+          ],
+          "types": [
+            "C:C"
+          ],
+          "q_variant": 0.6713983158353662,
+          "q_wt": 0.6775780592048197,
+          "dQ": -0.006179743369453483,
+          "rel_gain": -0.009120341613047209,
+          "label_variant": 0.517,
+          "label_wt": 0.713,
+          "dl": -0.19599999999999995,
+          "C_match": 0.88,
+          "required_rel_gain": 0.13636363636363646
+        },
+        {
+          "row_id": "16",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-m1Ai",
+          "n_mismatch": 1,
+          "positions": [
+            19
+          ],
+          "types": [
+            "A:G"
+          ],
+          "q_variant": 0.6563572746954758,
+          "q_wt": 0.6775780592048197,
+          "dQ": -0.02122078450934395,
+          "rel_gain": -0.031318582739009976,
+          "label_variant": 0.717,
+          "label_wt": 0.713,
+          "dl": 0.0040000000000000036,
+          "C_match": 0.9,
+          "required_rel_gain": 0.11111111111111116
+        },
+        {
+          "row_id": "17",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-m1Ci",
+          "n_mismatch": 1,
+          "positions": [
+            19
+          ],
+          "types": [
+            "C:G"
+          ],
+          "q_variant": 0.7433134029292151,
+          "q_wt": 0.6775780592048197,
+          "dQ": 0.06573534372439538,
+          "rel_gain": 0.09701515984968569,
+          "label_variant": 0.7,
+          "label_wt": 0.713,
+          "dl": -0.013000000000000012,
+          "C_match": 1.0,
+          "required_rel_gain": 0.0
+        },
+        {
+          "row_id": "18",
+          "dataset": "Holen_2005",
+          "family": "Fe775i",
+          "sirna_id": "Fe775i-m1Ui",
+          "n_mismatch": 1,
+          "positions": [
+            19
+          ],
+          "types": [
+            "U:G"
+          ],
+          "q_variant": 0.6751381933453791,
+          "q_wt": 0.6775780592048197,
+          "dQ": -0.002439865859440671,
+          "rel_gain": -0.0036008631423278467,
+          "label_variant": 0.692,
+          "label_wt": 0.713,
+          "dl": -0.02100000000000002,
+          "C_match": 0.95,
+          "required_rel_gain": 0.05263157894736836
+        },
+        {
+          "row_id": "2",
+          "dataset": "Kini_2009",
+          "family": "396",
+          "sirna_id": "396-AG",
+          "n_mismatch": 1,
+          "positions": [],
+          "types": [],
+          "q_variant": 0.33640192633211297,
+          "q_wt": 0.31989774111380337,
+          "dQ": 0.016504185218309597,
+          "rel_gain": 0.05159206551708112,
+          "label_variant": 0.9273,
+          "label_wt": 1.0,
+          "dl": -0.07269999999999999,
+          "C_match": null,
+          "required_rel_gain": null
+        },
+        {
+          "row_id": "3",
+          "dataset": "Kini_2009",
+          "family": "396",
+          "sirna_id": "396-UG",
+          "n_mismatch": 1,
+          "positions": [],
+          "types": [],
+          "q_variant": 0.41081980421777275,
+          "q_wt": 0.31989774111380337,
+          "dQ": 0.09092206310396939,
+          "rel_gain": 0.2842222729907428,
+          "label_variant": 0.4057,
+          "label_wt": 1.0,
+          "dl": -0.5943,
+          "C_match": null,
+          "required_rel_gain": null
+        },
+        {
+          "row_id": "4",
+          "dataset": "Kini_2009",
+          "family": "396",
+          "sirna_id": "396-GG",
+          "n_mismatch": 1,
+          "positions": [],
+          "types": [],
+          "q_variant": 0.15,
+          "q_wt": 0.31989774111380337,
+          "dQ": -0.16989774111380337,
+          "rel_gain": -0.5311001588265745,
+          "label_variant": 0.3187,
+          "label_wt": 1.0,
+          "dl": -0.6813,
+          "C_match": null,
+          "required_rel_gain": null
+        }
+      ]
+    },
+    "ohnishi_78": {
+      "alpha1.0_beta0.0": {
+        "tag": "ohnishi_78|alpha1.0_beta0.0",
+        "n_rows": 78,
+        "n_pairs": 74,
+        "alpha": 1.0,
+        "beta": 0.0,
+        "thermo_method": "ranker_default_config:feat_dG_duplex<-dG_total,feat_dG_seed<-dG_seed,feat_ddg_ends<-delta_deltaG_ends,feat_mfe<-MFE_guide",
+        "combined": {
+          "n_pairs": 74,
+          "sign_accuracy": 0.527027027027027,
+          "label_better_base_rate": 0.0,
+          "balanced_accuracy": null,
+          "promoted_n": 35,
+          "promote_precision": 0.0,
+          "spearman_dQ_dlabel": 0.010323742126501938,
+          "recall_variant_better": null,
+          "recall_wt_better": 0.527027027027027,
+          "n_variant_better": 0,
+          "n_wt_better": 74,
+          "sign_accuracy_perm_p": 1.0,
+          "sign_accuracy_ci": {
+            "lo": 0.37142857142857144,
+            "hi": 0.6710526315789473,
+            "n_valid": 2000,
+            "n_families": 4
+          }
+        },
+        "thermo_only": {
+          "n_pairs": 74,
+          "sign_accuracy": 0.527027027027027,
+          "label_better_base_rate": 0.0,
+          "balanced_accuracy": null,
+          "promoted_n": 35,
+          "promote_precision": 0.0,
+          "spearman_dQ_dlabel": 0.010323742126501938,
+          "recall_variant_better": null,
+          "recall_wt_better": 0.527027027027027,
+          "n_variant_better": 0,
+          "n_wt_better": 74,
+          "sign_accuracy_perm_p": 1.0,
+          "sign_accuracy_ci": {
+            "lo": 0.37142857142857144,
+            "hi": 0.6710526315789473,
+            "n_valid": 2000,
+            "n_families": 4
+          }
+        },
+        "dl_only": {
+          "n_pairs": 74,
+          "sign_accuracy": 0.6081081081081081,
+          "label_better_base_rate": 0.0,
+          "balanced_accuracy": null,
+          "promoted_n": 29,
+          "promote_precision": 0.0,
+          "spearman_dQ_dlabel": -0.16661977045538687,
+          "recall_variant_better": null,
+          "recall_wt_better": 0.6081081081081081,
+          "n_variant_better": 0,
+          "n_wt_better": 74,
+          "sign_accuracy_perm_p": 1.0,
+          "sign_accuracy_ci": {
+            "lo": 0.4166666666666667,
+            "hi": 0.8378378378378378,
+            "n_valid": 2000,
+            "n_families": 4
+          }
+        },
+        "variance_share": {
+          "var_dThermo": 0.005703146749664518,
+          "var_dOligo": 0.005070730516093656,
+          "weighted_thermo": 0.005703146749664518,
+          "weighted_dl": 0.0,
+          "dl_share_of_weighted_variance": 0.0
+        },
+        "sign_agreement_dThermo_dOligo": 0.4864864864864865,
+        "spearman_dThermo_dOligo": -0.1935553319090859,
+        "required_gain_test": {
+          "n_typed_pairs": 74,
+          "n_untyped": 0,
+          "n_pass_requirement": 5,
+          "pass_row_ids": [
+            "62",
+            "63",
+            "65",
+            "66",
+            "75"
+          ],
+          "median_required_rel_gain": 0.4285714285714286,
+          "median_rel_gain": 0.0,
+          "by_class": {
+            "g14-18|GU": {
+              "n": 2,
+              "C_median": 0.7030000000000001,
+              "required_rel_gain_median": 0.5444015444015444,
+              "observed_rel_gain_median": 0.21409797793425525,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g14-18|PP": {
+              "n": 7,
+              "C_median": 0.85,
+              "required_rel_gain_median": 0.17647058823529416,
+              "observed_rel_gain_median": -0.057698058456733585,
+              "n_pass": 1,
+              "label_better_frac": 0.0
+            },
+            "g14-18|PY": {
+              "n": 2,
+              "C_median": 0.6688000000000001,
+              "required_rel_gain_median": 0.6233766233766234,
+              "observed_rel_gain_median": 0.0054491687802499895,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g14-18|YY": {
+              "n": 5,
+              "C_median": 0.88,
+              "required_rel_gain_median": 0.13636363636363646,
+              "observed_rel_gain_median": -0.015220433869839324,
+              "n_pass": 1,
+              "label_better_frac": 0.0
+            },
+            "g2-8|PP": {
+              "n": 30,
+              "C_median": 0.75,
+              "required_rel_gain_median": 0.5686274509803924,
+              "observed_rel_gain_median": 0.014695591322603115,
+              "n_pass": 1,
+              "label_better_frac": 0.0
+            },
+            "g2-8|PY": {
+              "n": 4,
+              "C_median": 0.8,
+              "required_rel_gain_median": 0.6447368421052628,
+              "observed_rel_gain_median": -0.10759272218334505,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g2-8|YY": {
+              "n": 14,
+              "C_median": 0.8,
+              "required_rel_gain_median": 0.47058823529411753,
+              "observed_rel_gain_median": 0.0,
+              "n_pass": 2,
+              "label_better_frac": 0.0
+            },
+            "g9-13|GU": {
+              "n": 7,
+              "C_median": 0.68,
+              "required_rel_gain_median": 0.47058823529411753,
+              "observed_rel_gain_median": 0.037579545882441584,
+              "n_pass": 1,
+              "label_better_frac": 0.0
+            },
+            "g9-13|PP": {
+              "n": 19,
+              "C_median": 0.5599999999999999,
+              "required_rel_gain_median": 0.7857142857142858,
+              "observed_rel_gain_median": 0.08571077304197022,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|PY": {
+              "n": 8,
+              "C_median": 0.5700000000000001,
+              "required_rel_gain_median": 0.7543859649122806,
+              "observed_rel_gain_median": 0.0,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|YY": {
+              "n": 11,
+              "C_median": 0.6080000000000001,
+              "required_rel_gain_median": 0.6447368421052628,
+              "observed_rel_gain_median": -0.01941917424772573,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            }
+          }
+        }
+      },
+      "alpha0.0_beta1.0": {
+        "tag": "ohnishi_78|alpha0.0_beta1.0",
+        "n_rows": 78,
+        "n_pairs": 74,
+        "alpha": 0.0,
+        "beta": 1.0,
+        "thermo_method": "ranker_default_config:feat_dG_duplex<-dG_total,feat_dG_seed<-dG_seed,feat_ddg_ends<-delta_deltaG_ends,feat_mfe<-MFE_guide",
+        "combined": {
+          "n_pairs": 74,
+          "sign_accuracy": 0.6081081081081081,
+          "label_better_base_rate": 0.0,
+          "balanced_accuracy": null,
+          "promoted_n": 29,
+          "promote_precision": 0.0,
+          "spearman_dQ_dlabel": -0.16661977045538687,
+          "recall_variant_better": null,
+          "recall_wt_better": 0.6081081081081081,
+          "n_variant_better": 0,
+          "n_wt_better": 74,
+          "sign_accuracy_perm_p": 1.0,
+          "sign_accuracy_ci": {
+            "lo": 0.4166666666666667,
+            "hi": 0.868421052631579,
+            "n_valid": 2000,
+            "n_families": 4
+          }
+        },
+        "thermo_only": {
+          "n_pairs": 74,
+          "sign_accuracy": 0.527027027027027,
+          "label_better_base_rate": 0.0,
+          "balanced_accuracy": null,
+          "promoted_n": 35,
+          "promote_precision": 0.0,
+          "spearman_dQ_dlabel": 0.010323742126501938,
+          "recall_variant_better": null,
+          "recall_wt_better": 0.527027027027027,
+          "n_variant_better": 0,
+          "n_wt_better": 74,
+          "sign_accuracy_perm_p": 1.0,
+          "sign_accuracy_ci": {
+            "lo": 0.37142857142857144,
+            "hi": 0.6973684210526315,
+            "n_valid": 2000,
+            "n_families": 4
+          }
+        },
+        "dl_only": {
+          "n_pairs": 74,
+          "sign_accuracy": 0.6081081081081081,
+          "label_better_base_rate": 0.0,
+          "balanced_accuracy": null,
+          "promoted_n": 29,
+          "promote_precision": 0.0,
+          "spearman_dQ_dlabel": -0.16661977045538687,
+          "recall_variant_better": null,
+          "recall_wt_better": 0.6081081081081081,
+          "n_variant_better": 0,
+          "n_wt_better": 74,
+          "sign_accuracy_perm_p": 1.0,
+          "sign_accuracy_ci": {
+            "lo": 0.4166666666666667,
+            "hi": 0.8378378378378378,
+            "n_valid": 2000,
+            "n_families": 4
+          }
+        },
+        "variance_share": {
+          "var_dThermo": 0.005703146749664518,
+          "var_dOligo": 0.005070730516093656,
+          "weighted_thermo": 0.0,
+          "weighted_dl": 0.005070730516093656,
+          "dl_share_of_weighted_variance": 1.0
+        },
+        "sign_agreement_dThermo_dOligo": 0.4864864864864865,
+        "spearman_dThermo_dOligo": -0.1935553319090859,
+        "required_gain_test": {
+          "n_typed_pairs": 74,
+          "n_untyped": 0,
+          "n_pass_requirement": 4,
+          "pass_row_ids": [
+            "42",
+            "46",
+            "52",
+            "56"
+          ],
+          "median_required_rel_gain": 0.4285714285714286,
+          "median_rel_gain": -0.02011706644749136,
+          "by_class": {
+            "g14-18|GU": {
+              "n": 2,
+              "C_median": 0.7030000000000001,
+              "required_rel_gain_median": 0.5444015444015444,
+              "observed_rel_gain_median": 0.22558533701422742,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g14-18|PP": {
+              "n": 7,
+              "C_median": 0.85,
+              "required_rel_gain_median": 0.17647058823529416,
+              "observed_rel_gain_median": -0.06504321582559121,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g14-18|PY": {
+              "n": 2,
+              "C_median": 0.6688000000000001,
+              "required_rel_gain_median": 0.6233766233766234,
+              "observed_rel_gain_median": 0.5166676240003079,
+              "n_pass": 1,
+              "label_better_frac": 0.0
+            },
+            "g14-18|YY": {
+              "n": 5,
+              "C_median": 0.88,
+              "required_rel_gain_median": 0.13636363636363646,
+              "observed_rel_gain_median": 0.035547013375720866,
+              "n_pass": 1,
+              "label_better_frac": 0.0
+            },
+            "g2-8|PP": {
+              "n": 30,
+              "C_median": 0.75,
+              "required_rel_gain_median": 0.5686274509803924,
+              "observed_rel_gain_median": -0.02011706644749136,
+              "n_pass": 2,
+              "label_better_frac": 0.0
+            },
+            "g2-8|PY": {
+              "n": 4,
+              "C_median": 0.8,
+              "required_rel_gain_median": 0.6447368421052628,
+              "observed_rel_gain_median": 0.0679098817348284,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g2-8|YY": {
+              "n": 14,
+              "C_median": 0.8,
+              "required_rel_gain_median": 0.47058823529411753,
+              "observed_rel_gain_median": -0.01864866227968505,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|GU": {
+              "n": 7,
+              "C_median": 0.68,
+              "required_rel_gain_median": 0.47058823529411753,
+              "observed_rel_gain_median": 0.05659399805087166,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|PP": {
+              "n": 19,
+              "C_median": 0.5599999999999999,
+              "required_rel_gain_median": 0.7857142857142858,
+              "observed_rel_gain_median": -0.07565697348454067,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|PY": {
+              "n": 8,
+              "C_median": 0.5700000000000001,
+              "required_rel_gain_median": 0.7543859649122806,
+              "observed_rel_gain_median": 0.24074447607355987,
+              "n_pass": 1,
+              "label_better_frac": 0.0
+            },
+            "g9-13|YY": {
+              "n": 11,
+              "C_median": 0.6080000000000001,
+              "required_rel_gain_median": 0.6447368421052628,
+              "observed_rel_gain_median": -0.008273885387980864,
+              "n_pass": 1,
+              "label_better_frac": 0.0
+            }
+          }
+        }
+      },
+      "alpha0.4_beta0.6": {
+        "tag": "ohnishi_78|alpha0.4_beta0.6",
+        "n_rows": 78,
+        "n_pairs": 74,
+        "alpha": 0.4,
+        "beta": 0.6,
+        "thermo_method": "ranker_default_config:feat_dG_duplex<-dG_total,feat_dG_seed<-dG_seed,feat_ddg_ends<-delta_deltaG_ends,feat_mfe<-MFE_guide",
+        "combined": {
+          "n_pairs": 74,
+          "sign_accuracy": 0.5945945945945946,
+          "label_better_base_rate": 0.0,
+          "balanced_accuracy": null,
+          "promoted_n": 30,
+          "promote_precision": 0.0,
+          "spearman_dQ_dlabel": -0.11848944835246203,
+          "recall_variant_better": null,
+          "recall_wt_better": 0.5945945945945946,
+          "n_variant_better": 0,
+          "n_wt_better": 74,
+          "sign_accuracy_perm_p": 1.0,
+          "sign_accuracy_ci": {
+            "lo": 0.3611111111111111,
+            "hi": 0.8157894736842105,
+            "n_valid": 2000,
+            "n_families": 4
+          }
+        },
+        "thermo_only": {
+          "n_pairs": 74,
+          "sign_accuracy": 0.527027027027027,
+          "label_better_base_rate": 0.0,
+          "balanced_accuracy": null,
+          "promoted_n": 35,
+          "promote_precision": 0.0,
+          "spearman_dQ_dlabel": 0.010323742126501938,
+          "recall_variant_better": null,
+          "recall_wt_better": 0.527027027027027,
+          "n_variant_better": 0,
+          "n_wt_better": 74,
+          "sign_accuracy_perm_p": 1.0,
+          "sign_accuracy_ci": {
+            "lo": 0.37142857142857144,
+            "hi": 0.6710526315789473,
+            "n_valid": 2000,
+            "n_families": 4
+          }
+        },
+        "dl_only": {
+          "n_pairs": 74,
+          "sign_accuracy": 0.6081081081081081,
+          "label_better_base_rate": 0.0,
+          "balanced_accuracy": null,
+          "promoted_n": 29,
+          "promote_precision": 0.0,
+          "spearman_dQ_dlabel": -0.16661977045538687,
+          "recall_variant_better": null,
+          "recall_wt_better": 0.6081081081081081,
+          "n_variant_better": 0,
+          "n_wt_better": 74,
+          "sign_accuracy_perm_p": 1.0,
+          "sign_accuracy_ci": {
+            "lo": 0.3918918918918919,
+            "hi": 0.8378378378378378,
+            "n_valid": 2000,
+            "n_families": 4
+          }
+        },
+        "variance_share": {
+          "var_dThermo": 0.005703146749664518,
+          "var_dOligo": 0.005070730516093656,
+          "weighted_thermo": 0.0009125034799463231,
+          "weighted_dl": 0.0018254629857937163,
+          "dl_share_of_weighted_variance": 0.6667221854743628
+        },
+        "sign_agreement_dThermo_dOligo": 0.4864864864864865,
+        "spearman_dThermo_dOligo": -0.1935553319090859,
+        "required_gain_test": {
+          "n_typed_pairs": 74,
+          "n_untyped": 0,
+          "n_pass_requirement": 1,
+          "pass_row_ids": [
+            "63"
+          ],
+          "median_required_rel_gain": 0.4285714285714286,
+          "median_rel_gain": -0.005213938977980271,
+          "by_class": {
+            "g14-18|GU": {
+              "n": 2,
+              "C_median": 0.7030000000000001,
+              "required_rel_gain_median": 0.5444015444015444,
+              "observed_rel_gain_median": 0.2148697284846006,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g14-18|PP": {
+              "n": 7,
+              "C_median": 0.85,
+              "required_rel_gain_median": 0.17647058823529416,
+              "observed_rel_gain_median": -0.06483497177639337,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g14-18|PY": {
+              "n": 2,
+              "C_median": 0.6688000000000001,
+              "required_rel_gain_median": 0.6233766233766234,
+              "observed_rel_gain_median": 0.17854682686825507,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g14-18|YY": {
+              "n": 5,
+              "C_median": 0.88,
+              "required_rel_gain_median": 0.13636363636363646,
+              "observed_rel_gain_median": 0.01839882097770156,
+              "n_pass": 1,
+              "label_better_frac": 0.0
+            },
+            "g2-8|PP": {
+              "n": 30,
+              "C_median": 0.75,
+              "required_rel_gain_median": 0.5686274509803924,
+              "observed_rel_gain_median": -0.005213938977980271,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g2-8|PY": {
+              "n": 4,
+              "C_median": 0.8,
+              "required_rel_gain_median": 0.6447368421052628,
+              "observed_rel_gain_median": 0.0020693414692312196,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g2-8|YY": {
+              "n": 14,
+              "C_median": 0.8,
+              "required_rel_gain_median": 0.47058823529411753,
+              "observed_rel_gain_median": 0.03106714802638786,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|GU": {
+              "n": 7,
+              "C_median": 0.68,
+              "required_rel_gain_median": 0.47058823529411753,
+              "observed_rel_gain_median": 0.03656438864747374,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|PP": {
+              "n": 19,
+              "C_median": 0.5599999999999999,
+              "required_rel_gain_median": 0.7857142857142858,
+              "observed_rel_gain_median": -0.056661009462764325,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|PY": {
+              "n": 8,
+              "C_median": 0.5700000000000001,
+              "required_rel_gain_median": 0.7543859649122806,
+              "observed_rel_gain_median": 0.1304956767204033,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            },
+            "g9-13|YY": {
+              "n": 11,
+              "C_median": 0.6080000000000001,
+              "required_rel_gain_median": 0.6447368421052628,
+              "observed_rel_gain_median": -0.007227017611783037,
+              "n_pass": 0,
+              "label_better_frac": 0.0
+            }
+          }
+        }
+      },
+      "_pairs_head": [
+        {
+          "row_id": "2",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-5U",
+          "n_mismatch": 1,
+          "positions": [
+            15
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.7118566914323936,
+          "q_wt": 0.7780607540603781,
+          "dQ": -0.0662040626279845,
+          "rel_gain": -0.08508855161051732,
+          "label_variant": 0.989555,
+          "label_wt": 1.0,
+          "dl": -0.010445000000000038,
+          "C_match": 0.85,
+          "required_rel_gain": 0.17647058823529416
+        },
+        {
+          "row_id": "3",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-6U",
+          "n_mismatch": 1,
+          "positions": [
+            14
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.7484557113245538,
+          "q_wt": 0.7780607540603781,
+          "dQ": -0.029605042735824316,
+          "rel_gain": -0.03804978284963971,
+          "label_variant": 0.940627,
+          "label_wt": 1.0,
+          "dl": -0.05937300000000001,
+          "C_match": 0.85,
+          "required_rel_gain": 0.17647058823529416
+        },
+        {
+          "row_id": "4",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-7C",
+          "n_mismatch": 1,
+          "positions": [
+            13
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.7018835199139655,
+          "q_wt": 0.7780607540603781,
+          "dQ": -0.07617723414641264,
+          "rel_gain": -0.09790653718090146,
+          "label_variant": 0.942276,
+          "label_wt": 1.0,
+          "dl": -0.057724,
+          "C_match": 0.7,
+          "required_rel_gain": 0.4285714285714286
+        },
+        {
+          "row_id": "5",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-12C",
+          "n_mismatch": 1,
+          "positions": [
+            8
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.7384057490228721,
+          "q_wt": 0.7780607540603781,
+          "dQ": -0.039655005037505964,
+          "rel_gain": -0.050966463519156895,
+          "label_variant": 0.97746,
+          "label_wt": 1.0,
+          "dl": -0.022540000000000004,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "6",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-13A",
+          "n_mismatch": 1,
+          "positions": [
+            7
+          ],
+          "types": [
+            "U:U"
+          ],
+          "q_variant": 0.7421462244301669,
+          "q_wt": 0.7780607540603781,
+          "dQ": -0.035914529630211245,
+          "rel_gain": -0.04615902992509021,
+          "label_variant": 0.988455,
+          "label_wt": 1.0,
+          "dl": -0.011545000000000027,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "7",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-14U",
+          "n_mismatch": 1,
+          "positions": [
+            6
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.7521059634967273,
+          "q_wt": 0.7780607540603781,
+          "dQ": -0.025954790563650798,
+          "rel_gain": -0.0333583083688561,
+          "label_variant": 0.987356,
+          "label_wt": 1.0,
+          "dl": -0.012643999999999989,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "8",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-15U",
+          "n_mismatch": 1,
+          "positions": [
+            5
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.7605156073758714,
+          "q_wt": 0.7780607540603781,
+          "dQ": -0.017545146684506685,
+          "rel_gain": -0.022549841503951718,
+          "label_variant": 0.995602,
+          "label_wt": 1.0,
+          "dl": -0.004398000000000013,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "9",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-16C",
+          "n_mismatch": 1,
+          "positions": [
+            4
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.7586522629317509,
+          "q_wt": 0.7780607540603781,
+          "dQ": -0.019408491128627192,
+          "rel_gain": -0.024944698762072604,
+          "label_variant": 0.93293,
+          "label_wt": 1.0,
+          "dl": -0.06706999999999996,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "10",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-17G",
+          "n_mismatch": 1,
+          "positions": [
+            3
+          ],
+          "types": [
+            "C:C"
+          ],
+          "q_variant": 0.8123328338131818,
+          "q_wt": 0.7780607540603781,
+          "dQ": 0.034272079752803664,
+          "rel_gain": 0.04404807667518483,
+          "label_variant": 0.982958,
+          "label_wt": 1.0,
+          "dl": -0.017042,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "11",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)",
+          "n_mismatch": 1,
+          "positions": [
+            11
+          ],
+          "types": [
+            "A:G"
+          ],
+          "q_variant": 0.7937536286679783,
+          "q_wt": 0.7780607540603781,
+          "dQ": 0.01569287460760016,
+          "rel_gain": 0.020169214969018193,
+          "label_variant": 0.885102,
+          "label_wt": 1.0,
+          "dl": -0.11489799999999994,
+          "C_match": 0.7,
+          "required_rel_gain": 0.4285714285714286
+        },
+        {
+          "row_id": "12",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-5U",
+          "n_mismatch": 2,
+          "positions": [
+            11,
+            15
+          ],
+          "types": [
+            "A:A",
+            "A:G"
+          ],
+          "q_variant": 0.7276152070305542,
+          "q_wt": 0.7780607540603781,
+          "dQ": -0.050445547029823956,
+          "rel_gain": -0.06483497177639337,
+          "label_variant": 0.747664,
+          "label_wt": 1.0,
+          "dl": -0.252336,
+          "C_match": 0.595,
+          "required_rel_gain": 0.680672268907563
+        },
+        {
+          "row_id": "13",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-6U",
+          "n_mismatch": 2,
+          "positions": [
+            11,
+            14
+          ],
+          "types": [
+            "A:A",
+            "A:G"
+          ],
+          "q_variant": 0.7647923203361313,
+          "q_wt": 0.7780607540603781,
+          "dQ": -0.013268433724246798,
+          "rel_gain": -0.017053210375930564,
+          "label_variant": 0.687191,
+          "label_wt": 1.0,
+          "dl": -0.312809,
+          "C_match": 0.595,
+          "required_rel_gain": 0.680672268907563
+        },
+        {
+          "row_id": "14",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-7C",
+          "n_mismatch": 2,
+          "positions": [
+            11,
+            13
+          ],
+          "types": [
+            "G:G",
+            "A:G"
+          ],
+          "q_variant": 0.7199275491742543,
+          "q_wt": 0.7780607540603781,
+          "dQ": -0.058133204886123835,
+          "rel_gain": -0.07471550850335353,
+          "label_variant": 0.685542,
+          "label_wt": 1.0,
+          "dl": -0.314458,
+          "C_match": 0.48999999999999994,
+          "required_rel_gain": 1.0408163265306127
+        },
+        {
+          "row_id": "15",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-12C",
+          "n_mismatch": 2,
+          "positions": [
+            8,
+            11
+          ],
+          "types": [
+            "G:G",
+            "A:G"
+          ],
+          "q_variant": 0.754637634247211,
+          "q_wt": 0.7780607540603781,
+          "dQ": -0.023423119813167137,
+          "rel_gain": -0.030104486945179455,
+          "label_variant": 0.443101,
+          "label_wt": 1.0,
+          "dl": -0.556899,
+          "C_match": 0.5249999999999999,
+          "required_rel_gain": 0.9047619047619051
+        },
+        {
+          "row_id": "16",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-13A",
+          "n_mismatch": 2,
+          "positions": [
+            7,
+            11
+          ],
+          "types": [
+            "U:U",
+            "A:G"
+          ],
+          "q_variant": 0.7584767974885893,
+          "q_wt": 0.7780607540603781,
+          "dQ": -0.019583956571788796,
+          "rel_gain": -0.025170215140126535,
+          "label_variant": 0.566245,
+          "label_wt": 1.0,
+          "dl": -0.433755,
+          "C_match": 0.5599999999999999,
+          "required_rel_gain": 0.7857142857142858
+        },
+        {
+          "row_id": "17",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-14U",
+          "n_mismatch": 2,
+          "positions": [
+            6,
+            11
+          ],
+          "types": [
+            "A:A",
+            "A:G"
+          ],
+          "q_variant": 0.7677967255207232,
+          "q_wt": 0.7780607540603781,
+          "dQ": -0.010264028539654912,
+          "rel_gain": -0.013191808590898824,
+          "label_variant": 0.391424,
+          "label_wt": 1.0,
+          "dl": -0.608576,
+          "C_match": 0.5249999999999999,
+          "required_rel_gain": 0.9047619047619051
+        },
+        {
+          "row_id": "18",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-15U",
+          "n_mismatch": 2,
+          "positions": [
+            5,
+            11
+          ],
+          "types": [
+            "A:A",
+            "A:G"
+          ],
+          "q_variant": 0.7763693401350514,
+          "q_wt": 0.7780607540603781,
+          "dQ": -0.0016914139253266791,
+          "rel_gain": -0.002173884129870177,
+          "label_variant": 0.678944,
+          "label_wt": 1.0,
+          "dl": -0.321056,
+          "C_match": 0.5249999999999999,
+          "required_rel_gain": 0.9047619047619051
+        },
+        {
+          "row_id": "19",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-16C",
+          "n_mismatch": 2,
+          "positions": [
+            4,
+            11
+          ],
+          "types": [
+            "G:G",
+            "A:G"
+          ],
+          "q_variant": 0.7750594925952414,
+          "q_wt": 0.7780607540603781,
+          "dQ": -0.0030012614651366842,
+          "rel_gain": -0.003857361330043109,
+          "label_variant": 0.534909,
+          "label_wt": 1.0,
+          "dl": -0.46509100000000003,
+          "C_match": 0.5249999999999999,
+          "required_rel_gain": 0.9047619047619051
+        },
+        {
+          "row_id": "20",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T9)",
+          "sirna_id": "siPrnp102(T9)-17G",
+          "n_mismatch": 2,
+          "positions": [
+            3,
+            11
+          ],
+          "types": [
+            "C:C",
+            "A:G"
+          ],
+          "q_variant": 0.8281351100717157,
+          "q_wt": 0.7780607540603781,
+          "dQ": 0.050074356011337584,
+          "rel_gain": 0.06435789975271233,
+          "label_variant": 0.431006,
+          "label_wt": 1.0,
+          "dl": -0.568994,
+          "C_match": 0.5599999999999999,
+          "required_rel_gain": 0.7857142857142858
+        },
+        {
+          "row_id": "22",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-5A",
+          "n_mismatch": 1,
+          "positions": [
+            15
+          ],
+          "types": [
+            "U:U"
+          ],
+          "q_variant": 0.8634089569500691,
+          "q_wt": 0.8478102479745251,
+          "dQ": 0.015598708975544051,
+          "rel_gain": 0.01839882097770156,
+          "label_variant": 0.7768,
+          "label_wt": 0.997801,
+          "dl": -0.221001,
+          "C_match": 0.88,
+          "required_rel_gain": 0.13636363636363646
+        },
+        {
+          "row_id": "23",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-6U",
+          "n_mismatch": 1,
+          "positions": [
+            14
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.7842749548792521,
+          "q_wt": 0.8478102479745251,
+          "dQ": -0.06353529309527295,
+          "rel_gain": -0.07494046367929967,
+          "label_variant": 0.740517,
+          "label_wt": 0.997801,
+          "dl": -0.25728400000000007,
+          "C_match": 0.85,
+          "required_rel_gain": 0.17647058823529416
+        },
+        {
+          "row_id": "24",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-8C",
+          "n_mismatch": 1,
+          "positions": [
+            13
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.7939801087502357,
+          "q_wt": 0.8478102479745251,
+          "dQ": -0.053830139224289364,
+          "rel_gain": -0.06349314525613854,
+          "label_variant": 0.868059,
+          "label_wt": 0.997801,
+          "dl": -0.12974200000000002,
+          "C_match": 0.7,
+          "required_rel_gain": 0.4285714285714286
+        },
+        {
+          "row_id": "25",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-12U",
+          "n_mismatch": 1,
+          "positions": [
+            8
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.8437936271055859,
+          "q_wt": 0.8478102479745251,
+          "dQ": -0.004016620868939169,
+          "rel_gain": -0.004737641327803176,
+          "label_variant": 0.806487,
+          "label_wt": 0.997801,
+          "dl": -0.1913140000000001,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "26",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-13U",
+          "n_mismatch": 1,
+          "positions": [
+            7
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.8621242132419069,
+          "q_wt": 0.8478102479745251,
+          "dQ": 0.014313965267381823,
+          "rel_gain": 0.0168834539350979,
+          "label_variant": 0.708631,
+          "label_wt": 0.997801,
+          "dl": -0.28917000000000004,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "27",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-14U",
+          "n_mismatch": 1,
+          "positions": [
+            6
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.8206926627970481,
+          "q_wt": 0.8478102479745251,
+          "dQ": -0.027117585177476977,
+          "rel_gain": -0.031985441603545946,
+          "label_variant": 0.815833,
+          "label_wt": 0.997801,
+          "dl": -0.18196800000000002,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "28",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-15U",
+          "n_mismatch": 1,
+          "positions": [
+            5
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.8433898170766796,
+          "q_wt": 0.8478102479745251,
+          "dQ": -0.004420430897845495,
+          "rel_gain": -0.005213938977980271,
+          "label_variant": 0.923035,
+          "label_wt": 0.997801,
+          "dl": -0.074766,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "29",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-16U",
+          "n_mismatch": 1,
+          "positions": [
+            4
+          ],
+          "types": [
+            "A:C"
+          ],
+          "q_variant": 0.8449772292860822,
+          "q_wt": 0.8478102479745251,
+          "dQ": -0.0028330186884428787,
+          "rel_gain": -0.0033415716490938253,
+          "label_variant": 0.831226,
+          "label_wt": 0.997801,
+          "dl": -0.16657500000000003,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "30",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-17U",
+          "n_mismatch": 1,
+          "positions": [
+            3
+          ],
+          "types": [
+            "A:C"
+          ],
+          "q_variant": 0.844552044695108,
+          "q_wt": 0.8478102479745251,
+          "dQ": -0.00325820327941706,
+          "rel_gain": -0.0038430807921950977,
+          "label_variant": 0.790544,
+          "label_wt": 0.997801,
+          "dl": -0.20725700000000002,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "31",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)",
+          "n_mismatch": 1,
+          "positions": [
+            10
+          ],
+          "types": [
+            "U:U"
+          ],
+          "q_variant": 0.8443822315750019,
+          "q_wt": 0.8478102479745251,
+          "dQ": -0.0034280163995231705,
+          "rel_gain": -0.004043376932176662,
+          "label_variant": 0.913139,
+          "label_wt": 0.997801,
+          "dl": -0.08466200000000002,
+          "C_match": 0.76,
+          "required_rel_gain": 0.3157894736842106
+        },
+        {
+          "row_id": "32",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-5A",
+          "n_mismatch": 2,
+          "positions": [
+            10,
+            15
+          ],
+          "types": [
+            "U:U",
+            "U:U"
+          ],
+          "q_variant": 0.8332451387471034,
+          "q_wt": 0.8478102479745251,
+          "dQ": -0.014565109227421713,
+          "rel_gain": -0.017179680550239544,
+          "label_variant": 0.573942,
+          "label_wt": 0.997801,
+          "dl": -0.4238590000000001,
+          "C_match": 0.6688000000000001,
+          "required_rel_gain": 0.49521531100478455
+        },
+        {
+          "row_id": "33",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-6U",
+          "n_mismatch": 2,
+          "positions": [
+            10,
+            14
+          ],
+          "types": [
+            "A:A",
+            "U:U"
+          ],
+          "q_variant": 0.7685375655658205,
+          "q_wt": 0.8478102479745251,
+          "dQ": -0.07927268240870455,
+          "rel_gain": -0.09350285939346953,
+          "label_variant": 0.529412,
+          "label_wt": 0.997801,
+          "dl": -0.46838900000000006,
+          "C_match": 0.616,
+          "required_rel_gain": 0.6233766233766234
+        },
+        {
+          "row_id": "34",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-8C",
+          "n_mismatch": 2,
+          "positions": [
+            10,
+            13
+          ],
+          "types": [
+            "G:G",
+            "U:U"
+          ],
+          "q_variant": 0.799772463491412,
+          "q_wt": 0.8478102479745251,
+          "dQ": -0.04803778448311313,
+          "rel_gain": -0.056661009462764325,
+          "label_variant": 0.624519,
+          "label_wt": 0.997801,
+          "dl": -0.373282,
+          "C_match": 0.5319999999999999,
+          "required_rel_gain": 0.879699248120301
+        },
+        {
+          "row_id": "35",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-12U",
+          "n_mismatch": 2,
+          "positions": [
+            8,
+            10
+          ],
+          "types": [
+            "A:A",
+            "U:U"
+          ],
+          "q_variant": 0.8308390658415773,
+          "q_wt": 0.8478102479745251,
+          "dQ": -0.016971182132947793,
+          "rel_gain": -0.020017665714106514,
+          "label_variant": 0.704233,
+          "label_wt": 0.997801,
+          "dl": -0.29356800000000005,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "36",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-13U",
+          "n_mismatch": 2,
+          "positions": [
+            7,
+            10
+          ],
+          "types": [
+            "A:A",
+            "U:U"
+          ],
+          "q_variant": 0.841683108380963,
+          "q_wt": 0.8478102479745251,
+          "dQ": -0.0061271395935620365,
+          "rel_gain": -0.007227017611783037,
+          "label_variant": 0.374931,
+          "label_wt": 0.997801,
+          "dl": -0.62287,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "37",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-14U",
+          "n_mismatch": 2,
+          "positions": [
+            6,
+            10
+          ],
+          "types": [
+            "A:A",
+            "U:U"
+          ],
+          "q_variant": 0.8188036635532125,
+          "q_wt": 0.8478102479745251,
+          "dQ": -0.029006584421312542,
+          "rel_gain": -0.034213533618650156,
+          "label_variant": 0.0,
+          "label_wt": 0.997801,
+          "dl": -0.997801,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "38",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-15U",
+          "n_mismatch": 2,
+          "positions": [
+            5,
+            10
+          ],
+          "types": [
+            "A:A",
+            "U:U"
+          ],
+          "q_variant": 0.8318693982822911,
+          "q_wt": 0.8478102479745251,
+          "dQ": -0.01594084969223397,
+          "rel_gain": -0.018802379105840865,
+          "label_variant": 0.425509,
+          "label_wt": 0.997801,
+          "dl": -0.572292,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "39",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-16U",
+          "n_mismatch": 2,
+          "positions": [
+            4,
+            10
+          ],
+          "types": [
+            "A:C",
+            "U:U"
+          ],
+          "q_variant": 0.849564656878698,
+          "q_wt": 0.8478102479745251,
+          "dQ": 0.0017544089041728883,
+          "rel_gain": 0.0020693414692312196,
+          "label_variant": 0.693788,
+          "label_wt": 0.997801,
+          "dl": -0.3040130000000001,
+          "C_match": 0.6080000000000001,
+          "required_rel_gain": 0.6447368421052628
+        },
+        {
+          "row_id": "40",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp105(T10)",
+          "sirna_id": "siPrnp105(T10)-17U",
+          "n_mismatch": 2,
+          "positions": [
+            3,
+            10
+          ],
+          "types": [
+            "A:C",
+            "U:U"
+          ],
+          "q_variant": 0.8513527054108216,
+          "q_wt": 0.8478102479745251,
+          "dQ": 0.0035424574362965533,
+          "rel_gain": 0.004178361189617274,
+          "label_variant": 0.601429,
+          "label_wt": 0.997801,
+          "dl": -0.39637200000000006,
+          "C_match": 0.6080000000000001,
+          "required_rel_gain": 0.6447368421052628
+        },
+        {
+          "row_id": "42",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-5G",
+          "n_mismatch": 1,
+          "positions": [
+            15
+          ],
+          "types": [
+            "C:C"
+          ],
+          "q_variant": 0.3661618741395752,
+          "q_wt": 0.33362230953765326,
+          "dQ": 0.03253956460192192,
+          "rel_gain": 0.09753413867021217,
+          "label_variant": 0.537658,
+          "label_wt": 0.961517,
+          "dl": -0.423859,
+          "C_match": 0.88,
+          "required_rel_gain": 0.13636363636363646
+        },
+        {
+          "row_id": "43",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-6U",
+          "n_mismatch": 1,
+          "positions": [
+            14
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.2839446795937563,
+          "q_wt": 0.33362230953765326,
+          "dQ": -0.04967762994389696,
+          "rel_gain": -0.14890380086614155,
+          "label_variant": 0.82243,
+          "label_wt": 0.961517,
+          "dl": -0.13908699999999996,
+          "C_match": 0.85,
+          "required_rel_gain": 0.17647058823529416
+        },
+        {
+          "row_id": "44",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-8C",
+          "n_mismatch": 1,
+          "positions": [
+            12
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.2511461948286818,
+          "q_wt": 0.33362230953765326,
+          "dQ": -0.08247611470897148,
+          "rel_gain": -0.2472140272131983,
+          "label_variant": 0.462342,
+          "label_wt": 0.961517,
+          "dl": -0.499175,
+          "C_match": 0.7,
+          "required_rel_gain": 0.4285714285714286
+        },
+        {
+          "row_id": "45",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-12U",
+          "n_mismatch": 1,
+          "positions": [
+            8
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.3128204103397099,
+          "q_wt": 0.33362230953765326,
+          "dQ": -0.02080189919794334,
+          "rel_gain": -0.06235164317030063,
+          "label_variant": 0.693238,
+          "label_wt": 0.961517,
+          "dl": -0.26827899999999993,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "46",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-13C",
+          "n_mismatch": 1,
+          "positions": [
+            7
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.3952130246321133,
+          "q_wt": 0.33362230953765326,
+          "dQ": 0.06159071509446001,
+          "rel_gain": 0.1846120997717893,
+          "label_variant": 0.940077,
+          "label_wt": 0.961517,
+          "dl": -0.021439999999999904,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "47",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-14A",
+          "n_mismatch": 1,
+          "positions": [
+            6
+          ],
+          "types": [
+            "U:U"
+          ],
+          "q_variant": 0.3488855704166096,
+          "q_wt": 0.33362230953765326,
+          "dQ": 0.015263260878956353,
+          "rel_gain": 0.04575012054831936,
+          "label_variant": 0.826278,
+          "label_wt": 0.961517,
+          "dl": -0.135239,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "48",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-15U",
+          "n_mismatch": 1,
+          "positions": [
+            5
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.3200173809267237,
+          "q_wt": 0.33362230953765326,
+          "dQ": -0.013604928610929545,
+          "rel_gain": -0.04077943297552188,
+          "label_variant": 0.589335,
+          "label_wt": 0.961517,
+          "dl": -0.3721819999999999,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "49",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-16U",
+          "n_mismatch": 1,
+          "positions": [
+            4
+          ],
+          "types": [
+            "A:A"
+          ],
+          "q_variant": 0.35960830610794375,
+          "q_wt": 0.33362230953765326,
+          "dQ": 0.025985996570290493,
+          "rel_gain": 0.07789046423874618,
+          "label_variant": 0.765256,
+          "label_wt": 0.961517,
+          "dl": -0.1962609999999999,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "50",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-17C",
+          "n_mismatch": 1,
+          "positions": [
+            3
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.3894949190042336,
+          "q_wt": 0.33362230953765326,
+          "dQ": 0.05587260946658035,
+          "rel_gain": 0.16747264157487182,
+          "label_variant": 0.223749,
+          "label_wt": 0.961517,
+          "dl": -0.737768,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "51",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)",
+          "n_mismatch": 1,
+          "positions": [
+            10
+          ],
+          "types": [
+            "A:C"
+          ],
+          "q_variant": 0.36081774917384624,
+          "q_wt": 0.33362230953765326,
+          "dQ": 0.027195439636192975,
+          "rel_gain": 0.08151565065861893,
+          "label_variant": 0.925234,
+          "label_wt": 0.961517,
+          "dl": -0.036282999999999954,
+          "C_match": 0.76,
+          "required_rel_gain": 0.3157894736842106
+        },
+        {
+          "row_id": "52",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-5G",
+          "n_mismatch": 2,
+          "positions": [
+            10,
+            15
+          ],
+          "types": [
+            "C:C",
+            "A:C"
+          ],
+          "q_variant": 0.39318951427806004,
+          "q_wt": 0.33362230953765326,
+          "dQ": 0.059567204740406776,
+          "rel_gain": 0.17854682686825507,
+          "label_variant": 0.514568,
+          "label_wt": 0.961517,
+          "dl": -0.44694899999999993,
+          "C_match": 0.6688000000000001,
+          "required_rel_gain": 0.49521531100478455
+        },
+        {
+          "row_id": "53",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-6U",
+          "n_mismatch": 2,
+          "positions": [
+            10,
+            14
+          ],
+          "types": [
+            "A:A",
+            "A:C"
+          ],
+          "q_variant": 0.30861452553108193,
+          "q_wt": 0.33362230953765326,
+          "dQ": -0.025007784006571332,
+          "rel_gain": -0.07495836846531063,
+          "label_variant": 0.520616,
+          "label_wt": 0.961517,
+          "dl": -0.440901,
+          "C_match": 0.616,
+          "required_rel_gain": 0.6233766233766234
+        },
+        {
+          "row_id": "54",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-8C",
+          "n_mismatch": 2,
+          "positions": [
+            10,
+            12
+          ],
+          "types": [
+            "G:G",
+            "A:C"
+          ],
+          "q_variant": 0.27646460393250877,
+          "q_wt": 0.33362230953765326,
+          "dQ": -0.05715770560514449,
+          "rel_gain": -0.17132459062571642,
+          "label_variant": 0.463991,
+          "label_wt": 0.961517,
+          "dl": -0.49752599999999997,
+          "C_match": 0.5319999999999999,
+          "required_rel_gain": 0.879699248120301
+        },
+        {
+          "row_id": "55",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-12U",
+          "n_mismatch": 2,
+          "positions": [
+            8,
+            10
+          ],
+          "types": [
+            "A:A",
+            "A:C"
+          ],
+          "q_variant": 0.33996680785651884,
+          "q_wt": 0.33362230953765326,
+          "dQ": 0.006344498318865577,
+          "rel_gain": 0.019017008567736457,
+          "label_variant": 0.409016,
+          "label_wt": 0.961517,
+          "dl": -0.5525009999999999,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "56",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-13C",
+          "n_mismatch": 2,
+          "positions": [
+            7,
+            10
+          ],
+          "types": [
+            "G:G",
+            "A:C"
+          ],
+          "q_variant": 0.4210718024421387,
+          "q_wt": 0.33362230953765326,
+          "dQ": 0.08744949290448545,
+          "rel_gain": 0.2621212383118993,
+          "label_variant": 0.532161,
+          "label_wt": 0.961517,
+          "dl": -0.42935599999999996,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "57",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-14A",
+          "n_mismatch": 2,
+          "positions": [
+            6,
+            10
+          ],
+          "types": [
+            "U:U",
+            "A:C"
+          ],
+          "q_variant": 0.3771585785897932,
+          "q_wt": 0.33362230953765326,
+          "dQ": 0.04353626905213992,
+          "rel_gain": 0.1304956767204033,
+          "label_variant": 0.401869,
+          "label_wt": 0.961517,
+          "dl": -0.5596479999999999,
+          "C_match": 0.6080000000000001,
+          "required_rel_gain": 0.6447368421052628
+        },
+        {
+          "row_id": "58",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-15U",
+          "n_mismatch": 2,
+          "positions": [
+            5,
+            10
+          ],
+          "types": [
+            "A:A",
+            "A:C"
+          ],
+          "q_variant": 0.346902874368409,
+          "q_wt": 0.33362230953765326,
+          "dQ": 0.013280564830755737,
+          "rel_gain": 0.03980718450501844,
+          "label_variant": 0.139087,
+          "label_wt": 0.961517,
+          "dl": -0.82243,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "59",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-16U",
+          "n_mismatch": 2,
+          "positions": [
+            4,
+            10
+          ],
+          "types": [
+            "A:A",
+            "A:C"
+          ],
+          "q_variant": 0.38524918600907476,
+          "q_wt": 0.33362230953765326,
+          "dQ": 0.0516268764714215,
+          "rel_gain": 0.15474647526710078,
+          "label_variant": 0.448598,
+          "label_wt": 0.961517,
+          "dl": -0.5129189999999999,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "60",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp102(T10)",
+          "sirna_id": "siPrnp102(T10)-17C",
+          "n_mismatch": 2,
+          "positions": [
+            3,
+            10
+          ],
+          "types": [
+            "G:G",
+            "A:C"
+          ],
+          "q_variant": 0.41678678299207716,
+          "q_wt": 0.33362230953765326,
+          "dQ": 0.0831644734544239,
+          "rel_gain": 0.24927731472657347,
+          "label_variant": 0.328202,
+          "label_wt": 0.961517,
+          "dl": -0.633315,
+          "C_match": 0.5700000000000001,
+          "required_rel_gain": 0.7543859649122806
+        },
+        {
+          "row_id": "62",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-5C",
+          "n_mismatch": 1,
+          "positions": [
+            15
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.4804281931742673,
+          "q_wt": 0.4584611289758769,
+          "dQ": 0.02196706419839045,
+          "rel_gain": 0.04791478014169072,
+          "label_variant": 0.827378,
+          "label_wt": 0.948873,
+          "dl": -0.12149500000000002,
+          "C_match": 0.85,
+          "required_rel_gain": 0.17647058823529416
+        },
+        {
+          "row_id": "63",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-6G",
+          "n_mismatch": 1,
+          "positions": [
+            14
+          ],
+          "types": [
+            "C:C"
+          ],
+          "q_variant": 0.5288150892941762,
+          "q_wt": 0.4584611289758769,
+          "dQ": 0.07035396031829932,
+          "rel_gain": 0.15345676191885219,
+          "label_variant": 0.730621,
+          "label_wt": 0.948873,
+          "dl": -0.218252,
+          "C_match": 0.88,
+          "required_rel_gain": 0.13636363636363646
+        },
+        {
+          "row_id": "64",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-12A",
+          "n_mismatch": 1,
+          "positions": [
+            8
+          ],
+          "types": [
+            "U:U"
+          ],
+          "q_variant": 0.47270420873411534,
+          "q_wt": 0.4584611289758769,
+          "dQ": 0.014243079758238464,
+          "rel_gain": 0.03106714802638786,
+          "label_variant": 0.715778,
+          "label_wt": 0.948873,
+          "dl": -0.23309499999999994,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "65",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-13C",
+          "n_mismatch": 1,
+          "positions": [
+            7
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.5614481746696545,
+          "q_wt": 0.4584611289758769,
+          "dQ": 0.10298704569377759,
+          "rel_gain": 0.22463637413237825,
+          "label_variant": 0.900495,
+          "label_wt": 0.948873,
+          "dl": -0.04837799999999992,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "66",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-14G",
+          "n_mismatch": 1,
+          "positions": [
+            6
+          ],
+          "types": [
+            "C:C"
+          ],
+          "q_variant": 0.42510721187910105,
+          "q_wt": 0.4584611289758769,
+          "dQ": -0.03335391709677582,
+          "rel_gain": -0.07275189757369992,
+          "label_variant": 0.546454,
+          "label_wt": 0.948873,
+          "dl": -0.40241899999999997,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "67",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-15C",
+          "n_mismatch": 1,
+          "positions": [
+            5
+          ],
+          "types": [
+            "G:G"
+          ],
+          "q_variant": 0.41373964026806825,
+          "q_wt": 0.4584611289758769,
+          "dQ": -0.04472148870780862,
+          "rel_gain": -0.09754695846888638,
+          "label_variant": 0.814733,
+          "label_wt": 0.948873,
+          "dl": -0.13413999999999993,
+          "C_match": 0.75,
+          "required_rel_gain": 0.33333333333333326
+        },
+        {
+          "row_id": "68",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-16A",
+          "n_mismatch": 1,
+          "positions": [
+            4
+          ],
+          "types": [
+            "U:U"
+          ],
+          "q_variant": 0.38090302731406,
+          "q_wt": 0.4584611289758769,
+          "dQ": -0.07755810166181687,
+          "rel_gain": -0.16917050707236247,
+          "label_variant": 0.811435,
+          "label_wt": 0.948873,
+          "dl": -0.13743799999999995,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "69",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-17G",
+          "n_mismatch": 1,
+          "positions": [
+            3
+          ],
+          "types": [
+            "C:C"
+          ],
+          "q_variant": 0.45023789729637786,
+          "q_wt": 0.4584611289758769,
+          "dQ": -0.00822323167949901,
+          "rel_gain": -0.017936595187182592,
+          "label_variant": 0.62232,
+          "label_wt": 0.948873,
+          "dl": -0.326553,
+          "C_match": 0.8,
+          "required_rel_gain": 0.25
+        },
+        {
+          "row_id": "70",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)",
+          "n_mismatch": 1,
+          "positions": [
+            11
+          ],
+          "types": [
+            "U:G"
+          ],
+          "q_variant": 0.47860069027274155,
+          "q_wt": 0.4584611289758769,
+          "dQ": 0.020139561296864672,
+          "rel_gain": 0.043928612534399544,
+          "label_variant": 0.914788,
+          "label_wt": 0.948873,
+          "dl": -0.03408499999999992,
+          "C_match": 0.85,
+          "required_rel_gain": 0.17647058823529416
+        },
+        {
+          "row_id": "71",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-5C",
+          "n_mismatch": 2,
+          "positions": [
+            11,
+            15
+          ],
+          "types": [
+            "G:G",
+            "U:G"
+          ],
+          "q_variant": 0.4958302857386271,
+          "q_wt": 0.4584611289758769,
+          "dQ": 0.03736915676275021,
+          "rel_gain": 0.08150997849310904,
+          "label_variant": 0.738318,
+          "label_wt": 0.948873,
+          "dl": -0.21055499999999994,
+          "C_match": 0.6475,
+          "required_rel_gain": 0.5444015444015444
+        },
+        {
+          "row_id": "72",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-6G",
+          "n_mismatch": 2,
+          "positions": [
+            11,
+            14
+          ],
+          "types": [
+            "C:C",
+            "U:G"
+          ],
+          "q_variant": 0.556970547279667,
+          "q_wt": 0.4584611289758769,
+          "dQ": 0.09850941830379012,
+          "rel_gain": 0.2148697284846006,
+          "label_variant": 0.397471,
+          "label_wt": 0.948873,
+          "dl": -0.551402,
+          "C_match": 0.7030000000000001,
+          "required_rel_gain": 0.42247510668563293
+        },
+        {
+          "row_id": "73",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-12A",
+          "n_mismatch": 2,
+          "positions": [
+            8,
+            11
+          ],
+          "types": [
+            "U:U",
+            "U:G"
+          ],
+          "q_variant": 0.49455828252464873,
+          "q_wt": 0.4584611289758769,
+          "dQ": 0.036097153548771854,
+          "rel_gain": 0.07873547236034312,
+          "label_variant": 0.804838,
+          "label_wt": 0.948873,
+          "dl": -0.1440349999999999,
+          "C_match": 0.68,
+          "required_rel_gain": 0.47058823529411753
+        },
+        {
+          "row_id": "74",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-13C",
+          "n_mismatch": 2,
+          "positions": [
+            7,
+            11
+          ],
+          "types": [
+            "G:G",
+            "U:G"
+          ],
+          "q_variant": 0.5867003391876056,
+          "q_wt": 0.4584611289758769,
+          "dQ": 0.12823921021172868,
+          "rel_gain": 0.2797166479483069,
+          "label_variant": 0.629467,
+          "label_wt": 0.948873,
+          "dl": -0.31940599999999997,
+          "C_match": 0.6375,
+          "required_rel_gain": 0.5686274509803924
+        },
+        {
+          "row_id": "75",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-14G",
+          "n_mismatch": 2,
+          "positions": [
+            6,
+            11
+          ],
+          "types": [
+            "C:C",
+            "U:G"
+          ],
+          "q_variant": 0.44253557391758336,
+          "q_wt": 0.4584611289758769,
+          "dQ": -0.015925555058293517,
+          "rel_gain": -0.03473697997880095,
+          "label_variant": 0.523914,
+          "label_wt": 0.948873,
+          "dl": -0.424959,
+          "C_match": 0.68,
+          "required_rel_gain": 0.47058823529411753
+        },
+        {
+          "row_id": "76",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-15C",
+          "n_mismatch": 2,
+          "positions": [
+            5,
+            11
+          ],
+          "types": [
+            "G:G",
+            "U:G"
+          ],
+          "q_variant": 0.43215820042162284,
+          "q_wt": 0.4584611289758769,
+          "dQ": -0.026302928554254035,
+          "rel_gain": -0.05737221084153905,
+          "label_variant": 0.473337,
+          "label_wt": 0.948873,
+          "dl": -0.47553599999999996,
+          "C_match": 0.6375,
+          "required_rel_gain": 0.5686274509803924
+        },
+        {
+          "row_id": "77",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-16A",
+          "n_mismatch": 2,
+          "positions": [
+            4,
+            11
+          ],
+          "types": [
+            "U:U",
+            "U:G"
+          ],
+          "q_variant": 0.40415683864123025,
+          "q_wt": 0.4584611289758769,
+          "dQ": -0.05430429033464662,
+          "rel_gain": -0.11844906122347394,
+          "label_variant": 0.657504,
+          "label_wt": 0.948873,
+          "dl": -0.291369,
+          "C_match": 0.68,
+          "required_rel_gain": 0.47058823529411753
+        },
+        {
+          "row_id": "78",
+          "dataset": "Ohnishi_2008",
+          "family": "siPrnp178(A9)",
+          "sirna_id": "siPrnp178(A9)-17G",
+          "n_mismatch": 2,
+          "positions": [
+            3,
+            11
+          ],
+          "types": [
+            "C:C",
+            "U:G"
+          ],
+          "q_variant": 0.4752244798755104,
+          "q_wt": 0.4584611289758769,
+          "dQ": 0.016763350899633545,
+          "rel_gain": 0.03656438864747374,
+          "label_variant": 0.498076,
+          "label_wt": 0.948873,
+          "dl": -0.45079699999999995,
+          "C_match": 0.68,
+          "required_rel_gain": 0.47058823529411753
+        }
+      ]
+    }
+  }
+}

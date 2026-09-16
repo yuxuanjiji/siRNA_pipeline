@@ -1,0 +1,6 @@
+# 路径配置（相对本文件所在目录 configs/ 解析；支持环境变量覆盖同名大写键）
+# configs/ 位于 siRNA_pipeline/configs；工作区根（含 数据集/项目搭建/参考模型）在 ../..
+cds_fasta: ../../数据集/SFRP1-mRNA.txt        # SFRP1 CDS（任务5 输入）
+legacy_root: ../../项目搭建                    # 旧模块只读参考（无运行依赖）
+reference_root: ../../参考模型                  # OligoFormer / siRNADiscovery（外部可选）
+outputs_root: ../outputs                       # runs/ + logs/ + results/

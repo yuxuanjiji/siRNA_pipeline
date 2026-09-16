@@ -1,0 +1,47 @@
+{
+  "task": "17",
+  "controls": 7,
+  "matched": 5,
+  "unmatched": [
+    "17-3",
+    "17-5"
+  ],
+  "note": "该命令只做序列与已跑管道结果 join；若需重跑，请先将阳性对照 FASTA/CSV 纳入输入契约。",
+  "rank_source": "outputs/results/rank_final.csv（现行口径 α0.4/β0.6 + 变体层，n=4218）",
+  "legacy_note": "原 final_rank/rank_percentile（2026-09-11 口径）已保留为 final_rank_legacy_20260911 / rank_percentile_legacy，未删除",
+  "current_ranks": {
+    "17-4b": {
+      "rank": 75,
+      "percentile": 0.017781,
+      "source": "Suzuki 2008, BrJC 98:1147 si2"
+    },
+    "17-2": {
+      "rank": 182,
+      "percentile": 0.043148,
+      "source": "Wang 2024, Regen Ther 28:161"
+    },
+    "17-4a": {
+      "rank": 767,
+      "percentile": 0.18184,
+      "source": "Suzuki 2008, BrJC 98:1147 si1"
+    },
+    "17-4c": {
+      "rank": 857,
+      "percentile": 0.203177,
+      "source": "Suzuki 2008, BrJC 98:1147 si3"
+    },
+    "17-1": {
+      "rank": 1057,
+      "percentile": 0.250593,
+      "source": "Broadley 2026, IJMS 27:1815"
+    }
+  },
+  "summary_current": {
+    "n_matched": 5,
+    "in_top10pct": 2,
+    "in_top25pct": 4,
+    "mean_percentile": 0.1393,
+    "p_mean_percentile_irwin_hall": 0.00137
+  },
+  "caveat": "Suzuki 2008 的 17-4a/4b/4c 原文按三连混合给药，个体效力未分别刊出；17-3/17-5 在 CDS 内无精确匹配（可能靶向 UTR/异构体），无法评分"
+}

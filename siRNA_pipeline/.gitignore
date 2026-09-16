@@ -1,0 +1,50 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- 运行产物（不提交；用 .gitkeep 保留目录） ----
+outputs/runs/*
+outputs/logs/*
+!outputs/runs/.gitkeep
+!outputs/logs/.gitkeep
+outputs/models/*
+
+# ---- 环境（体积大，不入库） ----
+.venv/
+venv/
+
+# ---- 外部大资产（按 external/README.md 获取；不入库）----
+OligoFormer部分/RNA-FM/
+OligoFormer部分/RNA-FM.tar.gz
+OligoFormer部分/data/
+OligoFormer部分/model/
+OligoFormer部分/off-target/ref/*.zip
+OligoFormer部分/off-target/targetscan/
+OligoFormer部分/off-target/pita/
+OligoFormer部分/Comparison methods/
+RNA-FM/
+data/RNAFM_cache/
+BLAST/*.tsv
+BLAST/*_hits_all*.tsv
+
+# ---- 临时/审计文件 ----
+outputs/_*
+notebooks/.ipynb_checkpoints/
+data.zip
+*.zip
+
+# ---- 工具 ----
+.DS_Store
+.idea/
+*.log
+
+# ---- 测试临时文件 ----
+tests/.tmp/
+
+# 运行结果（可复现，不入库）
+outputs/results/*
+!outputs/results/.gitkeep

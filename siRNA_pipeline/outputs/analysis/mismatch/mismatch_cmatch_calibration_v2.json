@@ -1,0 +1,62 @@
+{
+  "model": "C_match_multiplicative_v2",
+  "formula": "final=Q_guide*C_match; C_match=max(0,1-sum lambda_band*type_factor)",
+  "lambda_band": {
+    "g1": 0.05,
+    "seed": 0.1785819377294239,
+    "cleavage": 0.09417541324561737,
+    "g12": 0.3081969198215447,
+    "mid": 0.16849316612705836,
+    "p3": 0.08
+  },
+  "type_factor": {
+    "GU_wobble": 0.5,
+    "purine_purine": 1.0,
+    "other": 0.85,
+    "WC": 0
+  },
+  "literature_prior": {
+    "g1": 0.05,
+    "seed": 0.15,
+    "cleavage": 0.12,
+    "g12": 0.3,
+    "mid": 0.16,
+    "p3": 0.08
+  },
+  "prior_strength_n": 4.0,
+  "band_definition": {
+    "g1": [
+      1
+    ],
+    "seed": [
+      2,
+      8
+    ],
+    "cleavage": [
+      9,
+      11
+    ],
+    "g12": [
+      12
+    ],
+    "mid": [
+      13,
+      16
+    ],
+    "p3": [
+      17,
+      19
+    ]
+  },
+  "user_site_Cmatch": {
+    "g1": 0.95,
+    "g12": 0.6918030801784554,
+    "g17": 0.92,
+    "g18": 0.92,
+    "g19": 0.92
+  },
+  "within_group_spearman_mean": 0.6108591277041091,
+  "lofo_within_spearman_mean": 0.5944161653038769,
+  "training": "Ohnishi_curated_v2 paired WT; g1/p3 literature prior",
+  "note": "C_match只负责同guide内突变体相对排序;跨guide基础效率由Q_guide负责"
+}

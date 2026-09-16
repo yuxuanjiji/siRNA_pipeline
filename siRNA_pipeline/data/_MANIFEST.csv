@@ -1,0 +1,58 @@
+﻿相对路径,大小B,md5,许可/来源说明
+Birmingham362.csv,311452,f7fb8b04b02ee20c923d5409e10d534d,本项目自有整理成果
+Holen50.csv,9842,a87cd52a76309bc350f175bc6c669e5c,本项目自有整理成果
+README.md,18900,310db8db5552e5f341d412d43b5e1bdb,本项目自有整理成果
+positive_controls.csv,1647,9cb1d762c7a05b62fa92d21546c0fd05,本项目自有整理成果
+OligoFormer官方数据/Hu.csv,651719,3303eaec1fa3af37d8966abf93a6389e,OligoFormer 官方发布版（学术/非商业自由使用）
+OligoFormer官方数据/Mix.csv,128566,a67decda065f95df94d466278ce951e1,OligoFormer 官方发布版（学术/非商业自由使用）
+OligoFormer官方数据/Simone.csv,85644,c04659e9003e760f89f11dc21ba64ffa,OligoFormer 官方发布版（学术/非商业自由使用）
+OligoFormer官方数据/Taka.csv,190506,790b9e2e4f16da15c45bb599dae0543f,OligoFormer 官方发布版（学术/非商业自由使用）
+主表/主表数据卡_v3_4.docx,42129,98e26ddf8c7c1c9062e4be99c540ecfa,本项目自有整理成果
+主表/研究结论-通俗解读版.docx,44862,8f505f859db57ab1f91faaef74a22f9b,本项目自有整理成果
+主表/错配siRNA_guide链_主表_v1.0.csv,112367,40a209da477a769dd02f061bfeabef66,本项目自有整理成果
+主表/错配siRNA_guide链_主表v1.0_校验逐条.csv,26037,45e7fb9bbdea5bb2d7208c69ccb1ac0a,本项目自有整理成果
+参考序列/SFRP1-mRNA.txt,1093,0068ccb6dd0cf89dd33584f0dca53c4c,公有领域（NCBI RefSeq）
+文献来源/OligoFormer_mismatch.csv,4857,b29cb666cb99b31f225890bcd605b1ca,文献数据，注明出处即可
+文献来源/PLoSGenet2006_PMC1560399_T2.csv,529,fddf2acb7cc64de90b69b73b6cdbb681,文献数据，注明出处即可
+文献来源/amarzguioui2003_gkg147.csv,1107,ef997a1eec6b05c3fae6936ec29e0ce1,文献数据，注明出处即可
+文献来源/birmingham2006_offtargets.csv,68975,3308971a49bdd1e22430aa731094b1bf,文献数据，注明出处即可
+文献来源/birmingham2006_offtargets_detail.csv,24514,0fc8b7f53beb29698c4880c562ad9430,文献数据，注明出处即可
+文献来源/desiRm_PMC3154470_siPrnp.csv,2897,b23898aa414a6772d619ba0ce24625c5,文献数据，注明出处即可
+文献来源/desirm_1Table_ansi.txt,109,f55a0b23041854523865ed867a9bcc75,文献数据，注明出处即可
+文献来源/desirm_Data_ansi.txt,3130,518f7d0c3fcf2f37a745f5c9ec8834b8,文献数据，注明出处即可
+文献来源/desirm_WordDocument_ansi.txt,3280,16a771b58c7e9646ebff89a912b1bae1,文献数据，注明出处即可
+文献来源/hivsirdb_escapes.csv,13989,2b4abdd9fc936cbe7097dfc67a4361fb,文献数据，注明出处即可
+文献来源/hivsirdb_escapes_detail.csv,11716,342a08a72ad12663a861ca90539dffc4,文献数据，注明出处即可
+文献来源/hivsirdb_mutants.csv,9525,daafb8e4fe0dcf5191d23c0a65c3b5b2,文献数据，注明出处即可
+文献来源/hivsirdb_mutants_detail.csv,6646,e045f0dff3b71a794f2f8d9b08006a84,文献数据，注明出处即可
+文献来源/hivsirdb_mutants_excluded.csv,2464,121b3e40764ae6246f79cc29c6a047e1,文献数据，注明出处即可
+文献来源/holen2005_gki785.csv,4359,537e2e527afba9c02420c86263211121,文献数据，注明出处即可
+文献来源/pone0023443_fulltext.xml,135140,02e6aae1d0c5325e18b76be4f1d72b3d,文献数据，注明出处即可
+文献来源/pone2248_pone.0002248.s004_text.txt,895,a872bf78bd04f4e6e1d1e567ce84c627,文献数据，注明出处即可
+文献来源/pone2248_pone.0002248.s005_text.txt,1687,c45d910959f2c4ee07430831d0263d56,文献数据，注明出处即可
+文献来源/pone2248_pone.0002248.s006_text.txt,947,521fb528ffd3d87d797095ace9dc0afd,文献数据，注明出处即可
+文献来源/pone2248_pone.0002248.s007_text.txt,1340,00e3fa2ff4d8daab94df44e5ba5cbfdb,文献数据，注明出处即可
+文献来源/pone2248_pone.0002248.s008_text.txt,1252,d8ae89afcae297c429ec739ec821170d,文献数据，注明出处即可
+文献来源/pone2248_pone.0002248.s009_text.txt,1693,1fda7d1ad5cbf518cc5f45fd2db1dabe,文献数据，注明出处即可
+文献来源/pone2248_pone.0002248.s010_text.txt,1751,8bd29771f551fc7c2ecad5ec5f696f3f,文献数据，注明出处即可
+文献来源/sources.csv,4450,a961a5aabe664a343d81db88225cb510,文献数据，注明出处即可
+文献来源/sources.md,12007,9ca36b7c9446a4a96139888527db5183,文献数据，注明出处即可
+文献来源/sources_mismatch_classic.md,13269,cfbc1873d402c0d0ee8c7759c9b9f881,文献数据，注明出处即可
+文献来源/uitei2008_gkn902.csv,516,57c64aa54768cb90e9de4465e662df0c,文献数据，注明出处即可
+文献来源/来源与许可.md,1791,a5f18c6eca02a9261608a30089317085,文献数据，注明出处即可
+来源数据/错配siRNA_完整5项_筛选说明.md,4977,45f8aa28854cce07d4ee48bb83e3a611,本项目自有整理成果
+来源数据/错配siRNA_新增_Ohnishi2008_74条.csv,37888,14255668d6480e6ed0cc18b2c893cf1d,本项目自有整理成果
+来源数据/错配siRNA_新增_PSEN1_Sierant2011_19条.csv,11170,83320448d1dba7242a9874a1edea58f9,本项目自有整理成果
+来源数据/错配siRNA_明确实验沉默效率_93条.csv,23107,abf70989e8f4f1fad7745ab9a5663b4a,本项目自有整理成果
+来源数据/错配siRNA数据补充收集报告.md,7731,d4ee8ddeda2b529d3369fe3943d36429,本项目自有整理成果
+来源数据/错配siRNA数据集_合并总表.csv,154314,11e620e5f5bf3b5eb5920c18464448b8,本项目自有整理成果
+来源数据/错配siRNA数据集_合并总表_处理后.csv,273852,1cb8a3f5ef0836bce3d66574b32536c2,本项目自有整理成果
+来源数据/错配siRNA数据集_合并总表_处理说明.md,8833,6e5e75a1a9a07a45593aa4229b109ec6,本项目自有整理成果
+研究证据/_md2docx.py,7624,3f7ff15eafeca224a412cde4cb7c80ef,本项目自有整理成果
+研究证据/build_v3_1.py,4559,c72d8efaa12cd54cbeac2ddf503fa38b,本项目自有整理成果
+研究证据/build_v3_2.py,3992,7ed9445207a0973ba85cbb0f751ff1a0,本项目自有整理成果
+研究证据/build_v3_3.py,7646,39ba9c37384e0b5d29b0dd514e0845e6,本项目自有整理成果
+研究证据/build_v3_4.py,3410,8c005c35a36417f8ae3d48078b6219de,本项目自有整理成果
+研究证据/build_v3_main_table.py,12109,703f1c2e31d1aa8dbd7b75903e3d2873,本项目自有整理成果
+研究证据/data-gap-map.docx,59284,9d9aef3fd0f948f82ed4fa1d106a6f5c,本项目自有整理成果
+研究证据/hivsirdb-feasibility.docx,54757,88aea3ba29a1f5f98e189f2e41e5fe5b,本项目自有整理成果

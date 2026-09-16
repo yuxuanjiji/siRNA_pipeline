@@ -1,0 +1,107 @@
+{
+  "n_rows": 102,
+  "leakage": {
+    "old_unique_sequences": 28,
+    "sequence_overlap": 0,
+    "target_window_overlap": 19,
+    "family_overlap": 0
+  },
+  "oligoformer": {
+    "all": {
+      "n": 102,
+      "spearman": 0.2078541136589633,
+      "pearson": 0.21080693712698814,
+      "rmse": 0.33999722589814113,
+      "per_dataset": {
+        "Holen_2005": 0.10794209025094292,
+        "Kini_2009": 0.19999999999999998,
+        "Ohnishi_2008": 0.20795660036166363
+      }
+    },
+    "ohnishi_only": {
+      "n": 78,
+      "spearman": 0.20795660036166363,
+      "pearson": 0.23786602537054594,
+      "rmse": 0.3192658438214074,
+      "per_dataset": {
+        "Ohnishi_2008": 0.20795660036166363
+      }
+    },
+    "exclude_old_window": {
+      "n": 83,
+      "spearman": 0.18025156506883636,
+      "pearson": 0.2126644223062974,
+      "rmse": 0.31634779849781763,
+      "per_dataset": {
+        "Kini_2009": 0.19999999999999998,
+        "Ohnishi_2008": 0.20795660036166363
+      }
+    }
+  },
+  "ridge_position": {
+    "all": {
+      "per_fold_or_dataset": {
+        "Holen_2005": {
+          "n": 19,
+          "alpha": 1000.0,
+          "spearman": 0.7517633962842455
+        },
+        "Kini_2009": {
+          "n": 5,
+          "alpha": 100.0,
+          "spearman": 0.5773502691896257
+        },
+        "Ohnishi_2008": {
+          "n": 78,
+          "alpha": 0.01,
+          "spearman": 0.7200755974503357
+        }
+      },
+      "pooled_spearman": 0.33999175675244975,
+      "n_evaluated": 102
+    },
+    "ohnishi_only": {
+      "per_fold_or_dataset": {
+        "fold0": {
+          "n": 20,
+          "alpha": 300.0,
+          "spearman": 0.7563909774436091
+        },
+        "fold1": {
+          "n": 20,
+          "alpha": 1.0,
+          "spearman": 0.5428571428571428
+        },
+        "fold2": {
+          "n": 20,
+          "alpha": 300.0,
+          "spearman": 0.6526315789473683
+        },
+        "fold3": {
+          "n": 18,
+          "alpha": 300.0,
+          "spearman": 0.6491228070175438
+        }
+      },
+      "pooled_spearman": 0.5686844800768851,
+      "n_evaluated": 78
+    },
+    "exclude_old_window": {
+      "per_fold_or_dataset": {
+        "Kini_2009": {
+          "n": 5,
+          "alpha": 1000.0,
+          "spearman": 0.5773502691896257
+        },
+        "Ohnishi_2008": {
+          "n": 78,
+          "alpha": 0.01,
+          "spearman": 0.7453279319615198
+        }
+      },
+      "pooled_spearman": 0.6462531239520521,
+      "n_evaluated": 83
+    }
+  },
+  "status": "research_only"
+}

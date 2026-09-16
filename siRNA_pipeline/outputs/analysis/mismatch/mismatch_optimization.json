@@ -1,0 +1,585 @@
+{
+  "n_rows": 78,
+  "n_groups": 4,
+  "drop_kini": false,
+  "variants": {
+    "bands_pos|ridge": {
+      "feature_set": "bands_pos",
+      "model": "ridge",
+      "pooled_spearman": 0.569923747138937,
+      "pooled_ci95": [
+        0.5576721182914027,
+        0.6601378706641865
+      ],
+      "perm_p": 0.0,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 10.0,
+          "spearman": 0.6090225563909774
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.5428571428571428
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 300.0,
+          "spearman": 0.7037593984962407
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 100.0,
+          "spearman": 0.6491228070175438
+        }
+      }
+    },
+    "bands_pos|huber": {
+      "feature_set": "bands_pos",
+      "model": "huber",
+      "pooled_spearman": 0.5835051024924441,
+      "pooled_ci95": [
+        0.5448777552918012,
+        0.7317276657542592
+      ],
+      "perm_p": 0.0,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 300.0,
+          "spearman": 0.6360902255639098
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 100.0,
+          "spearman": 0.6706766917293233
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 1000.0,
+          "spearman": 0.7037593984962407
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 10000.0,
+          "spearman": 0.5810113519091847
+        }
+      }
+    },
+    "bands_pos|elasticnet": {
+      "feature_set": "bands_pos",
+      "model": "elasticnet",
+      "pooled_spearman": 0.6003870719188578,
+      "pooled_ci95": [
+        0.5662820176905491,
+        0.6983525467867182
+      ],
+      "perm_p": 0.0,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.6300751879699248
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.5771258217666511
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 0.1,
+          "spearman": 0.7267976276270206
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 0.1,
+          "spearman": 0.6220563743321639
+        }
+      }
+    },
+    "bands_only|ridge": {
+      "feature_set": "bands_only",
+      "model": "ridge",
+      "pooled_spearman": 0.572633233430967,
+      "pooled_ci95": [
+        0.5160301125937428,
+        0.7503620994021504
+      ],
+      "perm_p": 0.0,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 10.0,
+          "spearman": 0.6805957186886575
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.8439173096747772
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 10.0,
+          "spearman": 0.7733971304457555
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 10.0,
+          "spearman": 0.5759916341332634
+        }
+      }
+    },
+    "bands_only|huber": {
+      "feature_set": "bands_only",
+      "model": "huber",
+      "pooled_spearman": 0.5558585271216411,
+      "pooled_ci95": [
+        0.4957976340694247,
+        0.7301323095258694
+      ],
+      "perm_p": 0.0,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 100.0,
+          "spearman": 0.6805957186886575
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.8439173096747772
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 100.0,
+          "spearman": 0.7733971304457555
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 0.01,
+          "spearman": 0.5759916341332634
+        }
+      }
+    },
+    "bands_only|elasticnet": {
+      "feature_set": "bands_only",
+      "model": "elasticnet",
+      "pooled_spearman": 0.5425459683236145,
+      "pooled_ci95": [
+        0.47432275106660055,
+        0.7195764035574186
+      ],
+      "perm_p": 0.0,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.6805957186886575
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.8439173096747772
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 0.1,
+          "spearman": 0.7319664754439936
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 0.01,
+          "spearman": 0.5759916341332634
+        }
+      }
+    },
+    "bands_types_ctx|ridge": {
+      "feature_set": "bands_types_ctx",
+      "model": "ridge",
+      "pooled_spearman": 0.3636559206833893,
+      "pooled_ci95": [
+        0.1320145901584391,
+        0.7296705598347573
+      ],
+      "perm_p": 0.004,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 300.0,
+          "spearman": 0.6460850700453581
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 300.0,
+          "spearman": 0.8278030620679455
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.7554770771076299
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 100.0,
+          "spearman": 0.5954436940396113
+        }
+      }
+    },
+    "bands_types_ctx|huber": {
+      "feature_set": "bands_types_ctx",
+      "model": "huber",
+      "pooled_spearman": 0.44852709830453436,
+      "pooled_ci95": [
+        0.2894459511210597,
+        0.7284785570432787
+      ],
+      "perm_p": 0.0,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 1000.0,
+          "spearman": 0.6506031474582626
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 1000.0,
+          "spearman": 0.8368665992438719
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.7630243006551587
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 0.01,
+          "spearman": 0.6037425608554942
+        }
+      }
+    },
+    "bands_types_ctx|elasticnet": {
+      "feature_set": "bands_types_ctx",
+      "model": "elasticnet",
+      "pooled_spearman": 0.5533069545509675,
+      "pooled_ci95": [
+        0.471648391250804,
+        0.7762235336602503
+      ],
+      "perm_p": 0.0,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.6581332764797704
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.8670783898302933
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.7554770771076299
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 0.01,
+          "spearman": 0.5954436940396113
+        }
+      }
+    },
+    "bands_types_ctx_thermo|ridge": {
+      "feature_set": "bands_types_ctx_thermo",
+      "model": "ridge",
+      "pooled_spearman": 0.2685795217440787,
+      "pooled_ci95": [
+        0.17786635404454862,
+        0.682299775946531
+      ],
+      "perm_p": 0.006,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 1000.0,
+          "spearman": 0.6375939849624059
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 1.0,
+          "spearman": 0.8406015037593983
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 10.0,
+          "spearman": 0.8270676691729323
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 10.0,
+          "spearman": 0.6346749226006192
+        }
+      }
+    },
+    "bands_types_ctx_thermo|huber": {
+      "feature_set": "bands_types_ctx_thermo",
+      "model": "huber",
+      "pooled_spearman": 0.19961051606621225,
+      "pooled_ci95": [
+        0.03472450175849941,
+        0.6796668312257118
+      ],
+      "perm_p": 0.538,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 10000.0,
+          "spearman": 0.6616541353383457
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 10.0,
+          "spearman": 0.8436090225563909
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 10000.0,
+          "spearman": 0.78796992481203
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 100.0,
+          "spearman": 0.5686274509803922
+        }
+      }
+    },
+    "bands_types_ctx_thermo|elasticnet": {
+      "feature_set": "bands_types_ctx_thermo",
+      "model": "elasticnet",
+      "pooled_spearman": 0.4620374820167607,
+      "pooled_ci95": [
+        0.416931221901215,
+        0.7512899929864011
+      ],
+      "perm_p": 0.0,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.656132616141486
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.8481203007518796
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.8270676691729323
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 0.01,
+          "spearman": 0.6181630546955624
+        }
+      }
+    },
+    "bands_types_ctx_dataset|ridge": {
+      "feature_set": "bands_types_ctx_dataset",
+      "model": "ridge",
+      "pooled_spearman": 0.3636559206833893,
+      "pooled_ci95": [
+        0.1320145901584391,
+        0.7296705598347573
+      ],
+      "perm_p": 0.004,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 300.0,
+          "spearman": 0.6460850700453581
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 300.0,
+          "spearman": 0.8278030620679455
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.7554770771076299
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 100.0,
+          "spearman": 0.5954436940396113
+        }
+      }
+    },
+    "bands_types_ctx_dataset|huber": {
+      "feature_set": "bands_types_ctx_dataset",
+      "model": "huber",
+      "pooled_spearman": 0.44852709830453436,
+      "pooled_ci95": [
+        0.2894459511210597,
+        0.7284785570432787
+      ],
+      "perm_p": 0.0,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 1000.0,
+          "spearman": 0.6506031474582626
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 1000.0,
+          "spearman": 0.8368665992438719
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.7630243006551587
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 0.01,
+          "spearman": 0.6037425608554942
+        }
+      }
+    },
+    "bands_types_ctx_dataset|elasticnet": {
+      "feature_set": "bands_types_ctx_dataset",
+      "model": "elasticnet",
+      "pooled_spearman": 0.5533069545509675,
+      "pooled_ci95": [
+        0.471648391250804,
+        0.7762235336602503
+      ],
+      "perm_p": 0.0,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.6581332764797704
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.8670783898302933
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 0.01,
+          "spearman": 0.7554770771076299
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 0.01,
+          "spearman": 0.5954436940396113
+        }
+      }
+    },
+    "legacy25|ridge": {
+      "feature_set": "legacy25",
+      "model": "ridge",
+      "pooled_spearman": 0.5686844800768851,
+      "pooled_ci95": [
+        0.4904504927264196,
+        0.7312998592210231
+      ],
+      "perm_p": 0.0,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 300.0,
+          "spearman": 0.6526315789473683
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 1.0,
+          "spearman": 0.5428571428571428
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 300.0,
+          "spearman": 0.7563909774436091
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 300.0,
+          "spearman": 0.6491228070175438
+        }
+      }
+    },
+    "legacy25|huber": {
+      "feature_set": "legacy25",
+      "model": "huber",
+      "pooled_spearman": 0.4622592597276141,
+      "pooled_ci95": [
+        0.12747565379144327,
+        0.7364617550445801
+      ],
+      "perm_p": 0.0,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 10000.0,
+          "spearman": 0.6661654135338345
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 100.0,
+          "spearman": 0.6932330827067669
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 300.0,
+          "spearman": 0.7503759398496239
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 10000.0,
+          "spearman": 0.6491228070175438
+        }
+      }
+    },
+    "legacy25|elasticnet": {
+      "feature_set": "legacy25",
+      "model": "elasticnet",
+      "pooled_spearman": 0.5619725917189203,
+      "pooled_ci95": [
+        0.513526239030494,
+        0.7205199362596609
+      ],
+      "perm_p": 0.0,
+      "per_dataset": {
+        "Ohnishi_2008|siPrnp102(T10)": {
+          "n": 20,
+          "alpha": 0.1,
+          "spearman": 0.6876660670749988
+        },
+        "Ohnishi_2008|siPrnp102(T9)": {
+          "n": 20,
+          "alpha": 0.1,
+          "spearman": 0.7917950317096744
+        },
+        "Ohnishi_2008|siPrnp105(T10)": {
+          "n": 20,
+          "alpha": 0.1,
+          "spearman": 0.7195094792218013
+        },
+        "Ohnishi_2008|siPrnp178(A9)": {
+          "n": 18,
+          "alpha": 0.1,
+          "spearman": 0.7025515336936814
+        }
+      }
+    }
+  },
+  "status": "research_only_not_connected_to_production",
+  "note": "外层 LOSO by dataset + 内层 GroupKFold 选 alpha；pooled 指标为两层拆分下 out-of-fold 预测汇总；CI 按 group 重采样；置换检验按组内打乱标签。Kini n=5 且注释未解析，--drop-kini 为敏感性对照。"
+}

@@ -1,0 +1,726 @@
+{
+  "datasets": {
+    "Hu": 2361,
+    "Taka": 702,
+    "Mix": 464,
+    "Simone": 322
+  },
+  "grid": [
+    {
+      "preset": "current_1.0_1.0_1.2_0.8",
+      "beta": 0.0,
+      "alpha": 1.0,
+      "per_dataset": {
+        "Hu": 0.1321,
+        "Taka": -0.1923,
+        "Mix": 0.1499,
+        "Simone": 0.0095
+      },
+      "mean_spearman": 0.0248,
+      "worst_spearman": -0.1923,
+      "pooled_spearman": 0.065
+    },
+    {
+      "preset": "current_1.0_1.0_1.2_0.8",
+      "beta": 0.2,
+      "alpha": 0.8,
+      "per_dataset": {
+        "Hu": 0.4165,
+        "Taka": 0.0962,
+        "Mix": 0.5147,
+        "Simone": 0.1212
+      },
+      "mean_spearman": 0.2872,
+      "worst_spearman": 0.0962,
+      "pooled_spearman": 0.3465
+    },
+    {
+      "preset": "current_1.0_1.0_1.2_0.8",
+      "beta": 0.4,
+      "alpha": 0.6,
+      "per_dataset": {
+        "Hu": 0.6016,
+        "Taka": 0.4786,
+        "Mix": 0.6855,
+        "Simone": 0.2434
+      },
+      "mean_spearman": 0.5023,
+      "worst_spearman": 0.2434,
+      "pooled_spearman": 0.5632
+    },
+    {
+      "preset": "current_1.0_1.0_1.2_0.8",
+      "beta": 0.5,
+      "alpha": 0.5,
+      "per_dataset": {
+        "Hu": 0.6352,
+        "Taka": 0.5503,
+        "Mix": 0.707,
+        "Simone": 0.2807
+      },
+      "mean_spearman": 0.5433,
+      "worst_spearman": 0.2807,
+      "pooled_spearman": 0.6033
+    },
+    {
+      "preset": "current_1.0_1.0_1.2_0.8",
+      "beta": 0.6,
+      "alpha": 0.4,
+      "per_dataset": {
+        "Hu": 0.6485,
+        "Taka": 0.5726,
+        "Mix": 0.7109,
+        "Simone": 0.3002
+      },
+      "mean_spearman": 0.558,
+      "worst_spearman": 0.3002,
+      "pooled_spearman": 0.6179
+    },
+    {
+      "preset": "current_1.0_1.0_1.2_0.8",
+      "beta": 0.8,
+      "alpha": 0.2,
+      "per_dataset": {
+        "Hu": 0.6513,
+        "Taka": 0.5739,
+        "Mix": 0.7024,
+        "Simone": 0.3037
+      },
+      "mean_spearman": 0.5578,
+      "worst_spearman": 0.3037,
+      "pooled_spearman": 0.6191
+    },
+    {
+      "preset": "current_1.0_1.0_1.2_0.8",
+      "beta": 1.0,
+      "alpha": 0.0,
+      "per_dataset": {
+        "Hu": 0.6439,
+        "Taka": 0.5646,
+        "Mix": 0.6904,
+        "Simone": 0.3024
+      },
+      "mean_spearman": 0.5503,
+      "worst_spearman": 0.3024,
+      "pooled_spearman": 0.6109
+    },
+    {
+      "preset": "equal_1_1_1_1",
+      "beta": 0.0,
+      "alpha": 1.0,
+      "per_dataset": {
+        "Hu": 0.1338,
+        "Taka": -0.1764,
+        "Mix": 0.1543,
+        "Simone": 0.0046
+      },
+      "mean_spearman": 0.0291,
+      "worst_spearman": -0.1764,
+      "pooled_spearman": 0.0688
+    },
+    {
+      "preset": "equal_1_1_1_1",
+      "beta": 0.2,
+      "alpha": 0.8,
+      "per_dataset": {
+        "Hu": 0.4157,
+        "Taka": 0.1096,
+        "Mix": 0.5156,
+        "Simone": 0.1187
+      },
+      "mean_spearman": 0.2899,
+      "worst_spearman": 0.1096,
+      "pooled_spearman": 0.3486
+    },
+    {
+      "preset": "equal_1_1_1_1",
+      "beta": 0.4,
+      "alpha": 0.6,
+      "per_dataset": {
+        "Hu": 0.6004,
+        "Taka": 0.4777,
+        "Mix": 0.6821,
+        "Simone": 0.2439
+      },
+      "mean_spearman": 0.501,
+      "worst_spearman": 0.2439,
+      "pooled_spearman": 0.562
+    },
+    {
+      "preset": "equal_1_1_1_1",
+      "beta": 0.5,
+      "alpha": 0.5,
+      "per_dataset": {
+        "Hu": 0.6346,
+        "Taka": 0.5487,
+        "Mix": 0.7043,
+        "Simone": 0.2777
+      },
+      "mean_spearman": 0.5413,
+      "worst_spearman": 0.2777,
+      "pooled_spearman": 0.6021
+    },
+    {
+      "preset": "equal_1_1_1_1",
+      "beta": 0.6,
+      "alpha": 0.4,
+      "per_dataset": {
+        "Hu": 0.6483,
+        "Taka": 0.5717,
+        "Mix": 0.7097,
+        "Simone": 0.2967
+      },
+      "mean_spearman": 0.5566,
+      "worst_spearman": 0.2967,
+      "pooled_spearman": 0.6172
+    },
+    {
+      "preset": "equal_1_1_1_1",
+      "beta": 0.8,
+      "alpha": 0.2,
+      "per_dataset": {
+        "Hu": 0.6512,
+        "Taka": 0.574,
+        "Mix": 0.7018,
+        "Simone": 0.3033
+      },
+      "mean_spearman": 0.5576,
+      "worst_spearman": 0.3033,
+      "pooled_spearman": 0.619
+    },
+    {
+      "preset": "equal_1_1_1_1",
+      "beta": 1.0,
+      "alpha": 0.0,
+      "per_dataset": {
+        "Hu": 0.6439,
+        "Taka": 0.5646,
+        "Mix": 0.6904,
+        "Simone": 0.3024
+      },
+      "mean_spearman": 0.5503,
+      "worst_spearman": 0.3024,
+      "pooled_spearman": 0.6109
+    },
+    {
+      "preset": "mfe_dominant_1.8_0.4_0.4_0.2",
+      "beta": 0.0,
+      "alpha": 1.0,
+      "per_dataset": {
+        "Hu": 0.2925,
+        "Taka": 0.243,
+        "Mix": 0.329,
+        "Simone": 0.091
+      },
+      "mean_spearman": 0.2389,
+      "worst_spearman": 0.091,
+      "pooled_spearman": 0.2708
+    },
+    {
+      "preset": "mfe_dominant_1.8_0.4_0.4_0.2",
+      "beta": 0.2,
+      "alpha": 0.8,
+      "per_dataset": {
+        "Hu": 0.5121,
+        "Taka": 0.4187,
+        "Mix": 0.5634,
+        "Simone": 0.1973
+      },
+      "mean_spearman": 0.4229,
+      "worst_spearman": 0.1973,
+      "pooled_spearman": 0.4761
+    },
+    {
+      "preset": "mfe_dominant_1.8_0.4_0.4_0.2",
+      "beta": 0.4,
+      "alpha": 0.6,
+      "per_dataset": {
+        "Hu": 0.6097,
+        "Taka": 0.5368,
+        "Mix": 0.6579,
+        "Simone": 0.2645
+      },
+      "mean_spearman": 0.5172,
+      "worst_spearman": 0.2645,
+      "pooled_spearman": 0.5756
+    },
+    {
+      "preset": "mfe_dominant_1.8_0.4_0.4_0.2",
+      "beta": 0.5,
+      "alpha": 0.5,
+      "per_dataset": {
+        "Hu": 0.6305,
+        "Taka": 0.5658,
+        "Mix": 0.6793,
+        "Simone": 0.2848
+      },
+      "mean_spearman": 0.5401,
+      "worst_spearman": 0.2848,
+      "pooled_spearman": 0.5985
+    },
+    {
+      "preset": "mfe_dominant_1.8_0.4_0.4_0.2",
+      "beta": 0.6,
+      "alpha": 0.4,
+      "per_dataset": {
+        "Hu": 0.6411,
+        "Taka": 0.5791,
+        "Mix": 0.6898,
+        "Simone": 0.2999
+      },
+      "mean_spearman": 0.5525,
+      "worst_spearman": 0.2999,
+      "pooled_spearman": 0.6106
+    },
+    {
+      "preset": "mfe_dominant_1.8_0.4_0.4_0.2",
+      "beta": 0.8,
+      "alpha": 0.2,
+      "per_dataset": {
+        "Hu": 0.647,
+        "Taka": 0.5796,
+        "Mix": 0.6945,
+        "Simone": 0.3124
+      },
+      "mean_spearman": 0.5584,
+      "worst_spearman": 0.3124,
+      "pooled_spearman": 0.6166
+    },
+    {
+      "preset": "mfe_dominant_1.8_0.4_0.4_0.2",
+      "beta": 1.0,
+      "alpha": 0.0,
+      "per_dataset": {
+        "Hu": 0.6439,
+        "Taka": 0.5646,
+        "Mix": 0.6904,
+        "Simone": 0.3024
+      },
+      "mean_spearman": 0.5503,
+      "worst_spearman": 0.3024,
+      "pooled_spearman": 0.6109
+    },
+    {
+      "preset": "mfe_heavy_2.0_0.5_1.0_0.0",
+      "beta": 0.0,
+      "alpha": 1.0,
+      "per_dataset": {
+        "Hu": 0.2492,
+        "Taka": 0.1432,
+        "Mix": 0.2797,
+        "Simone": 0.0717
+      },
+      "mean_spearman": 0.186,
+      "worst_spearman": 0.0717,
+      "pooled_spearman": 0.2177
+    },
+    {
+      "preset": "mfe_heavy_2.0_0.5_1.0_0.0",
+      "beta": 0.2,
+      "alpha": 0.8,
+      "per_dataset": {
+        "Hu": 0.4999,
+        "Taka": 0.3647,
+        "Mix": 0.557,
+        "Simone": 0.1791
+      },
+      "mean_spearman": 0.4002,
+      "worst_spearman": 0.1791,
+      "pooled_spearman": 0.4566
+    },
+    {
+      "preset": "mfe_heavy_2.0_0.5_1.0_0.0",
+      "beta": 0.4,
+      "alpha": 0.6,
+      "per_dataset": {
+        "Hu": 0.6127,
+        "Taka": 0.528,
+        "Mix": 0.668,
+        "Simone": 0.2634
+      },
+      "mean_spearman": 0.518,
+      "worst_spearman": 0.2634,
+      "pooled_spearman": 0.5772
+    },
+    {
+      "preset": "mfe_heavy_2.0_0.5_1.0_0.0",
+      "beta": 0.5,
+      "alpha": 0.5,
+      "per_dataset": {
+        "Hu": 0.6337,
+        "Taka": 0.5624,
+        "Mix": 0.6878,
+        "Simone": 0.2867
+      },
+      "mean_spearman": 0.5427,
+      "worst_spearman": 0.2867,
+      "pooled_spearman": 0.6016
+    },
+    {
+      "preset": "mfe_heavy_2.0_0.5_1.0_0.0",
+      "beta": 0.6,
+      "alpha": 0.4,
+      "per_dataset": {
+        "Hu": 0.6436,
+        "Taka": 0.5768,
+        "Mix": 0.6975,
+        "Simone": 0.3038
+      },
+      "mean_spearman": 0.5554,
+      "worst_spearman": 0.3038,
+      "pooled_spearman": 0.6131
+    },
+    {
+      "preset": "mfe_heavy_2.0_0.5_1.0_0.0",
+      "beta": 0.8,
+      "alpha": 0.2,
+      "per_dataset": {
+        "Hu": 0.6479,
+        "Taka": 0.5776,
+        "Mix": 0.6976,
+        "Simone": 0.3119
+      },
+      "mean_spearman": 0.5587,
+      "worst_spearman": 0.3119,
+      "pooled_spearman": 0.6171
+    },
+    {
+      "preset": "mfe_heavy_2.0_0.5_1.0_0.0",
+      "beta": 1.0,
+      "alpha": 0.0,
+      "per_dataset": {
+        "Hu": 0.6439,
+        "Taka": 0.5646,
+        "Mix": 0.6904,
+        "Simone": 0.3024
+      },
+      "mean_spearman": 0.5503,
+      "worst_spearman": 0.3024,
+      "pooled_spearman": 0.6109
+    },
+    {
+      "preset": "no_seed_1.0_1.0_1.2_0.0",
+      "beta": 0.0,
+      "alpha": 1.0,
+      "per_dataset": {
+        "Hu": 0.2851,
+        "Taka": -0.0214,
+        "Mix": 0.2913,
+        "Simone": 0.1061
+      },
+      "mean_spearman": 0.1653,
+      "worst_spearman": -0.0214,
+      "pooled_spearman": 0.2146
+    },
+    {
+      "preset": "no_seed_1.0_1.0_1.2_0.0",
+      "beta": 0.2,
+      "alpha": 0.8,
+      "per_dataset": {
+        "Hu": 0.5002,
+        "Taka": 0.2584,
+        "Mix": 0.5542,
+        "Simone": 0.1932
+      },
+      "mean_spearman": 0.3765,
+      "worst_spearman": 0.1932,
+      "pooled_spearman": 0.4392
+    },
+    {
+      "preset": "no_seed_1.0_1.0_1.2_0.0",
+      "beta": 0.4,
+      "alpha": 0.6,
+      "per_dataset": {
+        "Hu": 0.6211,
+        "Taka": 0.534,
+        "Mix": 0.6821,
+        "Simone": 0.2865
+      },
+      "mean_spearman": 0.5309,
+      "worst_spearman": 0.2865,
+      "pooled_spearman": 0.5887
+    },
+    {
+      "preset": "no_seed_1.0_1.0_1.2_0.0",
+      "beta": 0.5,
+      "alpha": 0.5,
+      "per_dataset": {
+        "Hu": 0.6436,
+        "Taka": 0.5785,
+        "Mix": 0.7022,
+        "Simone": 0.3148
+      },
+      "mean_spearman": 0.5598,
+      "worst_spearman": 0.3148,
+      "pooled_spearman": 0.6156
+    },
+    {
+      "preset": "no_seed_1.0_1.0_1.2_0.0",
+      "beta": 0.6,
+      "alpha": 0.4,
+      "per_dataset": {
+        "Hu": 0.6527,
+        "Taka": 0.5902,
+        "Mix": 0.7081,
+        "Simone": 0.3231
+      },
+      "mean_spearman": 0.5685,
+      "worst_spearman": 0.3231,
+      "pooled_spearman": 0.625
+    },
+    {
+      "preset": "no_seed_1.0_1.0_1.2_0.0",
+      "beta": 0.8,
+      "alpha": 0.2,
+      "per_dataset": {
+        "Hu": 0.6524,
+        "Taka": 0.5811,
+        "Mix": 0.7026,
+        "Simone": 0.3141
+      },
+      "mean_spearman": 0.5625,
+      "worst_spearman": 0.3141,
+      "pooled_spearman": 0.6218
+    },
+    {
+      "preset": "no_seed_1.0_1.0_1.2_0.0",
+      "beta": 1.0,
+      "alpha": 0.0,
+      "per_dataset": {
+        "Hu": 0.6439,
+        "Taka": 0.5646,
+        "Mix": 0.6904,
+        "Simone": 0.3024
+      },
+      "mean_spearman": 0.5503,
+      "worst_spearman": 0.3024,
+      "pooled_spearman": 0.6109
+    },
+    {
+      "preset": "duplex_heavy_0.5_0.5_2.0_0.0",
+      "beta": 0.0,
+      "alpha": 1.0,
+      "per_dataset": {
+        "Hu": -0.0873,
+        "Taka": -0.4289,
+        "Mix": -0.0596,
+        "Simone": -0.0763
+      },
+      "mean_spearman": -0.163,
+      "worst_spearman": -0.4289,
+      "pooled_spearman": -0.1486
+    },
+    {
+      "preset": "duplex_heavy_0.5_0.5_2.0_0.0",
+      "beta": 0.2,
+      "alpha": 0.8,
+      "per_dataset": {
+        "Hu": 0.2001,
+        "Taka": -0.2813,
+        "Mix": 0.2798,
+        "Simone": 0.0174
+      },
+      "mean_spearman": 0.054,
+      "worst_spearman": -0.2813,
+      "pooled_spearman": 0.104
+    },
+    {
+      "preset": "duplex_heavy_0.5_0.5_2.0_0.0",
+      "beta": 0.4,
+      "alpha": 0.6,
+      "per_dataset": {
+        "Hu": 0.5224,
+        "Taka": 0.2122,
+        "Mix": 0.6415,
+        "Simone": 0.1615
+      },
+      "mean_spearman": 0.3844,
+      "worst_spearman": 0.1615,
+      "pooled_spearman": 0.452
+    },
+    {
+      "preset": "duplex_heavy_0.5_0.5_2.0_0.0",
+      "beta": 0.5,
+      "alpha": 0.5,
+      "per_dataset": {
+        "Hu": 0.5995,
+        "Taka": 0.4338,
+        "Mix": 0.6988,
+        "Simone": 0.2385
+      },
+      "mean_spearman": 0.4927,
+      "worst_spearman": 0.2385,
+      "pooled_spearman": 0.5551
+    },
+    {
+      "preset": "duplex_heavy_0.5_0.5_2.0_0.0",
+      "beta": 0.6,
+      "alpha": 0.4,
+      "per_dataset": {
+        "Hu": 0.6329,
+        "Taka": 0.5186,
+        "Mix": 0.7119,
+        "Simone": 0.2727
+      },
+      "mean_spearman": 0.534,
+      "worst_spearman": 0.2727,
+      "pooled_spearman": 0.5969
+    },
+    {
+      "preset": "duplex_heavy_0.5_0.5_2.0_0.0",
+      "beta": 0.8,
+      "alpha": 0.2,
+      "per_dataset": {
+        "Hu": 0.6484,
+        "Taka": 0.5592,
+        "Mix": 0.7059,
+        "Simone": 0.298
+      },
+      "mean_spearman": 0.5529,
+      "worst_spearman": 0.298,
+      "pooled_spearman": 0.6148
+    },
+    {
+      "preset": "duplex_heavy_0.5_0.5_2.0_0.0",
+      "beta": 1.0,
+      "alpha": 0.0,
+      "per_dataset": {
+        "Hu": 0.6439,
+        "Taka": 0.5646,
+        "Mix": 0.6904,
+        "Simone": 0.3024
+      },
+      "mean_spearman": 0.5503,
+      "worst_spearman": 0.3024,
+      "pooled_spearman": 0.6109
+    },
+    {
+      "preset": "mfe_only",
+      "beta": 0.0,
+      "alpha": 1.0,
+      "per_dataset": {
+        "Hu": 0.2185,
+        "Taka": 0.3179,
+        "Mix": 0.3109,
+        "Simone": 0.0159
+      },
+      "mean_spearman": 0.2158,
+      "worst_spearman": 0.0159,
+      "pooled_spearman": 0.2233
+    },
+    {
+      "preset": "mfe_only",
+      "beta": 0.2,
+      "alpha": 0.8,
+      "per_dataset": {
+        "Hu": 0.4204,
+        "Taka": 0.4234,
+        "Mix": 0.4938,
+        "Simone": 0.1817
+      },
+      "mean_spearman": 0.3798,
+      "worst_spearman": 0.1817,
+      "pooled_spearman": 0.4091
+    },
+    {
+      "preset": "mfe_only",
+      "beta": 0.4,
+      "alpha": 0.6,
+      "per_dataset": {
+        "Hu": 0.539,
+        "Taka": 0.5003,
+        "Mix": 0.5902,
+        "Simone": 0.2296
+      },
+      "mean_spearman": 0.4648,
+      "worst_spearman": 0.2296,
+      "pooled_spearman": 0.5141
+    },
+    {
+      "preset": "mfe_only",
+      "beta": 0.5,
+      "alpha": 0.5,
+      "per_dataset": {
+        "Hu": 0.5795,
+        "Taka": 0.5329,
+        "Mix": 0.6285,
+        "Simone": 0.2551
+      },
+      "mean_spearman": 0.499,
+      "worst_spearman": 0.2551,
+      "pooled_spearman": 0.5515
+    },
+    {
+      "preset": "mfe_only",
+      "beta": 0.6,
+      "alpha": 0.4,
+      "per_dataset": {
+        "Hu": 0.6078,
+        "Taka": 0.5572,
+        "Mix": 0.6567,
+        "Simone": 0.2764
+      },
+      "mean_spearman": 0.5245,
+      "worst_spearman": 0.2764,
+      "pooled_spearman": 0.5788
+    },
+    {
+      "preset": "mfe_only",
+      "beta": 0.8,
+      "alpha": 0.2,
+      "per_dataset": {
+        "Hu": 0.6376,
+        "Taka": 0.5756,
+        "Mix": 0.6843,
+        "Simone": 0.3078
+      },
+      "mean_spearman": 0.5513,
+      "worst_spearman": 0.3078,
+      "pooled_spearman": 0.6079
+    },
+    {
+      "preset": "mfe_only",
+      "beta": 1.0,
+      "alpha": 0.0,
+      "per_dataset": {
+        "Hu": 0.6439,
+        "Taka": 0.5646,
+        "Mix": 0.6904,
+        "Simone": 0.3024
+      },
+      "mean_spearman": 0.5503,
+      "worst_spearman": 0.3024,
+      "pooled_spearman": 0.6109
+    }
+  ],
+  "reference": {
+    "current_default_alpha0.8_beta0.2": {
+      "preset": "current_1.0_1.0_1.2_0.8",
+      "beta": 0.2,
+      "alpha": 0.8,
+      "per_dataset": {
+        "Hu": 0.4165,
+        "Taka": 0.0962,
+        "Mix": 0.5147,
+        "Simone": 0.1212
+      },
+      "mean_spearman": 0.2872,
+      "worst_spearman": 0.0962,
+      "pooled_spearman": 0.3465
+    },
+    "pure_dl_beta1.0": {
+      "preset": "current_1.0_1.0_1.2_0.8",
+      "beta": 1.0,
+      "alpha": 0.0,
+      "per_dataset": {
+        "Hu": 0.6439,
+        "Taka": 0.5646,
+        "Mix": 0.6904,
+        "Simone": 0.3024
+      },
+      "mean_spearman": 0.5503,
+      "worst_spearman": 0.3024,
+      "pooled_spearman": 0.6109
+    }
+  }
+}

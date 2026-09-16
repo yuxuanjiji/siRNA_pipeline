@@ -1,0 +1,964 @@
+{
+  "input": "D:\\HuaweiMoveData\\Users\\及宇轩\\Desktop\\生科挑战赛\\siRNA_pipeline\\outputs\\analysis\\mismatch\\mismatch_curated.csv",
+  "rows": 102,
+  "model": "wt_paired_delta_ridge",
+  "feature_count": 40,
+  "outer_loso": {
+    "Holen_2005": {
+      "train_rows": 83,
+      "test_rows": 19,
+      "selected_alpha": 100.0,
+      "inner_selection": {
+        "fold_scores": {
+          "0.01": [
+            0.5909774436090225,
+            0.4631578947368421,
+            0.6150375939849623,
+            0.7378740970072238,
+            0.5441071875825088
+          ],
+          "0.1": [
+            0.5909774436090225,
+            0.4631578947368421,
+            0.6150375939849623,
+            0.7378740970072238
+          ],
+          "1.0": [
+            0.5774436090225563,
+            0.4631578947368421,
+            0.6150375939849623,
+            0.7378740970072238
+          ],
+          "10.0": [
+            0.6195488721804511,
+            0.4827067669172932,
+            0.6075187969924812,
+            0.7131062951496387
+          ],
+          "100.0": [
+            0.6721804511278194,
+            0.5684210526315789,
+            0.6481203007518795,
+            0.696594427244582
+          ]
+        },
+        "mean_spearman": {
+          "0.01": 0.5902308433841119,
+          "0.1": 0.6017617573345126,
+          "1.0": 0.598378298687896,
+          "10.0": 0.6057201828099661,
+          "100.0": 0.646329057938965
+        }
+      },
+      "delta_spearman": 0.755845522849715,
+      "raw_spearman": 0.755845522849715,
+      "raw_mae": 0.14288715275976202,
+      "raw_rmse": 0.1568905120946532,
+      "predictions": [
+        {
+          "row_id": "1",
+          "label": 0.8,
+          "wt_label": 0.713,
+          "delta_label": 0.08700000000000008,
+          "delta_prediction": -0.17379096631693347,
+          "raw_prediction": 0.5392090336830665
+        },
+        {
+          "row_id": "2",
+          "label": 0.784,
+          "wt_label": 0.713,
+          "delta_label": 0.07100000000000006,
+          "delta_prediction": -0.14913564703066348,
+          "raw_prediction": 0.5638643529693365
+        },
+        {
+          "row_id": "3",
+          "label": 0.36,
+          "wt_label": 0.713,
+          "delta_label": -0.353,
+          "delta_prediction": -0.3020733809749701,
+          "raw_prediction": 0.41092661902502986
+        },
+        {
+          "row_id": "4",
+          "label": 0.712,
+          "wt_label": 0.713,
+          "delta_label": -0.0010000000000000009,
+          "delta_prediction": -0.1938205265050883,
+          "raw_prediction": 0.5191794734949117
+        },
+        {
+          "row_id": "5",
+          "label": 0.256,
+          "wt_label": 0.713,
+          "delta_label": -0.45699999999999996,
+          "delta_prediction": -0.3221029411631249,
+          "raw_prediction": 0.3908970588368751
+        },
+        {
+          "row_id": "6",
+          "label": 0.272,
+          "wt_label": 0.713,
+          "delta_label": -0.44099999999999995,
+          "delta_prediction": -0.3667878206375497,
+          "raw_prediction": 0.34621217936245025
+        },
+        {
+          "row_id": "7",
+          "label": 0.692,
+          "wt_label": 0.713,
+          "delta_label": -0.02100000000000002,
+          "delta_prediction": -0.17379096631693347,
+          "raw_prediction": 0.5392090336830665
+        },
+        {
+          "row_id": "8",
+          "label": 0.608,
+          "wt_label": 0.713,
+          "delta_label": -0.10499999999999998,
+          "delta_prediction": -0.1665663567346324,
+          "raw_prediction": 0.5464336432653676
+        },
+        {
+          "row_id": "9",
+          "label": 0.25,
+          "wt_label": 0.713,
+          "delta_label": -0.46299999999999997,
+          "delta_prediction": -0.30465027012288526,
+          "raw_prediction": 0.4083497298771147
+        },
+        {
+          "row_id": "10",
+          "label": 0.283,
+          "wt_label": 0.713,
+          "delta_label": -0.43,
+          "delta_prediction": -0.17779664166140008,
+          "raw_prediction": 0.5352033583385999
+        },
+        {
+          "row_id": "11",
+          "label": 0.525,
+          "wt_label": 0.713,
+          "delta_label": -0.18799999999999994,
+          "delta_prediction": -0.26487775207454073,
+          "raw_prediction": 0.44812224792545924
+        },
+        {
+          "row_id": "12",
+          "label": 0.333,
+          "wt_label": 0.713,
+          "delta_label": -0.37999999999999995,
+          "delta_prediction": -0.2385054059795131,
+          "raw_prediction": 0.4744945940204869
+        },
+        {
+          "row_id": "13",
+          "label": 0.242,
+          "wt_label": 0.713,
+          "delta_label": -0.471,
+          "delta_prediction": -0.3295921917371204,
+          "raw_prediction": 0.38340780826287957
+        },
+        {
+          "row_id": "14",
+          "label": 0.4,
+          "wt_label": 0.713,
+          "delta_label": -0.31299999999999994,
+          "delta_prediction": -0.17379096631693347,
+          "raw_prediction": 0.5392090336830665
+        },
+        {
+          "row_id": "15",
+          "label": 0.517,
+          "wt_label": 0.713,
+          "delta_label": -0.19599999999999995,
+          "delta_prediction": -0.21168907510453205,
+          "raw_prediction": 0.5013109248954679
+        },
+        {
+          "row_id": "16",
+          "label": 0.717,
+          "wt_label": 0.713,
+          "delta_label": 0.0040000000000000036,
+          "delta_prediction": -0.2036567144791331,
+          "raw_prediction": 0.5093432855208668
+        },
+        {
+          "row_id": "17",
+          "label": 0.7,
+          "wt_label": 0.713,
+          "delta_label": -0.013000000000000012,
+          "delta_prediction": -0.17379096631693347,
+          "raw_prediction": 0.5392090336830665
+        },
+        {
+          "row_id": "18",
+          "label": 0.692,
+          "wt_label": 0.713,
+          "delta_label": -0.02100000000000002,
+          "delta_prediction": -0.1649304633070766,
+          "raw_prediction": 0.5480695366929234
+        },
+        {
+          "row_id": "WTREF-Holen-Fe775i",
+          "label": 0.713,
+          "wt_label": 0.713,
+          "delta_label": 0.0,
+          "delta_prediction": -0.12910608684250865,
+          "raw_prediction": 0.5838939131574913
+        }
+      ],
+      "interpretation": "external_loso"
+    },
+    "Kini_2009": {
+      "train_rows": 97,
+      "test_rows": 5,
+      "selected_alpha": 100.0,
+      "inner_selection": {
+        "fold_scores": {
+          "0.01": [
+            0.5503759398496241,
+            0.41052631578947363,
+            0.6571428571428571,
+            0.7674731947602228,
+            0.7192982456140351
+          ],
+          "0.1": [
+            0.5684210526315789,
+            0.41052631578947363,
+            0.6571428571428571,
+            0.7630775865428103,
+            0.7192982456140351
+          ],
+          "1.0": [
+            0.6481203007518795,
+            0.39097744360902253,
+            0.6496240601503759,
+            0.7673044054118681,
+            0.7131062951496387
+          ],
+          "10.0": [
+            0.6977443609022556,
+            0.35939849624060144,
+            0.669172932330827,
+            0.7578028566819153,
+            0.6656346749226005
+          ],
+          "100.0": [
+            0.7142857142857143,
+            0.45714285714285713,
+            0.706766917293233,
+            0.7534072484645028,
+            0.6491228070175438
+          ]
+        },
+        "mean_spearman": {
+          "0.01": 0.6209633106312425,
+          "0.1": 0.623693211544151,
+          "1.0": 0.633826501014557,
+          "10.0": 0.6299506642156398,
+          "100.0": 0.6561451088407703
+        }
+      },
+      "delta_spearman": null,
+      "raw_spearman": 0.0,
+      "raw_mae": 0.25799598824821,
+      "raw_rmse": 0.3694286794007342,
+      "predictions": [
+        {
+          "row_id": "2",
+          "label": 0.9273,
+          "wt_label": 1.0,
+          "delta_label": -0.07269999999999999,
+          "delta_prediction": -0.05832005875895005,
+          "raw_prediction": 0.9416799412410499
+        },
+        {
+          "row_id": "3",
+          "label": 0.4057,
+          "wt_label": 1.0,
+          "delta_label": -0.5943,
+          "delta_prediction": -0.05832005875895005,
+          "raw_prediction": 0.9416799412410499
+        },
+        {
+          "row_id": "4",
+          "label": 0.3187,
+          "wt_label": 1.0,
+          "delta_label": -0.6813,
+          "delta_prediction": -0.05832005875895005,
+          "raw_prediction": 0.9416799412410499
+        },
+        {
+          "row_id": "8",
+          "label": 0.7244,
+          "wt_label": 0.7244,
+          "delta_label": 0.0,
+          "delta_prediction": -0.05832005875895005,
+          "raw_prediction": 0.66607994124105
+        },
+        {
+          "row_id": "WTREF-Kini-396",
+          "label": 1.0,
+          "wt_label": 1.0,
+          "delta_label": 0.0,
+          "delta_prediction": -0.05832005875895005,
+          "raw_prediction": 0.9416799412410499
+        }
+      ],
+      "interpretation": "exploratory_small_n"
+    },
+    "Ohnishi_2008": {
+      "train_rows": 24,
+      "test_rows": 78,
+      "selected_alpha": 0.01,
+      "inner_selection": {
+        "fold_scores": {
+          "0.01": [],
+          "0.1": [],
+          "1.0": [],
+          "10.0": [],
+          "100.0": []
+        },
+        "mean_spearman": {
+          "0.01": -Infinity,
+          "0.1": -Infinity,
+          "1.0": -Infinity,
+          "10.0": -Infinity,
+          "100.0": -Infinity
+        }
+      },
+      "delta_spearman": 0.609520093085276,
+      "raw_spearman": 0.6390923439045254,
+      "raw_mae": 0.14520343040472333,
+      "raw_rmse": 0.18505810860922278,
+      "predictions": [
+        {
+          "row_id": "1",
+          "label": 1.0,
+          "wt_label": 1.0,
+          "delta_label": 0.0,
+          "delta_prediction": -0.13044944913808765,
+          "raw_prediction": 0.8695505508619124
+        },
+        {
+          "row_id": "2",
+          "label": 0.989555,
+          "wt_label": 1.0,
+          "delta_label": -0.010445000000000038,
+          "delta_prediction": -0.11246775878409068,
+          "raw_prediction": 0.8875322412159093
+        },
+        {
+          "row_id": "3",
+          "label": 0.940627,
+          "wt_label": 1.0,
+          "delta_label": -0.05937300000000001,
+          "delta_prediction": -0.1414774248893652,
+          "raw_prediction": 0.8585225751106348
+        },
+        {
+          "row_id": "4",
+          "label": 0.942276,
+          "wt_label": 1.0,
+          "delta_label": -0.057724,
+          "delta_prediction": -0.1486396974769177,
+          "raw_prediction": 0.8513603025230823
+        },
+        {
+          "row_id": "5",
+          "label": 0.97746,
+          "wt_label": 1.0,
+          "delta_label": -0.022540000000000004,
+          "delta_prediction": -0.2492879925560037,
+          "raw_prediction": 0.7507120074439964
+        },
+        {
+          "row_id": "6",
+          "label": 0.988455,
+          "wt_label": 1.0,
+          "delta_label": -0.011545000000000027,
+          "delta_prediction": -0.28720309500288577,
+          "raw_prediction": 0.7127969049971142
+        },
+        {
+          "row_id": "7",
+          "label": 0.987356,
+          "wt_label": 1.0,
+          "delta_label": -0.012643999999999989,
+          "delta_prediction": -0.2492879925560037,
+          "raw_prediction": 0.7507120074439964
+        },
+        {
+          "row_id": "8",
+          "label": 0.995602,
+          "wt_label": 1.0,
+          "delta_label": -0.004398000000000013,
+          "delta_prediction": -0.2492879925560037,
+          "raw_prediction": 0.7507120074439964
+        },
+        {
+          "row_id": "9",
+          "label": 0.93293,
+          "wt_label": 1.0,
+          "delta_label": -0.06706999999999996,
+          "delta_prediction": -0.4450769291158939,
+          "raw_prediction": 0.5549230708841061
+        },
+        {
+          "row_id": "10",
+          "label": 0.982958,
+          "wt_label": 1.0,
+          "delta_label": -0.017042,
+          "delta_prediction": -0.37070199464433234,
+          "raw_prediction": 0.6292980053556676
+        },
+        {
+          "row_id": "11",
+          "label": 0.885102,
+          "wt_label": 1.0,
+          "delta_label": -0.11489799999999994,
+          "delta_prediction": -0.20535652404241633,
+          "raw_prediction": 0.7946434759575837
+        },
+        {
+          "row_id": "12",
+          "label": 0.747664,
+          "wt_label": 1.0,
+          "delta_label": -0.252336,
+          "delta_prediction": -0.1873748336884194,
+          "raw_prediction": 0.8126251663115807
+        },
+        {
+          "row_id": "13",
+          "label": 0.687191,
+          "wt_label": 1.0,
+          "delta_label": -0.312809,
+          "delta_prediction": -0.2163844997936939,
+          "raw_prediction": 0.7836155002063061
+        },
+        {
+          "row_id": "14",
+          "label": 0.685542,
+          "wt_label": 1.0,
+          "delta_label": -0.314458,
+          "delta_prediction": -0.22354677238124637,
+          "raw_prediction": 0.7764532276187537
+        },
+        {
+          "row_id": "15",
+          "label": 0.443101,
+          "wt_label": 1.0,
+          "delta_label": -0.556899,
+          "delta_prediction": -0.3241950674603324,
+          "raw_prediction": 0.6758049325396676
+        },
+        {
+          "row_id": "16",
+          "label": 0.566245,
+          "wt_label": 1.0,
+          "delta_label": -0.433755,
+          "delta_prediction": -0.36211016990721445,
+          "raw_prediction": 0.6378898300927855
+        },
+        {
+          "row_id": "17",
+          "label": 0.391424,
+          "wt_label": 1.0,
+          "delta_label": -0.608576,
+          "delta_prediction": -0.3241950674603324,
+          "raw_prediction": 0.6758049325396676
+        },
+        {
+          "row_id": "18",
+          "label": 0.678944,
+          "wt_label": 1.0,
+          "delta_label": -0.321056,
+          "delta_prediction": -0.3241950674603324,
+          "raw_prediction": 0.6758049325396676
+        },
+        {
+          "row_id": "19",
+          "label": 0.534909,
+          "wt_label": 1.0,
+          "delta_label": -0.46509100000000003,
+          "delta_prediction": -0.5199840040202226,
+          "raw_prediction": 0.4800159959797774
+        },
+        {
+          "row_id": "20",
+          "label": 0.431006,
+          "wt_label": 1.0,
+          "delta_label": -0.568994,
+          "delta_prediction": -0.445609069548661,
+          "raw_prediction": 0.554390930451339
+        },
+        {
+          "row_id": "21",
+          "label": 0.997801,
+          "wt_label": 0.997801,
+          "delta_label": 0.0,
+          "delta_prediction": -0.13044944913808765,
+          "raw_prediction": 0.8673515508619124
+        },
+        {
+          "row_id": "22",
+          "label": 0.7768,
+          "wt_label": 0.997801,
+          "delta_label": -0.221001,
+          "delta_prediction": -0.15038286123097275,
+          "raw_prediction": 0.8474181387690273
+        },
+        {
+          "row_id": "23",
+          "label": 0.740517,
+          "wt_label": 0.997801,
+          "delta_label": -0.25728400000000007,
+          "delta_prediction": -0.1414774248893652,
+          "raw_prediction": 0.8563235751106348
+        },
+        {
+          "row_id": "24",
+          "label": 0.868059,
+          "wt_label": 0.997801,
+          "delta_label": -0.12974200000000002,
+          "delta_prediction": -0.1486396974769177,
+          "raw_prediction": 0.8491613025230824
+        },
+        {
+          "row_id": "25",
+          "label": 0.806487,
+          "wt_label": 0.997801,
+          "delta_label": -0.1913140000000001,
+          "delta_prediction": -0.2492879925560037,
+          "raw_prediction": 0.7485130074439963
+        },
+        {
+          "row_id": "26",
+          "label": 0.708631,
+          "wt_label": 0.997801,
+          "delta_label": -0.28917000000000004,
+          "delta_prediction": -0.2492879925560037,
+          "raw_prediction": 0.7485130074439963
+        },
+        {
+          "row_id": "27",
+          "label": 0.815833,
+          "wt_label": 0.997801,
+          "delta_label": -0.18196800000000002,
+          "delta_prediction": -0.2492879925560037,
+          "raw_prediction": 0.7485130074439963
+        },
+        {
+          "row_id": "28",
+          "label": 0.923035,
+          "wt_label": 0.997801,
+          "delta_label": -0.074766,
+          "delta_prediction": -0.2492879925560037,
+          "raw_prediction": 0.7485130074439963
+        },
+        {
+          "row_id": "29",
+          "label": 0.831226,
+          "wt_label": 0.997801,
+          "delta_label": -0.16657500000000003,
+          "delta_prediction": -0.4450769291158939,
+          "raw_prediction": 0.5527240708841061
+        },
+        {
+          "row_id": "30",
+          "label": 0.790544,
+          "wt_label": 0.997801,
+          "delta_label": -0.20725700000000002,
+          "delta_prediction": -0.28720309500288577,
+          "raw_prediction": 0.7105979049971143
+        },
+        {
+          "row_id": "31",
+          "label": 0.913139,
+          "wt_label": 0.997801,
+          "delta_label": -0.08466200000000002,
+          "delta_prediction": -0.36351198596323864,
+          "raw_prediction": 0.6342890140367614
+        },
+        {
+          "row_id": "32",
+          "label": 0.573942,
+          "wt_label": 0.997801,
+          "delta_label": -0.4238590000000001,
+          "delta_prediction": -0.38344539805612377,
+          "raw_prediction": 0.6143556019438763
+        },
+        {
+          "row_id": "33",
+          "label": 0.529412,
+          "wt_label": 0.997801,
+          "delta_label": -0.46838900000000006,
+          "delta_prediction": -0.3745399617145162,
+          "raw_prediction": 0.6232610382854838
+        },
+        {
+          "row_id": "34",
+          "label": 0.624519,
+          "wt_label": 0.997801,
+          "delta_label": -0.373282,
+          "delta_prediction": -0.38170223430206873,
+          "raw_prediction": 0.6160987656979313
+        },
+        {
+          "row_id": "35",
+          "label": 0.704233,
+          "wt_label": 0.997801,
+          "delta_label": -0.29356800000000005,
+          "delta_prediction": -0.48235052938115475,
+          "raw_prediction": 0.5154504706188453
+        },
+        {
+          "row_id": "36",
+          "label": 0.374931,
+          "wt_label": 0.997801,
+          "delta_label": -0.62287,
+          "delta_prediction": -0.48235052938115475,
+          "raw_prediction": 0.5154504706188453
+        },
+        {
+          "row_id": "37",
+          "label": 0.0,
+          "wt_label": 0.997801,
+          "delta_label": -0.997801,
+          "delta_prediction": -0.48235052938115475,
+          "raw_prediction": 0.5154504706188453
+        },
+        {
+          "row_id": "38",
+          "label": 0.425509,
+          "wt_label": 0.997801,
+          "delta_label": -0.572292,
+          "delta_prediction": -0.48235052938115475,
+          "raw_prediction": 0.5154504706188453
+        },
+        {
+          "row_id": "39",
+          "label": 0.693788,
+          "wt_label": 0.997801,
+          "delta_label": -0.3040130000000001,
+          "delta_prediction": -0.678139465941045,
+          "raw_prediction": 0.31966153405895503
+        },
+        {
+          "row_id": "40",
+          "label": 0.601429,
+          "wt_label": 0.997801,
+          "delta_label": -0.39637200000000006,
+          "delta_prediction": -0.5202656318280369,
+          "raw_prediction": 0.4775353681719632
+        },
+        {
+          "row_id": "41",
+          "label": 0.961517,
+          "wt_label": 0.961517,
+          "delta_label": 0.0,
+          "delta_prediction": -0.13044944913808765,
+          "raw_prediction": 0.8310675508619123
+        },
+        {
+          "row_id": "42",
+          "label": 0.537658,
+          "wt_label": 0.961517,
+          "delta_label": -0.423859,
+          "delta_prediction": -0.19596665842553723,
+          "raw_prediction": 0.7655503415744627
+        },
+        {
+          "row_id": "43",
+          "label": 0.82243,
+          "wt_label": 0.961517,
+          "delta_label": -0.13908699999999996,
+          "delta_prediction": -0.1414774248893652,
+          "raw_prediction": 0.8200395751106347
+        },
+        {
+          "row_id": "44",
+          "label": 0.462342,
+          "wt_label": 0.961517,
+          "delta_label": -0.499175,
+          "delta_prediction": -0.3542709634173867,
+          "raw_prediction": 0.6072460365826133
+        },
+        {
+          "row_id": "45",
+          "label": 0.693238,
+          "wt_label": 0.961517,
+          "delta_label": -0.26827899999999993,
+          "delta_prediction": -0.2492879925560037,
+          "raw_prediction": 0.7122290074439963
+        },
+        {
+          "row_id": "46",
+          "label": 0.940077,
+          "wt_label": 0.961517,
+          "delta_label": -0.021439999999999904,
+          "delta_prediction": -0.2492879925560037,
+          "raw_prediction": 0.7122290074439963
+        },
+        {
+          "row_id": "47",
+          "label": 0.826278,
+          "wt_label": 0.961517,
+          "delta_label": -0.135239,
+          "delta_prediction": -0.28720309500288577,
+          "raw_prediction": 0.6743139049971142
+        },
+        {
+          "row_id": "48",
+          "label": 0.589335,
+          "wt_label": 0.961517,
+          "delta_label": -0.3721819999999999,
+          "delta_prediction": -0.2492879925560037,
+          "raw_prediction": 0.7122290074439963
+        },
+        {
+          "row_id": "49",
+          "label": 0.765256,
+          "wt_label": 0.961517,
+          "delta_label": -0.1962609999999999,
+          "delta_prediction": -0.4450769291158939,
+          "raw_prediction": 0.516440070884106
+        },
+        {
+          "row_id": "50",
+          "label": 0.223749,
+          "wt_label": 0.961517,
+          "delta_label": -0.737768,
+          "delta_prediction": -0.28720309500288577,
+          "raw_prediction": 0.6743139049971142
+        },
+        {
+          "row_id": "51",
+          "label": 0.925234,
+          "wt_label": 0.961517,
+          "delta_label": -0.036282999999999954,
+          "delta_prediction": -0.3255968835163566,
+          "raw_prediction": 0.6359201164836433
+        },
+        {
+          "row_id": "52",
+          "label": 0.514568,
+          "wt_label": 0.961517,
+          "delta_label": -0.44694899999999993,
+          "delta_prediction": -0.39111409280380627,
+          "raw_prediction": 0.5704029071961937
+        },
+        {
+          "row_id": "53",
+          "label": 0.520616,
+          "wt_label": 0.961517,
+          "delta_label": -0.440901,
+          "delta_prediction": -0.3366248592676342,
+          "raw_prediction": 0.6248921407323658
+        },
+        {
+          "row_id": "54",
+          "label": 0.463991,
+          "wt_label": 0.961517,
+          "delta_label": -0.49752599999999997,
+          "delta_prediction": -0.5494183977956556,
+          "raw_prediction": 0.41209860220434436
+        },
+        {
+          "row_id": "55",
+          "label": 0.409016,
+          "wt_label": 0.961517,
+          "delta_label": -0.5525009999999999,
+          "delta_prediction": -0.4444354269342726,
+          "raw_prediction": 0.5170815730657273
+        },
+        {
+          "row_id": "56",
+          "label": 0.532161,
+          "wt_label": 0.961517,
+          "delta_label": -0.42935599999999996,
+          "delta_prediction": -0.4444354269342726,
+          "raw_prediction": 0.5170815730657273
+        },
+        {
+          "row_id": "57",
+          "label": 0.401869,
+          "wt_label": 0.961517,
+          "delta_label": -0.5596479999999999,
+          "delta_prediction": -0.48235052938115475,
+          "raw_prediction": 0.4791664706188452
+        },
+        {
+          "row_id": "58",
+          "label": 0.139087,
+          "wt_label": 0.961517,
+          "delta_label": -0.82243,
+          "delta_prediction": -0.4444354269342726,
+          "raw_prediction": 0.5170815730657273
+        },
+        {
+          "row_id": "59",
+          "label": 0.448598,
+          "wt_label": 0.961517,
+          "delta_label": -0.5129189999999999,
+          "delta_prediction": -0.6402243634941629,
+          "raw_prediction": 0.32129263650583706
+        },
+        {
+          "row_id": "60",
+          "label": 0.328202,
+          "wt_label": 0.961517,
+          "delta_label": -0.633315,
+          "delta_prediction": -0.48235052938115475,
+          "raw_prediction": 0.4791664706188452
+        },
+        {
+          "row_id": "61",
+          "label": 0.948873,
+          "wt_label": 0.948873,
+          "delta_label": 0.0,
+          "delta_prediction": -0.13044944913808765,
+          "raw_prediction": 0.8184235508619123
+        },
+        {
+          "row_id": "62",
+          "label": 0.827378,
+          "wt_label": 0.948873,
+          "delta_label": -0.12149500000000002,
+          "delta_prediction": -0.11246775878409068,
+          "raw_prediction": 0.8364052412159093
+        },
+        {
+          "row_id": "63",
+          "label": 0.730621,
+          "wt_label": 0.948873,
+          "delta_label": -0.218252,
+          "delta_prediction": -0.2249763245308118,
+          "raw_prediction": 0.7238966754691882
+        },
+        {
+          "row_id": "64",
+          "label": 0.715778,
+          "wt_label": 0.948873,
+          "delta_label": -0.23309499999999994,
+          "delta_prediction": -0.28720309500288577,
+          "raw_prediction": 0.6616699049971142
+        },
+        {
+          "row_id": "65",
+          "label": 0.900495,
+          "wt_label": 0.948873,
+          "delta_label": -0.04837799999999992,
+          "delta_prediction": -0.2492879925560037,
+          "raw_prediction": 0.6995850074439962
+        },
+        {
+          "row_id": "66",
+          "label": 0.546454,
+          "wt_label": 0.948873,
+          "delta_label": -0.40241899999999997,
+          "delta_prediction": -0.3327868921974503,
+          "raw_prediction": 0.6160861078025497
+        },
+        {
+          "row_id": "67",
+          "label": 0.814733,
+          "wt_label": 0.948873,
+          "delta_label": -0.13413999999999993,
+          "delta_prediction": -0.2492879925560037,
+          "raw_prediction": 0.6995850074439962
+        },
+        {
+          "row_id": "68",
+          "label": 0.811435,
+          "wt_label": 0.948873,
+          "delta_label": -0.13743799999999995,
+          "delta_prediction": -0.48299203156277604,
+          "raw_prediction": 0.46588096843722393
+        },
+        {
+          "row_id": "69",
+          "label": 0.62232,
+          "wt_label": 0.948873,
+          "delta_label": -0.326553,
+          "delta_prediction": -0.37070199464433234,
+          "raw_prediction": 0.5781710053556677
+        },
+        {
+          "row_id": "70",
+          "label": 0.914788,
+          "wt_label": 0.948873,
+          "delta_label": -0.03408499999999992,
+          "delta_prediction": -0.23043021688771356,
+          "raw_prediction": 0.7184427831122864
+        },
+        {
+          "row_id": "71",
+          "label": 0.738318,
+          "wt_label": 0.948873,
+          "delta_label": -0.21055499999999994,
+          "delta_prediction": -0.21244852653371663,
+          "raw_prediction": 0.7364244734662834
+        },
+        {
+          "row_id": "72",
+          "label": 0.397471,
+          "wt_label": 0.948873,
+          "delta_label": -0.551402,
+          "delta_prediction": -0.3249570922804377,
+          "raw_prediction": 0.6239159077195623
+        },
+        {
+          "row_id": "73",
+          "label": 0.804838,
+          "wt_label": 0.948873,
+          "delta_label": -0.1440349999999999,
+          "delta_prediction": -0.3871838627525117,
+          "raw_prediction": 0.5616891372474883
+        },
+        {
+          "row_id": "74",
+          "label": 0.629467,
+          "wt_label": 0.948873,
+          "delta_label": -0.31940599999999997,
+          "delta_prediction": -0.3492687603056296,
+          "raw_prediction": 0.5996042396943704
+        },
+        {
+          "row_id": "75",
+          "label": 0.523914,
+          "wt_label": 0.948873,
+          "delta_label": -0.424959,
+          "delta_prediction": -0.4327676599470762,
+          "raw_prediction": 0.5161053400529237
+        },
+        {
+          "row_id": "76",
+          "label": 0.473337,
+          "wt_label": 0.948873,
+          "delta_label": -0.47553599999999996,
+          "delta_prediction": -0.3492687603056296,
+          "raw_prediction": 0.5996042396943704
+        },
+        {
+          "row_id": "77",
+          "label": 0.657504,
+          "wt_label": 0.948873,
+          "delta_label": -0.291369,
+          "delta_prediction": -0.5829727993124019,
+          "raw_prediction": 0.3659002006875981
+        },
+        {
+          "row_id": "78",
+          "label": 0.498076,
+          "wt_label": 0.948873,
+          "delta_label": -0.45079699999999995,
+          "delta_prediction": -0.47068276239395834,
+          "raw_prediction": 0.4781902376060416
+        }
+      ],
+      "interpretation": "external_loso"
+    }
+  }
+}

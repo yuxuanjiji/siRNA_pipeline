@@ -1,0 +1,231 @@
+{
+  "run_dir": "D:\\HuaweiMoveData\\Users\\及宇轩\\Desktop\\生科挑战赛\\siRNA_pipeline\\outputs\\runs\\sfrp1_oligo_on",
+  "frozen": "D:\\HuaweiMoveData\\Users\\及宇轩\\Desktop\\生科挑战赛\\siRNA_pipeline\\outputs\\runs\\rank_reweighted\\candidates_ranked.csv",
+  "n_rows_total": 4417,
+  "n_rows_scored": 4218,
+  "off_equals_base": 4218,
+  "n_rows_compared": 4218,
+  "n_wt_rows": 264,
+  "n_variant_rows": 3954,
+  "wt_score_diffs": [],
+  "wt_bitwise_identical": true,
+  "variant_formula_violations": [],
+  "variant_formula_ok": true,
+  "n_variant_above_own_wt": 795,
+  "variant_above_own_wt_examples": [
+    {
+      "variant_id": "W0089_g1:U>A",
+      "window_id": "W0089",
+      "final": "0.5667722633",
+      "wt_final": 0.5494505995,
+      "thermo_delta_vs_wt": "0.0433041595",
+      "c_match": "1",
+      "band_class": "g1|transversion"
+    },
+    {
+      "variant_id": "W0089_g18:C>G",
+      "window_id": "W0089",
+      "final": "0.5725851683",
+      "wt_final": 0.5494505995,
+      "thermo_delta_vs_wt": "0.057836422",
+      "c_match": "1",
+      "band_class": "p3|transversion"
+    },
+    {
+      "variant_id": "W0089_g19:G>C",
+      "window_id": "W0089",
+      "final": "0.5758464528",
+      "wt_final": 0.5494505995,
+      "thermo_delta_vs_wt": "0.0659896333",
+      "c_match": "1",
+      "band_class": "p3|transversion"
+    },
+    {
+      "variant_id": "W0090_g1:G>A",
+      "window_id": "W0090",
+      "final": "0.5459483385",
+      "wt_final": 0.4926073139,
+      "thermo_delta_vs_wt": "0.1333525614",
+      "c_match": "1",
+      "band_class": "g1|transition"
+    },
+    {
+      "variant_id": "W0090_g1:G>U",
+      "window_id": "W0090",
+      "final": "0.5485553693",
+      "wt_final": 0.4926073139,
+      "thermo_delta_vs_wt": "0.1398701386",
+      "c_match": "1",
+      "band_class": "g1|transversion"
+    },
+    {
+      "variant_id": "W0091_g1:C>U",
+      "window_id": "W0091",
+      "final": "0.4867131412",
+      "wt_final": 0.4629851832,
+      "thermo_delta_vs_wt": "0.0593198949",
+      "c_match": "1",
+      "band_class": "g1|GU"
+    },
+    {
+      "variant_id": "W0092_g17:U>A",
+      "window_id": "W0092",
+      "final": "0.5259675816",
+      "wt_final": 0.525896289,
+      "thermo_delta_vs_wt": "0.0001782316",
+      "c_match": "1",
+      "band_class": "p3|transversion"
+    },
+    {
+      "variant_id": "W0093_g1:C>A",
+      "window_id": "W0093",
+      "final": "0.6456340041",
+      "wt_final": 0.5958300387,
+      "thermo_delta_vs_wt": "0.1245099136",
+      "c_match": "1",
+      "band_class": "g1|transversion"
+    },
+    {
+      "variant_id": "W0093_g18:U>G",
+      "window_id": "W0093",
+      "final": "0.6126525962",
+      "wt_final": 0.5958300387,
+      "thermo_delta_vs_wt": "0.0420563938",
+      "c_match": "1",
+      "band_class": "p3|transversion"
+    },
+    {
+      "variant_id": "W0093_g19:G>C",
+      "window_id": "W0093",
+      "final": "0.5962462713",
+      "wt_final": 0.5958300387,
+      "thermo_delta_vs_wt": "0.0010405815",
+      "c_match": "1",
+      "band_class": "p3|transversion"
+    }
+  ],
+  "frozen_wt_compared": 264,
+  "frozen_wt_score_diffs": [],
+  "frozen_wt_bitwise_identical": true,
+  "jaccard_top20_vs_frozen": 0.2903225806451613,
+  "jaccard_top50_vs_frozen": 0.4492753623188406,
+  "new_top10": [
+    {
+      "rank": 1,
+      "window_id": "W0655",
+      "variant_id": "W0655_g18:U>G",
+      "final_score": "0.8523237485",
+      "final_score_base": "0.8276198876",
+      "c_match": "1",
+      "c_match_band": "p3",
+      "c_match_class": "transversion"
+    },
+    {
+      "rank": 2,
+      "window_id": "W0655",
+      "variant_id": "W0655_g18:U>C",
+      "final_score": "0.8452379115",
+      "final_score_base": "0.8226833005",
+      "c_match": "1",
+      "c_match_band": "p3",
+      "c_match_class": "transition"
+    },
+    {
+      "rank": 3,
+      "window_id": "W0716",
+      "variant_id": "W0716_g19:U>C",
+      "final_score": "0.8451474585",
+      "final_score_base": "0.7809248342",
+      "c_match": "1",
+      "c_match_band": "p3",
+      "c_match_class": "transition"
+    },
+    {
+      "rank": 4,
+      "window_id": "W0728",
+      "variant_id": "W0728_g19:A>C",
+      "final_score": "0.8409706429",
+      "final_score_base": "0.7940844427",
+      "c_match": "1",
+      "c_match_band": "p3",
+      "c_match_class": "transversion"
+    },
+    {
+      "rank": 5,
+      "window_id": "W0618",
+      "variant_id": "W0618_g18:A>G",
+      "final_score": "0.834812851",
+      "final_score_base": "0.820427755",
+      "c_match": "1",
+      "c_match_band": "p3",
+      "c_match_class": "GU"
+    },
+    {
+      "rank": 6,
+      "window_id": "W0686",
+      "variant_id": "W0686_g19:U>C",
+      "final_score": "0.8289292839",
+      "final_score_base": "0.7499276718",
+      "c_match": "1",
+      "c_match_band": "p3",
+      "c_match_class": "transition"
+    },
+    {
+      "rank": 7,
+      "window_id": "W0852",
+      "variant_id": "W0852_g19:G>C",
+      "final_score": "0.8264362572",
+      "final_score_base": "0.8264362572",
+      "c_match": "1",
+      "c_match_band": "p3",
+      "c_match_class": "transversion"
+    },
+    {
+      "rank": 8,
+      "window_id": "W0618",
+      "variant_id": "W0618_g18:A>C",
+      "final_score": "0.8252512585",
+      "final_score_base": "0.805755935",
+      "c_match": "1",
+      "c_match_band": "p3",
+      "c_match_class": "transversion"
+    },
+    {
+      "rank": 9,
+      "window_id": "W0852",
+      "variant_id": "W0852_g17:U>C",
+      "final_score": "0.8174936184",
+      "final_score_base": "0.7783474175",
+      "c_match": "1",
+      "c_match_band": "p3",
+      "c_match_class": "transition"
+    },
+    {
+      "rank": 10,
+      "window_id": "W0852",
+      "variant_id": "W0852_g17:U>A",
+      "final_score": "0.8159225015",
+      "final_score_base": "0.7951320272",
+      "c_match": "1",
+      "c_match_band": "p3",
+      "c_match_class": "transversion"
+    }
+  ],
+  "c_match_stats": {
+    "n": 3954,
+    "min": 0.85,
+    "median": 1.0,
+    "max": 1.0,
+    "by_band_class": {
+      "g12|transversion": 555,
+      "p3|transition": 451,
+      "p3|transversion": 1527,
+      "g1|transversion": 538,
+      "g12|GU": 126,
+      "p3|GU": 313,
+      "g12|transition": 159,
+      "g1|transition": 147,
+      "g1|GU": 138
+    }
+  }
+}

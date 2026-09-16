@@ -1,0 +1,675 @@
+﻿siRNA,mRNA,沉默效率,突变位置,数据来源
+GCGCUCAUCAUUGUGCUGC,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.8,3,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GCACUCGUCAUUGUGCUGC,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.78,7,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GCACUCAUCGUUGUGCUGC,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.35,10,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GCGCUCGUCAUUGUGCUGC,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.72,"3,7","Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GCACUCGUCGUUGUGCUGC,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.25,"7,10","Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GCGCUCGUCGUUGUGCUGC,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.3,"3,7,10","Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GCACUCAUUAUUGUGCUGC,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.5,9,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GCACUCAUCAUUGUGUUGC,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.3,16,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GCACUUAUCAUUGUGCUGC,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.55,6,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GUACUCAUCAUUGUGCUGC,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.4,2,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GCACUCAUCAUUGUGCUGU,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.5,19,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GCGCUCGUCAUUGUGCUGU,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.7,"3,7,19","Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GUGCUCGUCAUUGUGCUGC,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.25,"2,3,7","Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+ACACUCAUCAUUGUGCUGC,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.7,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+CCACUCAUCAUUGUGCUGC,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.7,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UCACUCAUCAUUGUGCUGC,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.6,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GCCCUCAUCAUUGUGCUGC,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.65,3,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GCACUCCUCAUUGUGCUGC,GGCUGGUGAAGGUCACUAAGCAGCACAAUGAUGAGUGCAAACAUCUGCUGAGCCUCA,0.25,7,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UCCAUGGCCAGCAGUGAGG,UCACCACGGUUCAUGGAAACCUCACUGCUGGCCAUGGGCUCCUGGUGGAGCUAAUAA,0.4,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UCCAUGGCCAGCAGUGAGG,UCACCACGGUUCAUGGAAACCUCACUGCUGGCCAUGGGCUCCUGGUGGAGCUAAUAA,0.28,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UACCAGGAGCCCAUGGCCA,UUCAUGGAAACCUCACUGCUGGCCAUGGGCUCCUGGUGGAGCUAAUAAUCACUUUCC,0.5,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UACCAGGAGCCCAUGGCCA,UUCAUGGAAACCUCACUGCUGGCCAUGGGCUCCUGGUGGAGCUAAUAAUCACUUUCC,0.58,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UGAGCUGGAUUCAUGCUGG,GCAAUCAAUUAUACCGGAGCCAGCAUGAAUCCAGCUCGAUCCUUUGGCCCUGCAGUU,0.61,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UGAGCUGGAUUCAUGCUGG,GCAAUCAAUUAUACCGGAGCCAGCAUGAAUCCAGCUCGAUCCUUUGGCCCUGCAGUU,0.67,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UCAGUUUCCCAUGAUAACU,CUCGAUCCUUUGGCCCUGCAGUUAUCAUGGGAAACUGGGAAAACCACUGGAUAUAUU,0.65,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UCAGUUUCCCAUGAUAACU,CUCGAUCCUUUGGCCCUGCAGUUAUCAUGGGAAACUGGGAAAACCACUGGAUAUAUU,0.75,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UAACCCAAUAUAUCCAGUG,CAUGGGAAACUGGGAAAACCACUGGAUAUAUUGGGUUGGACCAAUCAUAGGCGCUGU,0.7,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UAACCCAAUAUAUCCAGUG,CAUGGGAAACUGGGAAAACCACUGGAUAUAUUGGGUUGGACCAAUCAUAGGCGCUGU,0.66,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UCACCUCCAUGUAGCUCCC,AGCUGCACAGCAGACGAAAGGGAGCUACAUGGAGGUGGAGGACAACCGGAGCCAAGU,0.68,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UCACCUCCAUGUAGCUCCC,AGCUGCACAGCAGACGAAAGGGAGCUACAUGGAGGUGGAGGACAACCGGAGCCAAGU,0.63,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UGGGCUUCAGGAUCAAGUC,GAGCCAAGUGGAGACAGAAGACUUGAUCCUGAAGCCCGGGGUGGUGCAUGUGAUCGA,0.82,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UGGGCUUCAGGAUCAAGUC,GAGCCAAGUGGAGACAGAAGACUUGAUCCUGAAGCCCGGGGUGGUGCAUGUGAUCGA,0.84,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UACCUCUCCAGACGAGUCC,GAGACGAGAAGAAGGGGAAGGACUCGUCUGGAGAGGUGUUAUCUUCUGUAUGACUAG,0.92,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UACCUCUCCAGACGAGUCC,GAGACGAGAAGAAGGGGAAGGACUCGUCUGGAGAGGUGUUAUCUUCUGUAUGACUAG,0.91,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GCUCCACUUGGCUCCGGUU,CUACAUGGAGGUGGAGGACAACCGGAGCCAAGUGGAGACAGAAGACUUGAUCCUGAA,0.65,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GCUCCACUUGGCUCCGGUU,CUACAUGGAGGUGGAGGACAACCGGAGCCAAGUGGAGACAGAAGACUUGAUCCUGAA,0.84,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UACCAGGAGCCCAUGGCCA,UUCAUGGAAACCUCACCGCUGGCCAUGGGCUCCUGGUGGAGUUAAUAAUCACUUUCC,0.45,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UACCAGGAGCCCAUGGCCA,UUCAUGGAAACCUCACCGCUGGCCAUGGGCUCCUGGUGGAGUUAAUAAUCACUUUCC,0.58,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UGAGCUGGAUUCAUGCUGG,GCAAUCAAUUAUACUGGAGCCAGCAUGAAUCCAGCUCGAUCUUUUGGACCCGCAGUU,0.64,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UGAGCUGGAUUCAUGCUGG,GCAAUCAAUUAUACUGGAGCCAGCAUGAAUCCAGCUCGAUCUUUUGGACCCGCAGUU,0.62,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UCAGUUUCCCAUGAUAACU,CUCGAUCUUUUGGACCCGCAGUUAUCAUGGGAAACUGGGCAAACCACUGGAUAUAUU,0.65,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UCAGUUUCCCAUGAUAACU,CUCGAUCUUUUGGACCCGCAGUUAUCAUGGGAAACUGGGCAAACCACUGGAUAUAUU,0.75,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UAACCCAAUAUAUCCAGUG,CAUGGGAAACUGGGCAAACCACUGGAUAUAUUGGGUUGGACCAAUCAUGGGCGCUGU,0.7,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UAACCCAAUAUAUCCAGUG,CAUGGGAAACUGGGCAAACCACUGGAUAUAUUGGGUUGGACCAAUCAUGGGCGCUGU,0.66,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UCACCUCCAUGUAGCUCCC,AGCCGCGCAGCAGACAAAAGGGAGCUACAUGGAGGUGGAGGACAACCGGAGCCAAGU,0.68,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UCACCUCCAUGUAGCUCCC,AGCCGCGCAGCAGACAAAAGGGAGCUACAUGGAGGUGGAGGACAACCGGAGCCAAGU,0.63,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UGGGCUUCAGGAUCAAGUC,GAGCCAAGUGGAGACGGAAGACUUGAUCCUGAAGCCCGGAGUGGUGCAUGUGAUUGA,0.82,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UGGGCUUCAGGAUCAAGUC,GAGCCAAGUGGAGACGGAAGACUUGAUCCUGAAGCCCGGAGUGGUGCAUGUGAUUGA,0.84,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GCUCCACUUGGCUCCGGUU,CUACAUGGAGGUGGAGGACAACCGGAGCCAAGUGGAGACGGAAGACUUGAUCCUGAA,0.65,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+GCUCCACUUGGCUCCGGUU,CUACAUGGAGGUGGAGGACAACCGGAGCCAAGUGGAGACGGAAGACUUGAUCCUGAA,0.84,1,"Holen et al., 2005, Nucleic Acids Research 33:4704-4710, DOI:10.1093/nar/gki785 (PMC1188085)"
+UUGGUUUUUUGCUUACUCG,CGAGUAAGCCAAAAACCAA,0.814,10,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGGUUUAUAGCUUACUCG,CGAGUAAGCUAAAAACCAA,0.620,8,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGGUUUAUUGCUUACUCG,CGAGUAAGCCAAAAACCAA,0.434,"8,10","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGGUUAUUAGCUUACUCG,CGAGUAAGCUAAAAACCAA,0.442,7,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGGUUAUUUGCUUACUCG,CGAGUAAGCCAAAAACCAA,-0.165,"7,10","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGGUAUUUAGCUUACUCG,CGAGUAAGCUAAAAACCAA,0.637,6,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGGUAUUUUGCUUACUCG,CGAGUAAGCCAAAAACCAA,-0.847,"6,10","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGGAUUUUAGCUUACUCG,CGAGUAAGCUAAAAACCAA,0.832,5,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGGAUUUUUGCUUACUCG,CGAGUAAGCCAAAAACCAA,-0.073,"5,10","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGAUUUUUAGCUUACUCG,CGAGUAAGCUAAAAACCAA,0.665,4,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGAUUUUUUGCUUACUCG,CGAGUAAGCCAAAAACCAA,0.415,"4,10","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUAGUUUUUAGCUUACUCG,CGAGUAAGCUAAAAACCAA,0.591,3,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUAGUUUUUUGCUUACUCG,CGAGUAAGCCAAAAACCAA,0.247,"3,10","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGGUUUUUAGCUUUCUCG,CGAGUAAGCUAAAAACCAA,0.566,15,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGGUUUUUUGCUUUCUCG,CGAGUAAGCCAAAAACCAA,0.197,"10,15","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGGUUUUUAGCUAACUCG,CGAGUAAGCUAAAAACCAA,0.500,14,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGGUUUUUUGCUAACUCG,CGAGUAAGCCAAAAACCAA,0.116,"10,14","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGGUUUUUAGGUUACUCG,CGAGUAAGCUAAAAACCAA,0.732,12,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGGUUUUUUGGUUACUCG,CGAGUAAGCCAAAAACCAA,0.289,"10,12","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGCUUACUCAGCUUGUUCC,GGAACAAGCCGAGUAAGCC,0.836,10,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGCUUACACAGCUUGUUCC,GGAACAAGCUGAGUAAGCC,0.414,8,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGCUUACACAGCUUGUUCC,GGAACAAGCCGAGUAAGCC,-0.103,"8,10","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGCUUAGUCAGCUUGUUCC,GGAACAAGCUGAGUAAGCC,0.863,7,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGCUUAGUCAGCUUGUUCC,GGAACAAGCCGAGUAAGCC,0.121,"7,10","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGCUUUCUCAGCUUGUUCC,GGAACAAGCUGAGUAAGCC,0.656,6,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGCUUUCUCAGCUUGUUCC,GGAACAAGCCGAGUAAGCC,-0.116,"6,10","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGCUAACUCAGCUUGUUCC,GGAACAAGCUGAGUAAGCC,0.225,5,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGCUAACUCAGCUUGUUCC,GGAACAAGCCGAGUAAGCC,-0.594,"5,10","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGCAUACUCAGCUUGUUCC,GGAACAAGCUGAGUAAGCC,0.545,4,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGCAUACUCAGCUUGUUCC,GGAACAAGCCGAGUAAGCC,-0.031,"4,10","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGGUUACUCAGCUUGUUCC,GGAACAAGCUGAGUAAGCC,-0.440,3,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGGUUACUCAGCUUGUUCC,GGAACAAGCCGAGUAAGCC,-0.250,"3,10","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGCUUACUCAGCUUCUUCC,GGAACAAGCUGAGUAAGCC,0.131,15,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGCUUACUCAGCUUCUUCC,GGAACAAGCCGAGUAAGCC,0.089,"10,15","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGCUUACUCAGCUAGUUCC,GGAACAAGCUGAGUAAGCC,0.649,14,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGCUUACUCAGCUAGUUCC,GGAACAAGCCGAGUAAGCC,0.100,"10,14","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGCUUACUCAGGUUGUUCC,GGAACAAGCUGAGUAAGCC,-0.006,12,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+GGCUUACUCAGGUUGUUCC,GGAACAAGCCGAGUAAGCC,-0.003,"10,12","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGACGCAGUUGUGCACAA,UUGUGCACGACUGCGUCAA,0.817,11,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGACGCUGUUGUGCACAA,UUGUGCACAACUGCGUCAA,0.455,8,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGACGCUGUUGUGCACAA,UUGUGCACGACUGCGUCAA,0.617,"8,11","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGACGGAGUUGUGCACAA,UUGUGCACAACUGCGUCAA,0.791,7,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGACGGAGUUGUGCACAA,UUGUGCACGACUGCGUCAA,0.298,"7,11","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGACCCAGUUGUGCACAA,UUGUGCACAACUGCGUCAA,0.147,6,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGACCCAGUUGUGCACAA,UUGUGCACGACUGCGUCAA,0.106,"6,11","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGAGGCAGUUGUGCACAA,UUGUGCACAACUGCGUCAA,0.635,5,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGAGGCAGUUGUGCACAA,UUGUGCACGACUGCGUCAA,0.014,"5,11","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGUCGCAGUUGUGCACAA,UUGUGCACAACUGCGUCAA,0.629,4,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGUCGCAGUUGUGCACAA,UUGUGCACGACUGCGUCAA,0.349,"4,11","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUCACGCAGUUGUGCACAA,UUGUGCACAACUGCGUCAA,0.285,3,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUCACGCAGUUGUGCACAA,UUGUGCACGACUGCGUCAA,0.059,"3,11","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGACGCAGUUGUGGACAA,UUGUGCACAACUGCGUCAA,0.658,15,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGACGCAGUUGUGGACAA,UUGUGCACGACUGCGUCAA,0.496,"11,15","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGACGCAGUUGUCCACAA,UUGUGCACAACUGCGUCAA,0.482,14,"Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UUGACGCAGUUGUCCACAA,UUGUGCACGACUGCGUCAA,-0.124,"11,14","Ohnishi et al., 2008, PLoS ONE 3(6):e2248, DOI:10.1371/journal.pone.0002248（desiRm 数据库整理，PMC3154470, PLoS ONE 2011）"
+UCACAUUGCCCAAGUAUCC,未获取,>20 (IC50 nM),16,"Schwarz et al., 2006, PLoS Genetics 2(12):e140, DOI:10.1371/journal.pgen.0020140 (PMC1560399)"
+UGCCCAAGUCUCCAAGAUG,未获取,>20 (IC50 nM),16,"Schwarz et al., 2006, PLoS Genetics 2(12):e140, DOI:10.1371/journal.pgen.0020140 (PMC1560399)"
+CAGCAGUCACAUUGCGCAA,未获取,>20 (IC50 nM),16,"Schwarz et al., 2006, PLoS Genetics 2(12):e140, DOI:10.1371/journal.pgen.0020140 (PMC1560399)"
+AGUCACAUUGCCCAAGUCU,未获取,>20 (IC50 nM),16,"Schwarz et al., 2006, PLoS Genetics 2(12):e140, DOI:10.1371/journal.pgen.0020140 (PMC1560399)"
+CCAAGUCUCCAACAUGCCU,未获取,>20 (IC50 nM),16,"Schwarz et al., 2006, PLoS Genetics 2(12):e140, DOI:10.1371/journal.pgen.0020140 (PMC1560399)"
+UGAAGUGCACACAGUGGAUGA,未获取,0.73 (IC50 nM),16,"Schwarz et al., 2006, PLoS Genetics 2(12):e140, DOI:10.1371/journal.pgen.0020140 (PMC1560399)"
+UGAAGUGCACACAGAGAUGA,未获取,0.43 (IC50 nM),16,"Schwarz et al., 2006, PLoS Genetics 2(12):e140, DOI:10.1371/journal.pgen.0020140 (PMC1560399)"
+GAUGAAGUGCACACAGUGGAU,未获取,20 (IC50 nM),16,"Schwarz et al., 2006, PLoS Genetics 2(12):e140, DOI:10.1371/journal.pgen.0020140 (PMC1560399)"
+GUGCACACAGUGGAUGAGGGA,未获取,2 (IC50 nM),16,"Schwarz et al., 2006, PLoS Genetics 2(12):e140, DOI:10.1371/journal.pgen.0020140 (PMC1560399)"
+AGGGUCAAGAUGACAAUGGAC,未获取,>20 (IC50 nM),16,"Schwarz et al., 2006, PLoS Genetics 2(12):e140, DOI:10.1371/journal.pgen.0020140 (PMC1560399)"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.12 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"0.11;-0.33 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.37;-0.41 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.30;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.16;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.38;-0.24 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.43;-0.41 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.26;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.36 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.41;-0.41 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.43;-0.38 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.36;-0.33 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.28;-0.40 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.35;-0.37 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.42;-0.46 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;0.02 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.34;-0.32 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.34;-0.36 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.41;-0.42 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.24 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.10;-0.30 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.35;-0.36 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.14 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.26;-0.37 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCACCGUAGAUGCUCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.37;-0.16 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.315;-0.323 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.338;-0.247 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.306;-0.239 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.357;-0.415 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.202;-0.325 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.188;-0.309 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.29;-0.252 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.504;-0.601 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.162;-0.257 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.161;-0.325 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.276;-0.337 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.52;-0.553 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.325;-0.378 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.341;-0.345 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.274;-0.328 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.358;-0.406 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.317;-0.408 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.355;-0.309 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.267;-0.388 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.361;-0.245 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.304;-0.372 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.253;-0.307 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.0637;-0.392 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.35;-0.342 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.18;-0.312 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.362;-0.406 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.348;-0.378 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.296;-0.333 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.466;-0.543 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.334;-0.357 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.311;-0.257 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.0676;-0.327 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.443;-0.425 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.201;-0.308 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.0259;-0.364 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.34;-0.329 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.368;-0.244 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.621;-0.651 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.303;-0.167 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.272;-0.325 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.0828;-0.309 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.349;-0.389 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.307;-0.303 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.253;-0.358 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.271;-0.341 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUCUCCUGUAGCUAAGGCC,未获取（仅off-target基因号，无57nt窗口）,"-0.34;-0.42 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.30;-0.25 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.27 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.18;-0.36 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.30;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.27;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.45;-0.55 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.33 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.34 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.70;-0.64 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.32 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.30;-0.34 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.03;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.37;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"0.15;-0.32 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.49;-0.50 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"0.00;-0.30 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.14;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.20;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.42;-0.33 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.29;-0.33 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.35;-0.26 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.18 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.51;-0.56 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.16 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.20;-0.32 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.20;-0.42 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.41;-0.37 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.19;-0.32 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.14;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.27 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.21;-0.32 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.30;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.21;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.41;-0.34 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.26;-0.36 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.43;-0.40 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.07;-0.40 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.21;-0.36 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.21;-0.32 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.11;-0.40 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.60;-0.50 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.16;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.27;-0.38 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.29;-0.38 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUGUAGCCAAAUCCUUUC,未获取（仅off-target基因号，无57nt窗口）,"-0.30;-0.41 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACACGAUGGAAUUUGCUGU,未获取（仅off-target基因号，无57nt窗口）,"-0.17;-0.34 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACACGAUGGAAUUUGCUGU,未获取（仅off-target基因号，无57nt窗口）,"-0.04;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACACGAUGGAAUUUGCUGU,未获取（仅off-target基因号，无57nt窗口）,"-0.16;-0.38 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACACGAUGGAAUUUGCUGU,未获取（仅off-target基因号，无57nt窗口）,"-0.27;-0.30 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACACGAUGGAAUUUGCUGU,未获取（仅off-target基因号，无57nt窗口）,"-0.46;-0.42 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACACGAUGGAAUUUGCUGU,未获取（仅off-target基因号，无57nt窗口）,"-0.12;-0.36 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACACGAUGGAAUUUGCUGU,未获取（仅off-target基因号，无57nt窗口）,"-0.39;-0.44 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACACGAUGGAAUUUGCUGU,未获取（仅off-target基因号，无57nt窗口）,"-0.19;-0.34 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACACGAUGGAAUUUGCUGU,未获取（仅off-target基因号，无57nt窗口）,"-0.29;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACACGAUGGAAUUUGCUGU,未获取（仅off-target基因号，无57nt窗口）,"-0.32;0.08 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACACGAUGGAAUUUGCUGU,未获取（仅off-target基因号，无57nt窗口）,"-0.08;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACACGAUGGAAUUUGCUGU,未获取（仅off-target基因号，无57nt窗口）,"-0.43;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.38 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.38;-0.30 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.30;-0.10 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.30;-0.25 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.36;-0.32 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.26;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.23 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.41;-0.34 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.26 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.07 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.36 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.17;-0.33 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.24 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.37;-0.30 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.23 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.43;-0.46 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.28 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.34;-0.24 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.15 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.22;-0.32 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.36;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.37;-0.15 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.37 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.30;-0.21 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.43;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.49;-0.45 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.25;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.21;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.52;-0.39 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.24;-0.37 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.43;-0.54 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.29 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.47;-0.44 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.28;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.30;-0.30 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.10 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.17;-0.30 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.29;-0.37 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.25;-0.49 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.34;-0.28 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.42;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.37;-0.43 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.30;-0.23 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.42;-0.48 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.34;-0.29 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.54;-0.60 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.36;-0.20 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.25;-0.34 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.34;-0.20 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.43;-0.43 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.23;-0.32 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.17 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.37;-0.07 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.34;-0.11 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.50;-0.47 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.21;-0.32 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.17 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.40;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.30 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.20 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.34;-0.18 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.27;-0.32 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.41;-0.38 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.38;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.29;-0.32 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.27 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.26;-0.44 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.37;-0.41 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.40;-0.33 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.25 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.36 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UUUUUGGAACAGUCUUUCC,未获取（仅off-target基因号，无57nt窗口）,"-0.35;-0.08 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.39;-0.38 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"0.18;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"0.33;-0.32 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.05 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"0.18;-0.49 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.26 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.40;-0.40 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.28;-0.30 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.11 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.33 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.35;-0.12 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.16 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.22;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.40;-0.43 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.05 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.41;-0.30 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.26 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"0.11;-0.30 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.37;-0.25 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.14 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.39;-0.33 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.51 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.52;-0.56 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.23 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.44;-0.43 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.15 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.30;-0.08 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.21 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.35;-0.17 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.35;-0.30 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.30;-0.27 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"0.02;-0.30 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"0.15;-0.33 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.40;-0.19 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UGGUGAAGUCUCCGCCCUG,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.04 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UAUUGGAACAUGUAAACCA,未获取（仅off-target基因号，无57nt窗口）,"-0.419;-0.43 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UAUUGGAACAUGUAAACCA,未获取（仅off-target基因号，无57nt窗口）,"-0.264;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UAUUGGAACAUGUAAACCA,未获取（仅off-target基因号，无57nt窗口）,"-0.381;-0.392 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UAUUGGAACAUGUAAACCA,未获取（仅off-target基因号，无57nt窗口）,"-0.278;-0.381 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UAUUGGAACAUGUAAACCA,未获取（仅off-target基因号，无57nt窗口）,"-0.277;-0.316 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UAUUGGAACAUGUAAACCA,未获取（仅off-target基因号，无57nt窗口）,"-0.236;-0.326 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.208;-0.382 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.336;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.391;-0.398 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.282;-0.357 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.339;-0.335 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.38;-0.401 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.336;-0.209 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.284;-0.397 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.293;-0.469 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.34;-0.336 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.305;-0.369 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.393;-0.361 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.481;-0.443 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.321;-0.453 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.317;-0.258 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.292;-0.348 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.315;-0.394 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.53;-0.531 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.399;-0.406 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.379;-0.376 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.505;-0.458 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.319;-0.328 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.315;-0.377 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.361;-0.329 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.3;-0.346 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.363;-0.361 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.378;-0.334 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.35;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.256;-0.331 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.335;-0.00303 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.322;-0.157 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.348;-0.387 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.443;-0.421 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.486;-0.401 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.347;-0.385 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+CUUGAGGCUGUUGUCAUAC,未获取（仅off-target基因号，无57nt窗口）,"-0.294;-0.311 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.13 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.56;-0.48 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.50;-0.30 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.35;-0.36 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.39;-0.29 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.33 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.36;-0.25 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.14 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.41;-0.54 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.23 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.23 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.40;-0.41 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.40;-0.58 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.43;-0.41 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.30;-0.21 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.16 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.39;-0.33 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.38;-0.27 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.42;-0.40 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.45 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.22 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.40;-0.43 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.43;-0.37 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGAACCUCCAUCCAUGUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.35;-0.29 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCAAAUCUGCUCUCUCUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.34;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCAAAUCUGCUCUCUCUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.49;-0.36 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCAAAUCUGCUCUCUCUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.34;-0.25 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCAAAUCUGCUCUCUCUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.34;-0.18 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCAAAUCUGCUCUCUCUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.36;-0.36 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCAAAUCUGCUCUCUCUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.41;-0.40 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCAAAUCUGCUCUCUCUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.25 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCAAAUCUGCUCUCUCUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.39;-0.29 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCAAAUCUGCUCUCUCUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.29;-0.34 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCAAAUCUGCUCUCUCUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.34;-0.15 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+UCAAAUCUGCUCUCUCUGC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.22 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACUUGAUCCAGAGAACCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.40;-0.33 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACUUGAUCCAGAGAACCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.37;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACUUGAUCCAGAGAACCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.30;-0.20 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACUUGAUCCAGAGAACCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.14 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACUUGAUCCAGAGAACCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.56;-0.19 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+ACUUGAUCCAGAGAACCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.25 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.23 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.22 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.38;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.27 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.29 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.23 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.39 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.39;-0.41 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.36;-0.37 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.39;-0.29 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.34;-0.29 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.41;-0.32 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.40;-0.41 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.34 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.43;-0.38 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.24;-0.39 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.50;-0.42 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.14 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.21;-0.33 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.41;-0.33 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.40;-0.42 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.43;-0.34 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.37 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.34;-0.21 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.42;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.24 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.30;-0.20 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.35;-0.30 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.20 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.33;-0.24 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.37;-0.40 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.37;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.18 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.32;-0.26 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.26;-0.31 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.41;-0.27 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.31;-0.23 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.39;-0.27 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AGUUGCUUCAAAUCUGCUC,未获取（仅off-target基因号，无57nt窗口）,"-0.38;-0.35 (微阵列log2比值,双重复)",未获取（seed型off-target，论文未给单碱基错配位点）,"Birmingham et al., 2006, Nature Methods 3:213-217, DOI:10.1038/nmeth854"
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 UUACUGAGAGACAGGCUAAUU）,50 fold,21,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GCACUGAGAGACAGGCUAAUU）,42 fold,20,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUCCUGAGAGACAGGCUAAUU）,10 fold,19,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUAAUGAGAGACAGGCUAAUU）,2 fold,18,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUACCGAGAGACAGGCUAAUU）,32 fold,17,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUACUAAGAGACAGGCUAAUU）,15 fold,16,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUACUGCGAGACAGGCUAAUU）,10 fold,15,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUACUGAAAGACAGGCUAAUU）,10 fold,14,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUACUGAGCGACAGGCUAAUU）,2 fold,13,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUACUGAGAUACAGGCUAAUU）,2 fold,12,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUACUGAGAGCCAGGCUAAUU）,10 fold,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUACUGAGAGAUAGGCUAAUU）,54 fold,10,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUACUGAGAGACCGGCUAAUU）,35 fold,9,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUACUGAGAGACAAGCUAAUU）,45 fold,8,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUACUGAGAGACAGACUAAUU）,30 fold,7,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUACUGAGAGACAGGAUAAUU）,8 fold,6,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUACUGAGAGACAGGCCAAUU）,7 fold,5,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUACUGAGAGACAGGCUCAUU）,5 fold,4,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUACUGAGAGACAGGCUACUU）,230 fold,3,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUACUGAGAGACAGGCUAACU）,130 fold,2,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCUGUCUCUCAGUAC,未获取（仅靶位点21nt：野生型 GUACUGAGAGACAGGCUAAUU → 突变型 GUACUGAGAGACAGGCUAAUC）,110 fold,1,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUACUACUGCCCCUUCAC,未获取（仅靶位点19nt：野生型 GUGAAGGGGCAGUAGUAAU → 突变型 GUGAAGGAGCAGUAGUAAU）,66,12,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUACUACUGCCCCUUCAC,未获取（仅靶位点19nt：野生型 GUGAAGGGGCAGUAGUAAU → 突变型 GUGAAGGGGCAGUAAUAAU）,58,5,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUACUACUGCCCCUUCAC,未获取（仅靶位点19nt：野生型 GUGAAGGGGCAGUAGUAAU → 突变型 GUGAAGGAGCAGUAAUAAU）,43,12;5,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUCCGCUUCUUCCUGCCAU,未获取（仅靶位点19nt：野生型 AUGGCAGGAAGAAGCGGAG → 突变型 AUGGCCGGAAGAAGCGGAG）,4,14,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUCCGCUUCUUCCUGCCAU,未获取（仅靶位点19nt：野生型 AUGGCAGGAAGAAGCGGAG → 突变型 AUGGCAGGAAAAAGCGGAG）,21,9,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUCCGCUUCUUCCUGCCAU,未获取（仅靶位点19nt：野生型 AUGGCAGGAAGAAGCGGAG → 突变型 AUGGCAGAAAAAAGCGGAG）,14,12;9,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUCCGCUUCUUCCUGCCAU,未获取（仅靶位点19nt：野生型 AUGGCAGGAAGAAGCGGAG → 突变型 AUGGCAGGAAGAGGAGGAG）,42,7;5,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CCUGUCUCUCAGUACAAUC,未获取（仅靶位点19nt：野生型 GAUUGUACUGAGAGACAGG → 突变型 GAAUGUACUGAAAGACAGG）,92,17;8,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CCUGUCUCUCAGUACAAUC,未获取（仅靶位点19nt：野生型 GAUUGUACUGAGAGACAGG → 突变型 GACUGCACUGAAAGGCAGG）,90,17;14;8;5,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CCUGUCUCUCAGUACAAUC,未获取（仅靶位点19nt：野生型 GAUUGUACUGAGAGACAGG → 突变型 GAUUGUACUGAAAGACAGG）,76,8,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CCUGUCUCUCAGUACAAUC,未获取（仅靶位点19nt：野生型 GAUUGUACUGAGAGACAGG → 突变型 GACUGCACUGAAAGACAGG）,99.8,17;14;8,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+GGGAUGUGUACUUCUGAAC,未获取（仅靶位点19nt：野生型 GUUCAGAAGUACACAUCCC → 突变型 GUUCAGAAGUACAUAUCCC）,33,6,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+GGGAUGUGUACUUCUGAAC,未获取（仅靶位点19nt：野生型 GUUCAGAAGUACACAUCCC → 突变型 GCUCAGAAGUACAUAUCCC）,13,18;6,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CCUGUCUCUCAGUACAAUC,未获取（仅靶位点19nt：野生型 GAUUGUACUGAGAGACAGG → 突变型 GACUGCACUGAAAGACAGG）,92,17;14;8,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CCUGUCUCUCAGUACAAUC,未获取（仅靶位点19nt：野生型 GAUUGUACUGAGAGACAGG → 突变型 GACUGUACUGAGAGGCAGG）,9,17;5,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CCUGUCUCUCAGUACAAUC,未获取（仅靶位点19nt：野生型 GAUUGUACUGAGAGACAGG → 突变型 GAUUGCACUGAAAGACAGG）,92,14;8,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CCUGUCUCUCAGUACAAUC,未获取（仅靶位点19nt：野生型 GAUUGUACUGAGAGACAGG → 突变型 GACUGCACUGAGAGACAGG）,92,17;14,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CCUGUCUCUCAGUACAAUC,未获取（仅靶位点19nt：野生型 GAUUGUACUGAGAGACAGG → 突变型 GAUUGCACUGAGAGACAGG）,35,14,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CCUGUCUCUCAGUACAAUC,未获取（仅靶位点19nt：野生型 GAUUGUACUGAGAGACAGG → 突变型 GAUUGUACUGAAAGACAGG）,68,8,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+GGGAUGUGUACUUCUGAAC,未获取（仅靶位点19nt：野生型 GUUCAGAAGUACACAUCCC → 突变型 GUUCAGAAGUACACAUACC）,21,3,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UAGCAAUUGGUACAAGCAG,未获取（仅靶位点19nt：野生型 CUGCUUGUACCAAUUGCUA → 突变型 CUGCUUGUUCCAAUUGCUA）,69,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+GCUCUUCGUCGCUGUCUCCGC,未获取（仅靶位点21nt：野生型 GCGGAGACAGCGACGAAGAGC → 突变型 GCGGAGACAGCGACGAAGCGC）,log,3,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+GGUAGCUGAAGAGGCACAGGC,未获取（仅靶位点21nt：野生型 GCCUGUGCCUCUUCAGCUACC → 突变型 ACCUGUGCCUCUUCAGCUACC）,log,21,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUACUACUGCCCCUUCAC,未获取（仅靶位点19nt：野生型 GUGAAGGGGCAGUAGUAAU → 突变型 GUGAAGGGACAGUAGUAAU）,10,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+ACAACAGACGGGCACACACUA,未获取（仅靶位点21nt：野生型 UAGUGUGUGCCCGUCUGUUGU → 突变型 UAGUAUGUGCCCGUCUGUUGU）,49,17,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+ACAACAGACGGGCACACACUA,未获取（仅靶位点21nt：野生型 UAGUGUGUGCCCGUCUGUUGU → 突变型 UGGUGUGUGCCCGUCUGUGUU）,77,20;3;2,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUCUCUAGUUACCAGAGUCAC,未获取（仅靶位点21nt：野生型 GUGACUCUGGUAACUAGAGAU → 突变型 GUGACUCUGGUAGCUAGAGAU）,36,9,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUCUCUAGUUACCAGAGUCAC,未获取（仅靶位点21nt：野生型 GUGACUCUGGUAACUAGAGAU → 突变型 AGGACUCUGGUAACUAGAGAU）,96,21;20,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UUCAGCAAGCCGAGUCCUGCG,未获取（仅靶位点21nt：野生型 CGCAGGACUCGGCUUGCUGAA → 突变型 CGCAGGACUCGGCUUGCUGAG）,77,1,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUGCUGUCAUCAUUUCUUCUA,未获取（仅靶位点21nt：野生型 UAGAAGAAAUGAUGACAGCAU → 突变型 UAGAAGAGAUGAUGACAGCAU）,86,14,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UCCCUAAAAAAUUAGCCUGUC,未获取（仅靶位点21nt：野生型 GACAGGCUAAUUUUUUAGGGA → 突变型 GGCAGGCUAAUUUUUUAGGGA）,98.5,20,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UUAUGUUGACAGGUGUAGGUC,未获取（仅靶位点21nt：野生型 GACCUACACCUGUCAACAUAA → 突变型 GACCCACACCUAUCAACAUAA）,51,17;10,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUAUGUUGACAGGUGUAGGU,未获取（仅靶位点21nt：野生型 ACCUACACCUGUCAACAUAAU → 突变型 ACCCACACCUAUCAACAUAAU）,40,18;11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UCUACUUGUUCAUUUCCUCCA,未获取（仅靶位点21nt：野生型 UGGAGGAAAUGAACAAGUAGA → 突变型 UGGAGGGAAUGAACAAAUAGA）,0,15;5,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGACUUUGGGGAUUGUAGGGA,未获取（仅靶位点21nt：野生型 UCCCUACAAUCCCCAAAGUCA → 突变型 CCCCUACAAUCCCCAAAGUCA）,93,21,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGAAUACUGCCAUUUGUACUG,未获取（仅靶位点21nt：野生型 CAGUACAAAUGGCAGUAUUCA → 突变型 CAGUACAAAUGGCAGUAUUUA）,87,2,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UCUUUCCCCUGCACUGUACCC,未获取（仅靶位点21nt：野生型 GGGUACAGUGCAGGGGAAAGA → 突变型 GACUACUGUGCAGGGGAAAGA）,83,20;19;15,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UAUUCUUUCCCCUGCACUGUA,未获取（仅靶位点21nt：野生型 UACAGUGCAGGGGAAAGAAUA → 突变型 UACUGUGCAGGGGAAAGAAUA）,99.7,18,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UAGCCCAGACAUUAUGUACUU,未获取（仅靶位点21nt：野生型 AAGUACAUAAUGUCUGGGCUA → 突变型 AAGUUCAUAAUGUCUGGGCUA）,85,17,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UAGCCCAGACAUUAUGUACUU,未获取（仅靶位点21nt：野生型 AAGUACAUAAUGUCUGGGCUA → 突变型 AAGUACACAAUGUCUGGGCUA）,83,14,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UAGCCCAGACAUUAUGUACUU,未获取（仅靶位点21nt：野生型 AAGUACAUAAUGUCUGGGCUA → 突变型 AGGCACAUAAUAUCUGGGCUA）,83,20;18;10,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+GUGUAAUUGUCAAUUUCUCUU,未获取（仅靶位点21nt：野生型 AAGAGAAAUUGACAAUUACAC → 突变型 UAAAGAAAUUAGCAAUUACAC）,55,21;19;11;10,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UAGCAAUUGGUACAAGCAG,未获取（仅靶位点19nt：野生型 CUGCUUGUACCAAUUGCUA → 突变型 CUGCUUGUUCCAAUUGCUA）,85,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UAGCAAUUGGUACAAGCAG,未获取（仅靶位点19nt：野生型 CUGCUUGUACCAAUUGCUA → 突变型 CUGCUUGUCCCAAUUGCUA）,5,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUACAAAUCAUCCAUGUAUUGAUA,未获取（仅靶位点24nt：野生型 UAUCAAUACAUGGAUGAUUUGUAU → 突变型 UAUCAAUACGUGGAUGAUUUGUAU）,10,15,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUACAAAUCAUCCAUGUAUUGAUA,未获取（仅靶位点24nt：野生型 UAUCAAUACAUGGAUGAUUUGUAU → 突变型 UAUCAAUACAUAGAUGAUUUGUAU）,54,13,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUACAAAUCAUCCACGUAUUGAUA,未获取（仅靶位点24nt：野生型 UAUCAAUACGUGGAUGAUUUGUAU → 突变型 UAUCAAUACGUAGAUGAUUUGUAU）,17,13,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUACAAAUCAUCUAUGUAUUGAUA,未获取（仅靶位点24nt：野生型 UAUCAAUACAUAGAUGAUUUGUAU → 突变型 UAUCAAUACAUGGAUGAUUUGUAU）,62,13,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UAGCCCAGACAUUAUGUACUU,未获取（仅靶位点21nt：野生型 AAGUACAUAAUGUCUGGGCUA → 突变型 AAGUUCAUAAUGUCUGGGCUA）,85,17,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UAGCCCAGACAUUAUGUACUU,未获取（仅靶位点21nt：野生型 AAGUACAUAAUGUCUGGGCUA → 突变型 AAGUACACAAUGUCUGGGCUA）,83,14,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UAGCAGGUUCCACAGAUAUUU,未获取（仅靶位点21nt：野生型 AAAUAUCUGUGGAACCUGCUA → 突变型 AAAUAUCUGGGGAAUCUUCUA）,55,12;7;4,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCCUUCCAGUCCC,未获取（仅靶位点19nt：野生型 GGGACUGGAAGGGCUAAUU → 突变型 GGGAUUGGAAGGGUUAGUU）,64,15,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUGUAUCAUCUGCUCCUGU,未获取（仅靶位点19nt：野生型 ACAGGAGCAGAUGAUACAG → 突变型 ACUGGAGUAGAUGAUGCAG）,89,17;12;4,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUCCGCUUCUUCCUGCCAU,未获取（仅靶位点19nt：野生型 AUGGCAGGAAGAAGCGGAG → 突变型 GUGGUAGGAAGAGGCGGAG）,89,19;15;7,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCCUUCCAGUCCC,未获取（仅靶位点19nt：野生型 GGGACUGGAAGGGCUAAUU → 突变型 GGGAUUGGAAGGGUUAGUU）,43,15;6;3,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUCCGCUUCUUCCUGCCAU,未获取（仅靶位点19nt：野生型 AUGGCAGGAAGAAGCGGAG → 突变型 GUGGUAGGAAGAGGCGGAG）,91,19;15;7,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCCUUCCAGUCCC,未获取（仅靶位点19nt：野生型 GGGACUGGAAGGGCUAAUU → 突变型 GGGAUUGGAAGGGUUAGUU）,43,6;3,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUGUAUCAUCUGCUCCUGU,未获取（仅靶位点19nt：野生型 ACAGGAGCAGAUGAUACAG → 突变型 ACGGGAGUAGAUGAUGCAG）,51,17;12;4,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUCCGCUUCUUCCUGCCAU,未获取（仅靶位点19nt：野生型 AUGGCAGGAAGAAGCGGAG → 突变型 GUGGUAGGAAGAGGCGGAG）,76,19;15,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUGCUGUCAUCAUUUCUUC,未获取（仅靶位点19nt：野生型 GAAGAAAUGAUGACAGCAU → 突变型 GAAGGAAUGAUGAUAGUAU）,76,6;3,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AAUUAGCCCUUCCAGUCCC,未获取（仅靶位点19nt：野生型 GGGACUGGAAGGGCUAAUU → 突变型 GGGAUUGGAAGGGUUAGUU）,72,6;3,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUGUAUCAUCUGCUCCUGU,未获取（仅靶位点19nt：野生型 ACAGGAGCAGAUGAUACAG → 突变型 ACGGGAGUAGAUGAUGCAG）,0,17;12;4,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUGUAUCAUCUGCUCCUGU,未获取（仅靶位点19nt：野生型 ACAGGAGCAGAUGAUACAG → 突变型 ACGGGAGUAGAUGAUGCAG）,78,12;4,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUCCGCUUCUUCCUGCCAU,未获取（仅靶位点19nt：野生型 AUGGCAGGAAGAAGCGGAG → 突变型 GUGGUAGGAAGAGGCGGAG）,90,19;15;7,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUGCUGUCAUCAUUUCUUC,未获取（仅靶位点19nt：野生型 GAAGAAAUGAUGACAGCAU → 突变型 GAAGGAAUGAUGAUAGUAU）,92,6;3,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UAGCAAUUGGUACAAGCAG,未获取（仅靶位点19nt：野生型 CUGCUUGUACCAAUUGCUA → 突变型 CUGCUUGUUCAAUUGCUA）,69,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AGCCUGUCUCUCAGUACAAUC,未获取（仅靶位点21nt：野生型 GAUUGUACUGAGAGACAGGCU → 突变型 GAUUGUACUGAAAGACAGGCU）,log,10,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUUACAAUGUGCUUGUCU,未获取（仅靶位点19nt：野生型 AGACAAGCACAUUGUAACA → 突变型 AGACAAGCCCCUUGUAACA）,High log,11;9,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUUACAAUGUGCUUGUCU,未获取（仅靶位点19nt：野生型 AGACAAGCACAUUGUAACA → 突变型 AGACAAGCAUAUUGUAACA）,log,10,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUACUACUGCCCCUUCAC,未获取（仅靶位点19nt：野生型 GUGAAGGGGCAGUAGUAAU → 突变型 GUGAAGGGACAGUAGUAAU）,10,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+ACAACAGACGGGCACACACUA,未获取（仅靶位点21nt：野生型 UAGUGUGUGCCCGUCUGUUGU → 突变型 UAGUAUGUGCCCGUCUGUUGU）,49,17,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+ACAACAGACGGGCACACACUA,未获取（仅靶位点21nt：野生型 UAGUGUGUGCCCGUCUGUUGU → 突变型 CAGUGUGUGCCCGUCUGUUGU）,37,21,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+ACAACAGACGGGCACACACUA,未获取（仅靶位点21nt：野生型 UAGUGUGUGCCCGUCUGUUGU → 突变型 UGGUGUGUGCCCGUCUGUGUU）,77,20;3;2,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UUCAGCAAGCCGAGUCCUGCG,未获取（仅靶位点21nt：野生型 CGCAGGACUCGGCUUGCUGAA → 突变型 CGCAGGACUCGGCUUGCUGAG）,77,1,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUGCUGUCAUCAUUUCUUCUA,未获取（仅靶位点21nt：野生型 UAGAAGAAAUGAUGACAGCAU → 突变型 UAGAAGAGAUGAUGACAGCAU）,86,14,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UUAUGUUGACAGGUGUAGGUC,未获取（仅靶位点21nt：野生型 GACCUACACCUGUCAACAUAA → 突变型 GACCCACACCUAUCAACAUAA）,51,17;10,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUCUCUAGUUACCAGAGUCAC,未获取（仅靶位点21nt：野生型 GUGACUCUGGUAACUAGAGAU → 突变型 GUGACUCUGGUAGCUAGAGAU）,36,9,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUCUCUAGUUACCAGAGUCAC,未获取（仅靶位点21nt：野生型 GUGACUCUGGUAACUAGAGAU → 突变型 AGGACUCUGGUAACUAGAGAU）,96,21;20,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUAUGUUGACAGGUGUAGGU,未获取（仅靶位点21nt：野生型 ACCUACACCUGUCAACAUAAU → 突变型 ACCCACACCUAUCAACAUAAU）,40,18;11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UCUACUUGUUCAUUUCCUCCA,未获取（仅靶位点21nt：野生型 UGGAGGAAAUGAACAAGUAGA → 突变型 UGGAGGGAAUGAACAAAUAGA）,0,15;5,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGACUUUGGGGAUUGUAGGGA,未获取（仅靶位点21nt：野生型 UCCCUACAAUCCCCAAAGUCA → 突变型 CCCCUACAAUCCCCAAAGUCA）,93,21,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+ACUGUACCCCCCAAUCCCCCC,未获取（仅靶位点21nt：野生型 GGGGGGAUUGGGGGGUACAGU → 突变型 GGGGGGAUUGGGGACUACUGU）,9,8;7;3,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UCUUUCCCCUGCACUGUACCC,未获取（仅靶位点21nt：野生型 GGGUACAGUGCAGGGGAAAGA → 突变型 GACUACUGUGCAGGGGAAAGA）,83,20;19;15,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UAUUCUUUCCCCUGCACUGUA,未获取（仅靶位点21nt：野生型 UACAGUGCAGGGGAAAGAAUA → 突变型 UACUGUGCAGGGGAAAGAAUA）,99.7,18,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUACUACUGCCCCUUCAC,未获取（仅靶位点19nt：野生型 GUGAAGGGGCAGUAGUAAU → 突变型 GUGAAGGAGCAGUAGUAAU）,66,12,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUACUACUGCCCCUUCAC,未获取（仅靶位点19nt：野生型 GUGAAGGGGCAGUAGUAAU → 突变型 GUGAAGGGGCAGUAAUAAU）,58,5,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUACUACUGCCCCUUCAC,未获取（仅靶位点19nt：野生型 GUGAAGGGGCAGUAGUAAU → 突变型 GUGAAGGAGCAGUAAUAAU）,43,12;5,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUCCGCUUCUUCCUGCCAU,未获取（仅靶位点19nt：野生型 AUGGCAGGAAGAAGCGGAG → 突变型 AUGGCCGGAAGAAGCGGAG）,4,14,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUCCGCUUCUUCCUGCCAU,未获取（仅靶位点19nt：野生型 AUGGCAGGAAGAAGCGGAG → 突变型 AUGGCAGGAAAAAGCGGAG）,21,9,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUCCGCUUCUUCCUGCCAU,未获取（仅靶位点19nt：野生型 AUGGCAGGAAGAAGCGGAG → 突变型 AUGGCAGAAAAAAGCGGAG）,14,12;9,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUCCUCCUCUUCCUGCCAU,未获取（仅靶位点19nt：野生型 AUGGCAGGAAGAGGAGGAG → 突变型 AUGGCAGAAAAAAGCGGAG）,42,12,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AGCCUGUCUCUCAGUACAAUC,未获取（仅靶位点21nt：野生型 GAUUGUACUGAGAGACAGGCU → 突变型 GAUUGUACAGAGAGACAGGCU）,log,13,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AGCCUGUCUCUCAGUACAAUC,未获取（仅靶位点21nt：野生型 GAUUGUACUGAGAGACAGGCU → 突变型 GAUUGUAUUGAGAGACAGGCU）,log,14,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CCGUGCGCGCUUCAGCAAGCC,未获取（仅靶位点21nt：野生型 GGCUUGCUGAAGCGCGCACGG → 突变型 GGCUUGCUGAUGCGCGCACGG）,0,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CCGUGCGCGCUUCAGCAAGCC,未获取（仅靶位点21nt：野生型 GGCUUGCUGAAGCGCGCACGG → 突变型 GGCUUGCUGAUGCGCGCACGG）,0,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CCGUGCGCGCUUCAGCAAGCC,未获取（仅靶位点21nt：野生型 GGCUUGCUGAAGCGCGCACGG → 突变型 GGCUUGCUGAUGCGCGCACGG）,0,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CCGUGCGCGCUUCAGCAAGCC,未获取（仅靶位点21nt：野生型 GGCUUGCUGAAGCGCGCACGG → 突变型 GGCUUGCUGAUGCGCGCACGG）,0,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+GCUCUUCGUCGCUGUCUCCGC,未获取（仅靶位点21nt：野生型 GCGGAGACAGCGACGAAGAGC → 突变型 GCGGAGACAGCGACGAAGCGC）,0,3,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+GGUAGCUGAAGAGGCACAGGC,未获取（仅靶位点21nt：野生型 GCCUGUGCCUCUUCAGCUACC → 突变型 ACCUGUGCCUCUUCAGCUACC）,0,21,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+GUGGGAUGUGUACUUCUGAAC,未获取（仅靶位点21nt：野生型 GUUCAGAAGUACACAUCCCAC → 突变型 GUUCAGAAGUACAUAUUCCAU）,22,8;5;1,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 ）,0,del1-19,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 GUACCUGGCGAGAAGCACA）,28,17;10,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 ）,log,del1-19,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 GUAGCACA）,log,17;16;14;13;12;del7-17,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 GUGCCUGGCGAGAAGCACA）,log,10,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 GUACCUGGCGAGAAGCACA）,log,17;10,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 UGGCUAGAAGCACA）,log,19;18;15;14;12;11;10;9;8;7;del15-19,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 GUGCCUGGCUAGAAG）,log,del1-4,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 GUGCCUGGCUAGAGGCACA）,log,6,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 ）,log,del1-19,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCACAAGCAGU,未获取（仅靶位点26nt：野生型 ACUGCUUGUGCCUGGCUAGAAGCACA → 突变型 ACUGCUUGUGCCUGGCUAGAAGCACA）,log,26,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 GUGCCUGGAUAGAAGCACA）,log,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 ）,log,del1-19,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 GUAGCACA）,log,17;16;14;13;12;del7-17,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 GUGCCUGGCGAGAAGCACA）,log,10,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 GUACCUGGCGAGAAGCACA）,log,17,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 UGGCUAGAAGCACA）,log,19;18;15;14;12;11;10;9;8;7;del15-19,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 GUGCCUGGCUAGAAG）,log,del1-4,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 GUGCCUGGCUAGAGGCACA）,log,6,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAC,未获取（仅靶位点19nt：野生型 GUGCCUGGCUAGAAGCACA → 突变型 ）,log,del1-19,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUACUACUGCCCCUUCAC,未获取（仅靶位点19nt：野生型 GUGAAGGGGCAGUAGUAAU → 突变型 GUGAAGGAGCAGUAGUAAU）,log,12,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUACUACUGCCCCUUCAC,未获取（仅靶位点19nt：野生型 GUGAAGGGGCAGUAGUAAU → 突变型 GUGAAGGGGCAGUAAUAAU）,log,5,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUACUACUGCCCCUUCAC,未获取（仅靶位点19nt：野生型 GUGAAGGGGCAGUAGUAAU → 突变型 GUGAAGGGGCAGUAAUAAU）,log,5,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUACUACUGCCCCUUCAC,未获取（仅靶位点19nt：野生型 GUGAAGGGGCAGUAGUAAU → 突变型 GUGAAGGGACAGUAGUAAU）,log,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUACUACUGCCCCUUCAC,未获取（仅靶位点19nt：野生型 GUGAAGGGGCAGUAGUAAU → 突变型 GUGAAGGGGCAUUAGUAAU）,log,8,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+ACAAUCAUCACCUGCCAUCUG,未获取（仅靶位点21nt：野生型 CAGAUGGCAGGUGAUGAUUGU → 突变型 CACAUGGCAGGUGAUGAUUGU）,0,19,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+ACAAUCAUCACCUGCCAUCUG,未获取（仅靶位点21nt：野生型 CAGAUGGCAGGUGAUGAUUGU → 突变型 CACAUGCAGGUGAUGAUUGU）,0,19;del16,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+ACAAUCAUCACCUGCCAUCUG,未获取（仅靶位点21nt：野生型 CAGAUGGCAGGUGAUGAUUGU → 突变型 UACAAGCAGCUGAUGAUCUU）,0,21;20;19;18;17;11;del16,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+ACAAUCAUCACCUGCCAUCUG,未获取（仅靶位点21nt：野生型 CAGAUGGCAGGUGAUGAUUGU → 突变型 GAUUAAUAGCUGAUGACUGU）,0,21;19;18;17;16;15;14;13;12;11;10;9;8;7;6;5;3;2;del14,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+ACAAUCAUCACCUGCCAUCUG,未获取（仅靶位点21nt：野生型 CAGAUGGCAGGUGAUGAUUGU → 突变型 CAUUUGGAGC UAUAUGUG）,0,19;18;14;13;12;11;9;8;7;6;5;3;del8;del10;del14,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UCCUACUUCCUGCCACAUG,未获取（仅靶位点19nt：野生型 CAUGUGGCAGGAAGUAGGA → 突变型 CAUGUGGCACGAACUAGGA）,91,10,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUACUACUGCCCCUUCAC,未获取（仅靶位点19nt：野生型 GUGAAGGGGCAGUAGUAAU → 突变型 GUGAAGGAGCAGUAGUAAU）,65,12,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUACUACUGCCCCUUCAC,未获取（仅靶位点19nt：野生型 GUGAAGGGGCAGUAGUAAU → 突变型 GUGAAGGGGCAGUAAUAAU）,62,5,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUGUAUCAUCUGCUCCUGU,未获取（仅靶位点19nt：野生型 ACAGGAGCAGAUGAUACAG → 突变型 ACAGGACAGAUGAUACAG）,59,13;12;11;10;9;8;7;6;5;4;3;2;del13,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUGUAUCAUCUGCUCCUGU,未获取（仅靶位点19nt：野生型 ACAGGAGCAGAUGAUACAG → 突变型 ACAGAGCAGAUGAACAG）,59,15;14;13;12;11;10;9;8;7;5;3;del5;del15,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+CUGUAUCAUCUGCUCCUGU,未获取（仅靶位点19nt：野生型 ACAGGAGCAGAUGAUACAG → 突变型 ACAGGAGGAUGAUACAG）,23,12;10;9;8;7;5;3;del11-12,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUUACUACUGCCCCUUCAC,未获取（仅靶位点19nt：野生型 GUGAAGGGGCAGUAGUAAU → 突变型 GUGAAGGGACAGUAGUAAU）,80,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGUGCUUCUAGCCAGGCAG,未获取（仅靶位点19nt：野生型 CUGCCUGGCUAGAAGCACA → 突变型 CUACCUGGCGAGAAGCACA）,39,17;10,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UAGCAAUUGGUACAAGCAG,未获取（仅靶位点19nt：野生型 CUGCUUGUACCAAUUGCUA → 突变型 CUGCUUGUUCCAAUUGCUA）,85,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UAGCAAUUGGUACAAGCAG,未获取（仅靶位点19nt：野生型 CUGCUUGUACCAAUUGCUA → 突变型 CUGCUUGUCCCAAUUGCUA）,5,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UCACUAGCCAUUGCUCUCC,未获取（仅靶位点19nt：野生型 GGAGAGCAAUGGCUAGUGA → 突变型 GGAAAGCAAUGGCUAGUGA）,90,16,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UCACUAGCCAUUGCUCUCC,未获取（仅靶位点19nt：野生型 GGAGAGCAAUGGCUAGUGA → 突变型 GGAGAGCAUUGGCUAGUGA）,90,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UCACUAGCCAUUGCUCUCC,未获取（仅靶位点19nt：野生型 GGAGAGCAAUGGCUAGUGA → 突变型 GGAGAGCAGUGGCUAGUGA）,78,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UAGCAAUUGGUACAAGCAG,未获取（仅靶位点19nt：野生型 CUGCUUGUACCAAUUGCUA → 突变型 CUGCUUGUACCAACUGCUA）,10,6,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGAAUUAGCCCUUCCAGUC,未获取（仅靶位点19nt：野生型 GACUGGAAGGGCUAAUUCA → 突变型 GACUGGAAGGGCUAGUUCA）,45,5,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGAAUUAGCCCUUCCAGUC,未获取（仅靶位点19nt：野生型 GACUGGAAGGGCUAAUUCA → 突变型 GACUGGAAGGGCUAAUUUA）,20,2,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UCACUAGCCAUUGCUCUCC,未获取（仅靶位点19nt：野生型 GGAGAGCAAUGGCUAGUGA → 突变型 GGAAAGCAAUGGCUAGUGA）,85,16,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UCACUAGCCAUUGCUCUCC,未获取（仅靶位点19nt：野生型 GGAGAGCAAUGGCUAGUGA → 突变型 GGAGAGCAUUGGCUAGUGA）,50,11,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UCACUAGCCAUUGCUCUCC,未获取（仅靶位点19nt：野生型 GGAGAGCAAUGGCUAGUGA → 突变型 GGAGAGCAAUAGCUAGUGA）,90,9,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGAAUUAGCCCUUCCAGUC,未获取（仅靶位点19nt：野生型 GACUGGAAGGGCUAAUUCA → 突变型 GACUAGAAGGGCUAAUUCA）,68,15,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGAAUUAGCCCUUCCAGUC,未获取（仅靶位点19nt：野生型 GACUGGAAGGGCUAAUUCA → 突变型 GACUGGAAGGACUAAUUCA）,25,9,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UGAAUUAGCCCUUCCAGUC,未获取（仅靶位点19nt：野生型 GACUGGAAGGGCUAAUUCA → 突变型 GACUGGAAGGGCUAAUUUA）,10,2,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUACAAAUCAUCCAUGUAUUGAUA,未获取（仅靶位点24nt：野生型 UAUCAAUACAUGGAUGAUUUGUAU → 突变型 UAUCAAUACAUGGAUGAUUUGUAU）,10,15,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUACAAAUCAUCCAUGUAUUGAUA,未获取（仅靶位点24nt：野生型 UAUCAAUACAUGGAUGAUUUGUAU → 突变型 UAUCAAUACAUAGAUGAUUUGUAU）,54,13,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUACAAAUCAUCCACGUAUUGAUA,未获取（仅靶位点24nt：野生型 UAUCAAUACGUGGAUGAUUUGUAU → 突变型 UAUCAAUACGUGGAUGAUUUGUAU）,67,15,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUACAAAUCAUCCACGUAUUGAUA,未获取（仅靶位点24nt：野生型 UAUCAAUACGUGGAUGAUUUGUAU → 突变型 UAUCAAUACAUAGAUGAUUUGUAU）,17,13,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUACAAAUCAUCUAUGUAUUGAUA,未获取（仅靶位点24nt：野生型 UAUCAAUACAUAGAUGAUUUGUAU → 突变型 UAUCAAUACAUGGAUGAUUUGUAU）,0,15,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+AUACAAAUCAUCUAUGUAUUGAUA,未获取（仅靶位点24nt：野生型 UAUCAAUACAUAGAUGAUUUGUAU → 突变型 UAUCAAUACGUGGAUGAUUUGUAU）,62,15,HIVsirDB 数据库（GitHub: github.com/raghavagps/HIVsirDB）
+UAUUUGUAGUGCCUGAAGCGG,GCGCUUCAGGCACUACAAAUA,与wt相当(≈10 剩余%，文本无独立数值),21,"Amarzguioui et al., 2003, Nucleic Acids Research, DOI:10.1093/nar/gkg147 (PMC140512)"
+UAUUUGUAGUGCCUGAAGCCC,GCGCUUCAGGCACUACAAAUA,与wt相当(≈10 剩余%，文本无独立数值),20,"Amarzguioui et al., 2003, Nucleic Acids Research, DOI:10.1093/nar/gkg147 (PMC140512)"
+UAUUUGUAGUGCCUGAAGGGC,GCGCUUCAGGCACUACAAAUA,与wt相当(≈10 剩余%，文本无独立数值),19,"Amarzguioui et al., 2003, Nucleic Acids Research, DOI:10.1093/nar/gkg147 (PMC140512)"
+UAUUUGUAGUGCCUGAACCGC,GCGCUUCAGGCACUACAAAUA,20-30 剩余%,18,"Amarzguioui et al., 2003, Nucleic Acids Research, DOI:10.1093/nar/gkg147 (PMC140512)"
+UAUUUGUAGUGCCUCAAGCGC,GCGCUUCAGGCACUACAAAUA,20-30 剩余%,15,"Amarzguioui et al., 2003, Nucleic Acids Research, DOI:10.1093/nar/gkg147 (PMC140512)"
+UAUUUGUAGUGGCUGAAGCGC,GCGCUUCAGGCACUACAAAUA,20 剩余%,12,"Amarzguioui et al., 2003, Nucleic Acids Research, DOI:10.1093/nar/gkg147 (PMC140512)"
+UAUUUGUAGUCCCUGAAGCGC,GCGCUUCAGGCACUACAAAUA,20-30 剩余%,11,"Amarzguioui et al., 2003, Nucleic Acids Research, DOI:10.1093/nar/gkg147 (PMC140512)"
+UAUUUGUACUGCCUGAAGCGC,GCGCUUCAGGCACUACAAAUA,"未获取(文本仅""severely impaired"")",9,"Amarzguioui et al., 2003, Nucleic Acids Research, DOI:10.1093/nar/gkg147 (PMC140512)"
+UAUUUCUAGUGCCUGAAGCGC,GCGCUUCAGGCACUACAAAUA,"未获取(文本仅""severely impaired"")",6,"Amarzguioui et al., 2003, Nucleic Acids Research, DOI:10.1093/nar/gkg147 (PMC140512)"
+UAUUUGUAGUGGCUCAAGCGC,GCGCUUCAGGCACUACAAAUA,未获取(仅排序，无数值),"12,15","Amarzguioui et al., 2003, Nucleic Acids Research, DOI:10.1093/nar/gkg147 (PMC140512)"
+UAUUUGUAGUCGCUGAAGCGC,GCGCUUCAGGCACUACAAAUA,未获取(仅排序，无数值),"11,12","Amarzguioui et al., 2003, Nucleic Acids Research, DOI:10.1093/nar/gkg147 (PMC140512)"
+UAUUUGUACUGGCUGAAGCGC,GCGCUUCAGGCACUACAAAUA,未获取(仅排序，无数值),"9,12","Amarzguioui et al., 2003, Nucleic Acids Research, DOI:10.1093/nar/gkg147 (PMC140512)"
+UAUUUCUAGUGGCUGAAGCGC,GCGCUUCAGGCACUACAAAUA,未获取(仅排序，无数值),"6,12","Amarzguioui et al., 2003, Nucleic Acids Research, DOI:10.1093/nar/gkg147 (PMC140512)"
+UCGAACUCGGUGUUGAUGGCG,CGCCAUCAACACCGAGUUCAAGA,未获取(正文图6柱状图，无数字表),2,"Ui-Tei et al., 2008, Nucleic Acids Research, DOI:10.1093/nar/gkn902 (PMC2602766)"
+UUAAACUCGGUGUUGAUGGCG,CGCCAUCAACACCGAGUUCAAGA,未获取(正文图6柱状图，无数字表),3,"Ui-Tei et al., 2008, Nucleic Acids Research, DOI:10.1093/nar/gkn902 (PMC2602766)"
+UUGAGCUCGGUGUUGAUGGCG,CGCCAUCAACACCGAGUUCAAGA,未获取(正文图6柱状图，无数字表),5,"Ui-Tei et al., 2008, Nucleic Acids Research, DOI:10.1093/nar/gkn902 (PMC2602766)"
+UUGAAUUCGGUGUUGAUGGCG,CGCCAUCAACACCGAGUUCAAGA,未获取(正文图6柱状图，无数字表),6,"Ui-Tei et al., 2008, Nucleic Acids Research, DOI:10.1093/nar/gkn902 (PMC2602766)"
+UUGAACCCGGUGUUGAUGGCG,CGCCAUCAACACCGAGUUCAAGA,未获取(正文图6柱状图，无数字表),7,"Ui-Tei et al., 2008, Nucleic Acids Research, DOI:10.1093/nar/gkn902 (PMC2602766)"

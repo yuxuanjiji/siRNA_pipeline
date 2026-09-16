@@ -1,0 +1,204 @@
+{
+  "total_rows_all": 98,
+  "model_eligible_v2_rows": 78,
+  "excluded_by_geometry": [
+    {
+      "uid": "Holen_2005|1",
+      "dataset": "Holen_2005",
+      "sirna_id": "Fe775i-w3i",
+      "mismatch_count": 11,
+      "declared_mismatch_count": 1
+    },
+    {
+      "uid": "Holen_2005|2",
+      "dataset": "Holen_2005",
+      "sirna_id": "Fe775i-w7i",
+      "mismatch_count": 13,
+      "declared_mismatch_count": 1
+    },
+    {
+      "uid": "Holen_2005|4",
+      "dataset": "Holen_2005",
+      "sirna_id": "Fe775i-w3/7i",
+      "mismatch_count": 12,
+      "declared_mismatch_count": 2
+    },
+    {
+      "uid": "Holen_2005|7",
+      "dataset": "Holen_2005",
+      "sirna_id": "Fe775i-w2i",
+      "mismatch_count": 12,
+      "declared_mismatch_count": 1
+    },
+    {
+      "uid": "Holen_2005|8",
+      "dataset": "Holen_2005",
+      "sirna_id": "Fe775i-w6i",
+      "mismatch_count": 12,
+      "declared_mismatch_count": 1
+    },
+    {
+      "uid": "Holen_2005|9",
+      "dataset": "Holen_2005",
+      "sirna_id": "Fe775i-w9i",
+      "mismatch_count": 12,
+      "declared_mismatch_count": 1
+    },
+    {
+      "uid": "Holen_2005|10",
+      "dataset": "Holen_2005",
+      "sirna_id": "Fe775i-w16i",
+      "mismatch_count": 12,
+      "declared_mismatch_count": 1
+    },
+    {
+      "uid": "Holen_2005|11",
+      "dataset": "Holen_2005",
+      "sirna_id": "Fe775i-w19i",
+      "mismatch_count": 12,
+      "declared_mismatch_count": 1
+    },
+    {
+      "uid": "Holen_2005|13",
+      "dataset": "Holen_2005",
+      "sirna_id": "Fe775i-w3/7/19i",
+      "mismatch_count": 12,
+      "declared_mismatch_count": 3
+    },
+    {
+      "uid": "Holen_2005|14",
+      "dataset": "Holen_2005",
+      "sirna_id": "Fe775i-m3Ci",
+      "mismatch_count": 12,
+      "declared_mismatch_count": 1
+    },
+    {
+      "uid": "Holen_2005|15",
+      "dataset": "Holen_2005",
+      "sirna_id": "Fe775i-m7Ci",
+      "mismatch_count": 12,
+      "declared_mismatch_count": 1
+    },
+    {
+      "uid": "Holen_2005|16",
+      "dataset": "Holen_2005",
+      "sirna_id": "Fe775i-m1Ai",
+      "mismatch_count": 12,
+      "declared_mismatch_count": 1
+    },
+    {
+      "uid": "Holen_2005|17",
+      "dataset": "Holen_2005",
+      "sirna_id": "Fe775i-m1Ci",
+      "mismatch_count": 12,
+      "declared_mismatch_count": 1
+    },
+    {
+      "uid": "Holen_2005|18",
+      "dataset": "Holen_2005",
+      "sirna_id": "Fe775i-m1Ui",
+      "mismatch_count": 11,
+      "declared_mismatch_count": 1
+    },
+    {
+      "uid": "Kini_2009|2",
+      "dataset": "Kini_2009",
+      "sirna_id": "396-AG",
+      "mismatch_count": 7,
+      "declared_mismatch_count": 1
+    },
+    {
+      "uid": "Kini_2009|3",
+      "dataset": "Kini_2009",
+      "sirna_id": "396-UG",
+      "mismatch_count": 7,
+      "declared_mismatch_count": 1
+    },
+    {
+      "uid": "Kini_2009|4",
+      "dataset": "Kini_2009",
+      "sirna_id": "396-GG",
+      "mismatch_count": 7,
+      "declared_mismatch_count": 1
+    },
+    {
+      "uid": "Kini_2009|8",
+      "dataset": "Kini_2009",
+      "sirna_id": "306",
+      "mismatch_count": 4,
+      "declared_mismatch_count": 0
+    },
+    {
+      "uid": "Holen_2005|WTREF-Holen-Fe775i",
+      "dataset": "Holen_2005",
+      "sirna_id": "Fe775i",
+      "mismatch_count": 12,
+      "declared_mismatch_count": 0
+    },
+    {
+      "uid": "Kini_2009|WTREF-Kini-396",
+      "dataset": "Kini_2009",
+      "sirna_id": "396",
+      "mismatch_count": 6,
+      "declared_mismatch_count": 0
+    }
+  ],
+  "by_dataset": {
+    "Holen_2005": 15,
+    "Kini_2009": 5,
+    "Ohnishi_2008": 78
+  },
+  "eligible_by_dataset": {
+    "Ohnishi_2008": 78
+  },
+  "groups": 7,
+  "eligible_groups": 4,
+  "families_by_dataset": {
+    "Holen_2005": 1,
+    "Kini_2009": 2,
+    "Ohnishi_2008": 4
+  },
+  "repaired_rows": 26,
+  "repair_notes": {
+    "annotation_disagrees_use_sequence": 16,
+    "annotation_unparsed_use_sequence": 10
+  },
+  "offset_shift_guide": {
+    "0": 98
+  },
+  "offset_shift_window": {
+    "0": 83,
+    "2": 11,
+    "1": 4
+  },
+  "mismatch_count_hist": {
+    "0": 4,
+    "1": 39,
+    "2": 35,
+    "4": 1,
+    "6": 1,
+    "7": 3,
+    "11": 2,
+    "12": 12,
+    "13": 1
+  },
+  "unresolved_rows": [
+    {
+      "uid": "Holen_2005|3",
+      "sirna_id": "Fe775i-w10i"
+    },
+    {
+      "uid": "Holen_2005|5",
+      "sirna_id": "Fe775i-w7/10i"
+    },
+    {
+      "uid": "Holen_2005|6",
+      "sirna_id": "Fe775i-w3/7/10i"
+    },
+    {
+      "uid": "Holen_2005|12",
+      "sirna_id": "Fe775i-w2/3/7i"
+    }
+  ],
+  "source_hash": "93b33a347cd8ad0b0a2efe79b3fff97143c4cc3eb7977852f80aa8d41216ac27"
+}

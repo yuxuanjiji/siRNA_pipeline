@@ -1,0 +1,70 @@
+{
+  "task": "15",
+  "kind": "holen",
+  "rows": 52,
+  "expected_rows": 50,
+  "metrics": {
+    "pipeline_thermo": {
+      "n": 52,
+      "n_raw": 52,
+      "spearman": 0.18055975818338924,
+      "pearson": 0.1357576438960493,
+      "r2": 0.018430137876206534,
+      "ci95_low": -0.12812444653934146,
+      "ci95_high": 0.44103519566042537,
+      "p_perm": 0.18590704647676162,
+      "n_boot": 1000,
+      "n_perm": 2000,
+      "n_unique_scores": 28,
+      "n_unique_labels": 33
+    }
+  },
+  "strata": {
+    "diff_band=g1": {
+      "n": 35,
+      "metrics": {
+        "n": 35,
+        "n_raw": 35,
+        "spearman": -0.06257094934924554,
+        "pearson": -0.1894102596735689,
+        "r2": 0.0358762464696088
+      }
+    },
+    "diff_band=seed(2-8)": {
+      "n": 8,
+      "metrics": {
+        "n": 8,
+        "n_raw": 8,
+        "spearman": -0.3832404038122429,
+        "pearson": -0.4033119150151441,
+        "r2": 0.16266050079318278
+      }
+    },
+    "mismatch_side=guide": {
+      "n": 52,
+      "metrics": {
+        "n": 52,
+        "n_raw": 52,
+        "spearman": 0.18055975818338924,
+        "pearson": 0.1357576438960493,
+        "r2": 0.018430137876206534
+      }
+    }
+  },
+  "missing": [],
+  "thermo_method": "ranker_default_config:feat_dG_duplex<-dG_total,feat_dG_seed<-dG_seed,feat_ddg_ends<-delta_deltaG_ends,feat_mfe<-MFE_guide",
+  "row_count_warning": "holen 期望 50 行，实际 52 行；请勿作为正式基准结论。",
+  "annotation": {
+    "rows_with_derived_positions": 52
+  },
+  "mfe_fill": {
+    "available": true,
+    "exe": "C:\\Program Files (x86)\\ViennaRNA Package\\RNAfold.exe",
+    "filled": 52,
+    "unique_guides": 28
+  },
+  "strata_column": [
+    "diff_band",
+    "mismatch_side"
+  ]
+}
